@@ -141,7 +141,8 @@ def escena(base, s, d, out, tmp):
             print(f"  {s['id']}: recorte {cw}x{ih} en x={x} (foco {fx:.2f})")
             vf_fit = f"crop={cw}:{ih}:{x}:0,scale={W}:{MEDIA_H}:flags=lanczos"
         # leve corrección de color: quita el tinte sepia típico de los generadores
-        vf = f"{vf_fit},colorbalance=rm=-0.06:bm=0.06:rh=-0.04:bh=0.04,eq=saturation=0.9,fps=30,setpts=PTS-STARTPTS"
+        tp = ",tpad=stop_mode=clone:stop_duration=30" if s.get("desde") is not None else ""  # si el tramo excede el video, congela el último cuadro
+        vf = f"{vf_fit}{tp},colorbalance=rm=-0.06:bm=0.06:rh=-0.04:bh=0.04,eq=saturation=0.9,fps=30,setpts=PTS-STARTPTS"
         desde = ["-ss", str(s["desde"])] if s.get("desde") is not None else ["-stream_loop", "-1"]  # usar un tramo de un video largo
         run(["ffmpeg", "-v", "error", "-y", *desde, "-i", str(clip), "-t", f"{d:.3f}", "-an",
              "-vf", vf, "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "30", str(out)])

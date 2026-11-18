@@ -2,7 +2,11 @@
   "voz": "assets/voz.mp3",
   "musica": "../../audio/musica/calm_piano_drift.mp3",
   "volumen_musica_db": -18,
-  "correcciones": {},
+  "correcciones": {
+    "12": "inhala",
+    "34": "inhala",
+    "0": "¿No"
+  },
   "resaltar": [
     "dormir",
     "nariz",
@@ -19,26 +23,30 @@
       "id": "E1",
       "inicio": 0.0,
       "clip": "assets/E1.mp4",
-      "titulo": "¿No puedes dormir? 🌙"
+      "titulo": "¿No puedes dormir? 🌙",
+      "desde": 0.0
     },
     {
       "id": "E2",
-      "inicio": 0.0,
-      "clip": "assets/E2.mp4",
+      "inicio": 3.5,
+      "clip": "assets/E1.mp4",
       "titulo": "1 · Nariz: 3 s y 3 s · ×3",
-      "_nota": "inicio se ajusta con los tiempos reales de la voz"
+      "desde": 3.5
     },
     {
       "id": "E3",
-      "inicio": 0.0,
-      "clip": "assets/E3.mp4",
-      "titulo": "2 · Boca: 3 s y 3 s · ×3"
+      "inicio": 11.8,
+      "clip": "assets/E1.mp4",
+      "titulo": "2 · Boca: 3 s y 3 s · ×3",
+      "desde": 11.8
     },
     {
       "id": "E4",
-      "inicio": 0.0,
-      "clip": "assets/E4.mp4",
-      "titulo": "3 · Llena · sostén 3 s · vacía"
+      "inicio": 16.1,
+      "clip": "assets/E1.mp4",
+      "titulo": "3 · Llena · sostén 3 s · vacía",
+      "desde": 16.1
     }
-  ]
+  ],
+  "subir_px": 0
 }
