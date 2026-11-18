@@ -1,0 +1,12 @@
+{
+  "voz": "assets/voz.mp3",
+  "musica": "assets/musica.mp3",
+  "volumen_musica_db": -18,
+  "correcciones": {},
+  "resaltar": ["bien", "cansado", "recordatorio", "todo", "ayuda", "fuerte"],
+  "firma": "Guion revisado por [Psicólogo/a] · Cédula [XXXX]",
+  "secciones": [
+    {"id": "E1", "inicio": 0.0, "clip": "assets/E1.mp4", "titulo": "\"ESTOY BIEN\" 🙂"},
+    {"id": "E2", "inicio": 7.0, "clip": "assets/E2.mp4", "titulo": "No tienes que poder con todo"}
+  ]
+}
