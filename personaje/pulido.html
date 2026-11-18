@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Personaje pulido</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#222; }
+  .sheet { display:flex; gap:24px; padding:24px; width:max-content; }
+  svg { display:block; border-radius:24px; }
+</style>
+</head>
+<body>
+<div class="sheet" id="sheet"></div>
+<script>
+// Versión de mayor calidad: líneas de color (no negras), degradados, sombra interna
+// recortada al cuerpo y luz de borde. Todo sigue siendo vector => animable por código.
+const OUT = '#9A4A60';
+function defs(id) {
+  return `<defs>
+    <radialGradient id="skin${id}" cx="38%" cy="30%" r="75%"><stop offset="0" stop-color="#FFE1E7"/><stop offset=".55" stop-color="#F9B5C4"/><stop offset="1" stop-color="#EE92A8"/></radialGradient>
+    <linearGradient id="gill${id}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E9718F"/><stop offset="1" stop-color="#FFA9BC"/></linearGradient>
+    <radialGradient id="blush${id}"><stop offset="0" stop-color="#FF7F9C" stop-opacity=".55"/><stop offset="1" stop-color="#FF7F9C" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow${id}" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#FFF6E6"/><stop offset="1" stop-color="#FFF6E6" stop-opacity="0"/></radialGradient>
+    <filter id="soft${id}"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="soft2${id}"><feGaussianBlur stdDeviation="6"/></filter>
+    <clipPath id="headClip${id}"><ellipse cx="540" cy="1000" rx="250" ry="200"/></clipPath>
+    <clipPath id="bodyClip${id}"><ellipse cx="540" cy="1300" rx="150" ry="135"/></clipPath>
+  </defs>`;
+}
+
+// branquia tipo pluma: forma de pétalo + flecos
+function gill(x, y, angle, id) {
+  return `<g transform="translate(${x} ${y}) rotate(${angle})">
+    <path d="M0,-14 C40,-26 92,-22 112,-6 C122,2 122,10 112,16 C92,30 40,28 0,14 Z" fill="url(#gill${id})" stroke="${OUT}" stroke-width="6" stroke-linejoin="round"/>
+    ${[30,55,80].map(px=>`<path d="M${px},-12 q8,-12 16,-2 M${px},12 q8,12 16,2" fill="none" stroke="${OUT}" stroke-width="4" stroke-linecap="round" opacity=".55"/>`).join('')}
+    <path d="M14,-4 C50,-10 86,-8 104,0" fill="none" stroke="#FFD6DF" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  </g>`;
+}
+
+function axo(mood, id) {
+  const ang = {neutral:[-26,0,26], triste:[32,52,72], feliz:[-56,-30,-4], ansioso:[-10,8,26]}[mood];
+  const gills = [0,1,2].map(i => {
+    const y = 930 + i*62;
+    return gill(305, y, 180 - ang[i], id) + gill(775, y, ang[i], id);
+  }).join('');
+
+  // ojos grandes con doble brillo: el rasgo que más vende “ternura”
+  const eye = (cx) => {
+    if (mood === 'feliz') return `<path d="M${cx-34},1012 Q${cx},968 ${cx+34},1012" fill="none" stroke="#3A2230" stroke-width="12" stroke-linecap="round"/>`;
+    const dy = mood==='triste' ? 10 : 0, ry = mood==='ansioso' ? 48 : 42;
+    return `<ellipse cx="${cx}" cy="${1000+dy}" rx="34" ry="${ry}" fill="#3A2230"/>
+            <ellipse cx="${cx}" cy="${1018+dy}" rx="22" ry="16" fill="#6B3E57" opacity=".7"/>
+            <circle cx="${cx+12}" cy="${984+dy}" r="13" fill="#fff"/>
+            <circle cx="${cx-12}" cy="${1022+dy}" r="6" fill="#fff" opacity=".9"/>`;
+  };
+  const brows = {
+    neutral: '', feliz: '',
+    triste: `<path d="M410,930 L470,915 M670,930 L610,915" stroke="${OUT}" stroke-width="9" stroke-linecap="round"/>`,
+    ansioso:`<path d="M408,922 L472,912 M672,922 L608,912" stroke="${OUT}" stroke-width="9" stroke-linecap="round"/>`,
+  }[mood];
+  const mouth = {
+    neutral: `<path d="M470,1080 Q540,1112 610,1080" fill="none" stroke="${OUT}" stroke-width="9" stroke-linecap="round"/>`,
+    feliz:   `<path d="M455,1072 Q540,1140 625,1072" fill="#C8506E" stroke="${OUT}" stroke-width="9" stroke-linejoin="round"/><path d="M500,1100 Q540,1124 580,1100 Q540,1092 500,1100Z" fill="#FF8FA8"/>`,
+    triste:  `<path d="M490,1100 Q540,1076 590,1100" fill="none" stroke="${OUT}" stroke-width="9" stroke-linecap="round"/>`,
+    ansioso: `<path d="M480,1092 q15,-14 30,0 q15,14 30,0 q15,-14 30,0 q15,14 30,0" fill="none" stroke="${OUT}" stroke-width="8" stroke-linecap="round"/>`,
+  }[mood];
+  const armsD = {
+    neutral: ['M410,1260 q-50,20 -54,70', 'M670,1260 q50,20 54,70'],
+    triste:  ['M410,1270 q-22,40 -18,86', 'M670,1270 q22,40 18,86'],
+    feliz:   ['M410,1250 q-70,-20 -86,-96', 'M670,1250 q70,-20 86,-96'],
+    ansioso: ['M410,1262 q-30,30 40,52', 'M670,1262 q30,30 -40,52'],
+  }[mood];
+  const arm = d => `<path d="${d}" fill="none" stroke="${OUT}" stroke-width="44" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#F7AFC0" stroke-width="30" stroke-linecap="round"/>`;
+  const bounce = mood==='feliz' ? -30 : mood==='triste' ? 14 : 0;
+
+  return `<g transform="translate(0 ${bounce})">
+    <!-- cola -->
+    <path d="M640,1340 C760,1380 840,1330 860,1220 C870,1180 900,1190 896,1230 C886,1350 780,1440 640,1400 Z" fill="url(#skin${id})" stroke="${OUT}" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M700,1350 C780,1360 830,1300 850,1230" fill="none" stroke="#FFE1E7" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+    <!-- piernas -->
+    ${[470,610].map(x=>`<path d="M${x},1390 l0,50" stroke="${OUT}" stroke-width="54" stroke-linecap="round"/><path d="M${x},1390 l0,50" stroke="#F4A6B9" stroke-width="40" stroke-linecap="round"/>`).join('')}
+    ${mood==='ansioso'?'':armsD.map(arm).join('')}
+    <!-- cuerpo -->
+    <ellipse cx="540" cy="1300" rx="150" ry="135" fill="url(#skin${id})" stroke="${OUT}" stroke-width="7"/>
+    <g clip-path="url(#bodyClip${id})"><ellipse cx="640" cy="1380" rx="160" ry="120" fill="#D9718C" opacity=".35" filter="url(#soft${id})"/></g>
+    <ellipse cx="540" cy="1320" rx="85" ry="80" fill="#FFE3E9" opacity=".75"/>
+    ${gills}
+    <!-- cabeza -->
+    <ellipse cx="540" cy="1000" rx="250" ry="200" fill="url(#skin${id})" stroke="${OUT}" stroke-width="7"/>
+    <g clip-path="url(#headClip${id})">
+      <ellipse cx="660" cy="1120" rx="260" ry="160" fill="#D9718C" opacity=".35" filter="url(#soft${id})"/>
+      <path d="M330,960 C340,880 420,820 520,808" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" opacity=".55" filter="url(#soft2${id})"/>
+    </g>
+    <ellipse cx="400" cy="1062" rx="58" ry="34" fill="url(#blush${id})"/>
+    <ellipse cx="680" cy="1062" rx="58" ry="34" fill="url(#blush${id})"/>
+    ${eye(445)}${eye(635)}${brows}${mouth}
+    ${mood==='ansioso'?armsD.map(arm).join('')+`<path d="M790,880 q14,28 0,44 q-14,-16 0,-44z" fill="#9ED3F0" stroke="${OUT}" stroke-width="5"/>`:''}
+    ${mood==='feliz'?`<path d="M820,820 l10,-30 l10,30 l30,10 l-30,10 l-10,30 l-10,-30 l-30,-10z" fill="#FFD66B"/><path d="M250,860 l6,-18 l6,18 l18,6 l-18,6 l-6,18 l-6,-18 l-18,-6z" fill="#FFD66B"/>`:''}
+  </g>`;
+}
+
+// Escenario: cuarto cálido con ventana y luz, para mostrar el personaje “en contexto”.
+function scene(mood, id, caption) {
+  const night = mood==='ansioso' || mood==='triste';
+  return `<svg width="405" height="720" viewBox="0 0 1080 1920">${defs(id)}
+    <defs><linearGradient id="wall${id}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${night?'#3E4A6B':'#F6E7D6'}"/><stop offset="1" stop-color="${night?'#2C3550':'#EED6C1'}"/></linearGradient></defs>
+    <rect width="1080" height="1920" fill="url(#wall${id})"/>
+    <!-- ventana -->
+    <rect x="640" y="380" width="300" height="380" rx="24" fill="${night?'#1C2440':'#CFE8F5'}" stroke="${night?'#56628A':'#E3C7AE'}" stroke-width="18"/>
+    <line x1="790" y1="380" x2="790" y2="760" stroke="${night?'#56628A':'#E3C7AE'}" stroke-width="12"/>
+    ${night?'<circle cx="870" cy="470" r="34" fill="#F7EBC1"/><circle cx="700" cy="440" r="4" fill="#fff"/><circle cx="740" cy="560" r="3" fill="#fff"/>'
+           :'<polygon points="640,760 940,760 700,1700 160,1700" fill="#FFF8EC" opacity=".35"/>'}
+    <!-- piso -->
+    <rect y="1460" width="1080" height="460" fill="${night?'#25304A':'#E2C3A6'}"/>
+    <ellipse cx="540" cy="1470" rx="230" ry="34" fill="#000" opacity=".18" filter="url(#soft2${id})"/>
+    <!-- planta -->
+    <path d="M150,1460 l20,-120 h120 l20,120z" fill="${night?'#6A5A70':'#D98B6A'}"/>
+    ${[-40,-10,20,50].map((a,i)=>`<path d="M230,1340 q${a},-120 ${a*2},-${200+i*30}" fill="none" stroke="${night?'#4F7A6A':'#7DAF6C'}" stroke-width="22" stroke-linecap="round"/>`).join('')}
+    ${night?'':`<circle cx="540" cy="1000" r="420" fill="url(#glow${id})" opacity=".6"/>`}
+    ${axo(mood, id)}
+    <text x="540" y="230" text-anchor="middle" font-family="Nunito, system-ui" font-weight="900" font-size="74" fill="${night?'#FFF':'#3A2230'}">${caption[0]}</text>
+    <text x="540" y="320" text-anchor="middle" font-family="Nunito, system-ui" font-weight="900" font-size="74" fill="${night?'#FFD66B':'#C8506E'}">${caption[1]}</text>
+  </svg>`;
+}
+
+document.getElementById('sheet').innerHTML =
+  scene('neutral', 'a', ['¿Te ha pasado', 'que…']) +
+  scene('ansioso', 'b', ['…a las 3 a.m.', 'no paras de pensar?']) +
+  scene('triste',  'c', ['No estás', 'roto.']) +
+  scene('feliz',   'd', ['Tu mente solo', 'necesita pausa.']);
+</script>
+</body>
+</html>
