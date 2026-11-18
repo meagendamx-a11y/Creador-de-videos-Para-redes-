@@ -23,6 +23,7 @@ Formato: fecha · decisión · por qué · estado.
 | 2026-11-18 | **Edición: Claude** (clips + voz + música + subtítulos + textos + miniatura). El fundador aprueba guion, imágenes y el video final | Reparto acordado | ✅ Decidido |
 | 2026-11-18 | **Elenco:** **El Observador** es el personaje por defecto (neutro, o hombre cuando haga falta). **La Observadora** se usa solo cuando el fundador pida un personaje mujer. Mismo estilo; solo cambian el pelo y la ropa | Indicación del fundador. Las escenas de pareja rinden mucho (informe 07) | ✅ Decidido |
 | 2026-11-18 | **Formato de edición fijo** (aprobado con el video 001): 9:16 a pantalla completa, recorte centrado en la persona, personaje subido ~340 px, franja inferior desenfocada para los subtítulos, títulos en caja amarilla arriba, firma al pie, música que baja cuando hay voz. Script: `produccion/editar.py` | Aprobado por el fundador | ✅ Decidido |
+| 2026-11-18 | **Sin firma en pantalla.** El crédito del psicólogo (nombre y cédula) va solo en la descripción del video | Preferencia visual del fundador. La descripción sigue cumpliendo con mostrar al experto detrás | ✅ Decidido |
 
 ## Pendientes de decisión del fundador
 - Si El Observador lleva un acento distintivo (bufanda, color) para diferenciarse de Baymax y del muñeco de stock. Ver `personaje/observer/variantes.png`.

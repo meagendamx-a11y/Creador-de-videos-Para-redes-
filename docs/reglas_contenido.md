@@ -4,7 +4,7 @@ Todo guion o video se revisa con esta lista antes de publicarse. Las fuentes de 
 
 ## 1. Identidad y firma clínica
 - [ ] El personaje es un **guía de ficción**. Nunca dice ser psicólogo ni da diagnósticos.
-- [ ] Un **psicólogo real** escribe o revisa el guion. Su nombre y cédula aparecen en pantalla o en la descripción.
+- [ ] Un **psicólogo real** escribe o revisa el guion. Su nombre y cédula van **en la descripción** (decisión del fundador: no en pantalla).
 - [ ] Usar frases que maticen: "esto no es un diagnóstico", "si te pasa seguido, hablarlo con un profesional ayuda".
 
 ## 2. Calidad del guion (anti "basura de IA")
