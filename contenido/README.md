@@ -14,9 +14,8 @@ Para editar: `python3 produccion/editar.py contenido/<carpeta>/edicion.json`
 | 007 | TDAH en adultos: lo que se confunde con flojera | ~30 s | ✅ El fundador lo tiene | ⏳ (prompts listos) | ⏳ |
 | 008 | La ley del hielo: pausa o castigo (con La Observadora) | ~30 s | ✅ El fundador lo tiene | ⏳ (prompts listos) | ⏳ |
 | 009 | Ir a terapia es más que hablar | ~30 s | ⏳ | ⏳ | ⏳ |
-| 010 | Qué pasa en tu primera sesión de terapia | ~22 s | ⏳ | ⏳ | ⏳ |
-| 011 | Las personas que piden perdón por todo | ~20 s | ⏳ | ⏳ | ⏳ |
+| 010 | ¿Qué es un enfoque terapéutico? | ~30–35 s | ⏳ | ⏳ | ⏳ |
 
 Pendiente general: el nombre y la cédula del psicólogo para las descripciones.
 
-Temas descartados: autismo en mujeres (por decisión del fundador, por ser delicado).
+Temas descartados por el fundador: autismo en mujeres (delicado), primera sesión de terapia (no convenció el enfoque), personas que piden perdón por todo.
