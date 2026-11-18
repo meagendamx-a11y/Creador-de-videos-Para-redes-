@@ -123,7 +123,17 @@ def escena(base, s, d, out, tmp):
         wh = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
                              "-of", "csv=p=0", str(clip)], check=True, capture_output=True, text=True).stdout.strip().split(",")
         iw, ih = int(wh[0]), int(wh[1])
-        if iw * MEDIA_H > ih * W:
+        if s.get("ajustar"):
+            # personaje grande sobre fondo liso: se aleja el encuadre (ancho = fracción "ajustar" del original)
+            # y se rellena arriba/abajo con el color del fondo del propio clip, sin costura visible
+            cw = int(iw * s["ajustar"]) // 2 * 2
+            fx = s.get("foco_x", foco_personaje(clip))
+            x = int(min(max(fx * iw - cw / 2, 0), iw - cw))
+            px = subprocess.run(["ffmpeg", "-v", "error", "-i", str(clip), "-vf", "crop=4:4:2:2,scale=1:1", "-frames:v", "1",
+                                 "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], check=True, capture_output=True).stdout
+            col = "0x%02X%02X%02X" % tuple(px[:3])
+            vf_fit = f"crop={cw}:{ih}:{x}:0,scale={W}:-2,pad={W}:{MEDIA_H}:0:(oh-ih)/2-{s.get('subir_fondo', 120)}:color={col}"
+        elif iw * MEDIA_H > ih * W:
             # clip más ancho que 9:16: recorte inteligente centrado en el personaje (o en "foco_x" si se fija a mano)
             cw = round(ih * W / MEDIA_H) // 2 * 2
             fx = s.get("foco_x", foco_personaje(clip))
@@ -132,7 +142,8 @@ def escena(base, s, d, out, tmp):
             vf_fit = f"crop={cw}:{ih}:{x}:0,scale={W}:{MEDIA_H}:flags=lanczos"
         # leve corrección de color: quita el tinte sepia típico de los generadores
         vf = f"{vf_fit},colorbalance=rm=-0.06:bm=0.06:rh=-0.04:bh=0.04,eq=saturation=0.9,fps=30,setpts=PTS-STARTPTS"
-        run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", str(clip), "-t", f"{d:.3f}", "-an",
+        desde = ["-ss", str(s["desde"])] if s.get("desde") is not None else ["-stream_loop", "-1"]  # usar un tramo de un video largo
+        run(["ffmpeg", "-v", "error", "-y", *desde, "-i", str(clip), "-t", f"{d:.3f}", "-an",
              "-vf", vf, "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "30", str(out)])
     else:
         # marcador de posición mientras llega el clip de Gemini
