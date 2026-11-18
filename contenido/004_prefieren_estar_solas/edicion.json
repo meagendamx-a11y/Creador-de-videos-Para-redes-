@@ -13,19 +13,21 @@
     "cancela"
   ],
   "firma": "",
-  "subir_px": 0,
   "secciones": [
     {
       "id": "E1",
       "inicio": 0.0,
-      "clip": "assets/E1.mp4",
-      "titulo": "¿Prefieres quedarte en casa? 🏠"
+      "clip": "assets/composicion.mp4",
+      "titulo": "¿Prefieres quedarte en casa?",
+      "desde": 0.0
     },
     {
       "id": "E2",
-      "inicio": 8.0,
-      "clip": "assets/E2.mp4",
-      "titulo": "Estar solo ≠ sentirse solo"
+      "inicio": 10.7,
+      "clip": "assets/composicion.mp4",
+      "titulo": "Estar solo ≠ sentirse solo",
+      "desde": 10.7
     }
-  ]
+  ],
+  "subir_px": 150
 }
