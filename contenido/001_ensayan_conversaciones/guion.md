@@ -24,6 +24,29 @@
 **Palabras:** ~150, unos 60 s a ritmo pausado.
 **Revisión de estilo:** sin "no es esto, sino aquello", sin diagnosticar y sin "debes ir a terapia".
 
+## Texto para ElevenLabs (copiar y pegar)
+Modelo con etiquetas de audio (v3). Las etiquetas van en minúsculas y entre corchetes. Los puntos suspensivos marcan pausas y las MAYÚSCULAS dan énfasis. Si una etiqueta suena rara con tu voz, quítala: los signos de puntuación hacen la mitad del trabajo.
+
+```
+[curious] ¿Alguna vez ganaste una discusión… [laughs] en la regadera?
+
+Hay personas que ensayan conversaciones en su cabeza. Lo que le van a decir a su jefe… a su ex… o lo que debieron contestar [sighs] hace TRES años.
+
+[thoughtful] En psicología, esto se estudia como "interacciones imaginadas". Y casi siempre tiene una función: prepararte. Tu mente practica… para que la conversación real dé menos miedo.
+
+También sirve para entender lo que sentiste. Repasar lo que pasó ayuda a ordenar emociones que, en el momento, no supiste nombrar.
+
+[warmly] Y muchas veces… es cuidado: piensas cómo decir algo difícil sin lastimar a nadie.
+
+[serious] Ahora… si el ensayo se vuelve un círculo, la misma escena una y otra vez, y te quita el sueño o la calma… ya no te está preparando. Te está desgastando.
+
+[calm] Un truco: escríbelo en una nota. Una sola vez. Y dile a tu mente: "ya quedó guardado".
+
+[softly] Y si te pasa seguido… hablarlo con alguien ayuda.
+```
+
+Ajustes sugeridos: Stability ~50 (en v3, "Natural"). Genera 2 o 3 tomas y quédate con la mejor. Si una frase falla, regenera solo esa.
+
 ## Escenas para Gemini
 Usa siempre la referencia `personaje/observer/referencia_gemini_conceptos_observer.jpg` y la ficha (sección 0 de `PROMPTS_GEMINI.md`).
 **Paso 1:** pide la imagen fija vertical 9:16 y revísala. **Paso 2:** conviértela en un clip de 6 a 8 s con cámara fija.
