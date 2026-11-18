@@ -9,7 +9,7 @@ Canal de redes (YouTube, TikTok, Instagram) con un **personaje animado propio** 
 | Etapa | Estado |
 |---|---|
 | 1. Investigación de audiencia | ✅ Terminada (nov-2026) |
-| 2. Personaje | 🔄 En curso: dirección "Mechón" recomendada |
+| 2. Personaje | ✅ Elegido: **El Observador** (`personaje/observer/`). Pendiente: acento distintivo y nombre |
 | 3. Voz | ⏳ Pendiente |
 | 4. Psicólogo responsable y protocolo de crisis | ⏳ Pendiente |
 | 5. Guiones y temas (con retroalimentación del fundador) | ⏳ Pendiente |
@@ -35,6 +35,8 @@ investigacion/
   scripts/                 ← scripts usados (referencia; ver nota abajo)
   referencias_visuales/    ← bocetos propios (el material de terceros NO se versiona)
 personaje/
+  observer/                ← ★ PERSONAJE OFICIAL: ficha, referencias y prompts para Gemini
+  mechon/                  ← dirección descartada
   exploracion/             ← primeras exploraciones (conceptos, estilos, prompts)
 ```
 

@@ -5,7 +5,9 @@ El orden lo acordó el fundador: personaje, luego voz, luego psicólogo responsa
 ## Etapa 1 · Investigación de audiencia ✅
 Entregables: `investigacion/00_SINTESIS.md` + informes 01–07 + `investigacion/datos/`.
 
-## Etapa 2 · Personaje 🔄
+## Etapa 2 · Personaje ✅ (El Observador · ver `personaje/observer/README.md`)
+> Las tareas de abajo se planearon para "Mechón". Ahora aplican a El Observador: hoja de modelo y SVG por capas con Gemini (`PROMPTS_GEMINI.md`), acento distintivo, nombre y guía de estilo.
+
 **Objetivo:** un personaje humano estilizado, icónico y constante, que se pueda animar gratis por código.
 - [ ] Hoja de modelo de **"Mechón"** con 2 alternativas, con acabado pulido y una paleta propia.
 - [ ] Prueba de silueta y de avatar a 48 px, para comprobar que se reconoce en miniatura.
@@ -40,6 +42,7 @@ Claude propone guiones y el fundador da retroalimentación. Iteramos.
 - [ ] Calendario editorial con las fechas clave: 2-abr, 20-may, 10-oct, regreso a clases.
 
 ## Etapa 6 · Producción ⏳
+> Video: **lo genera Gemini** a partir de la referencia canónica. Claude arma la edición: voz, subtítulos, textos, miniatura y control de consistencia.
 - [ ] Pipeline: guion → voz → animación SVG por escenas → subtítulos → render MP4 1080×1920 (y 16:9 para YouTube largo).
 - [ ] Biblioteca de escenarios y objetos reutilizables.
 - [ ] Plantilla de miniatura.

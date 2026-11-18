@@ -11,10 +11,15 @@ Formato: fecha · decisión · por qué · estado.
 | 2026-11-18 | El acabado debe ser pulido: líneas de color, degradado suave, sombra interna, luz y escenario | La primera exploración se veía "demasiado simple". La prueba `pulido.png` mostró que el vector gratis puede verse profesional | ✅ Decidido |
 | 2026-11-18 | Investigar a fondo antes de diseñar: 6 agentes y Apify (USD 3.74) | Diseñar con evidencia | ✅ Hecho |
 | 2026-11-18 | El personaje es guía de ficción; el conocimiento lo firma un psicólogo real con cédula | Política de YouTube del 16-jul-2026 sobre personajes de IA y salud | ✅ Decidido |
-| 2026-11-18 | Dirección de personaje recomendada: **"Mechón"** (rasgo firma que también expresa la emoción) + paleta mexicana + acabado hecho a mano | Benchmark visual (informe 06): solo 3 de 6 direcciones pasan la prueba de silueta; ningún personaje humano del benchmark tiene un rasgo que identifique y exprese a la vez | 🔄 Por validar con la hoja de modelo |
+| 2026-11-18 | ~~Dirección "Mechón"~~ **descartada por el fundador** (no le gustó). Antes: Dirección de personaje recomendada: **"Mechón"** (rasgo firma que también expresa la emoción) + paleta mexicana + acabado hecho a mano | Benchmark visual (informe 06): solo 3 de 6 direcciones pasan la prueba de silueta; ningún personaje humano del benchmark tiene un rasgo que identifique y exprese a la vez | ❌ Descartado |
 | 2026-11-18 | Material de terceros fuera del repo (`.gitignore`) | Derechos de autor | ✅ Hecho. ⚠️ Aún queda en el historial; limpiarlo requiere force push y la aprobación del fundador |
 
+| 2026-11-18 | **Personaje oficial: "El Observador" (The Observer · Simple, generado con Gemini).** Ficha en `personaje/observer/README.md` | Lo eligió el fundador. Es abrazable y calmado (la lógica de Baymax), es "alguien" universal y cuenta historias con el cuerpo y objetos | ✅ Decidido |
+| 2026-11-18 | Reparto: Claude hace diseño, guiones y revisión; **Gemini genera el video** a partir de la referencia canónica | Indicación del fundador | ✅ Decidido |
+
 ## Pendientes de decisión del fundador
+- Si El Observador lleva un acento distintivo (bufanda, color) para diferenciarse de Baymax y del muñeco de stock. Ver `personaje/observer/variantes.png`.
+- Nombre en español del personaje.
 - Voz humana: quién la pone.
 - Psicólogo responsable de firmar y revisar los guiones.
 - Si se limpia el historial de git de imágenes de terceros.
