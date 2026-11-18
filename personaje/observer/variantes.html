@@ -1,0 +1,43 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Observer variantes</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#F4F2EE;font-family:Nunito,system-ui;color:#2E2E3A}.s{width:1500px;padding:24px;box-sizing:border-box}
+h1{margin:0 0 4px;font-size:28px}p{margin:0 0 14px;opacity:.7}.g{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.t{background:#fff;border-radius:16px;text-align:center;padding:6px 4px 10px}.t b{font-size:22px;display:block}.t span{font-size:13px;opacity:.75;display:block}.t svg{display:block;margin:auto}</style></head>
+<body><div class="s"><h1>The Observer · 12 variantes (vector, animable)</h1><p>Misma pose y forma; cambia color y rasgo firma para hacerlo propio y alejarlo de Baymax / stock.</p><div class="g" id="g"></div></div>
+<script>
+// Personaje "Observer": cabeza redonda separada + cuerpo suave + brazos largos. Línea gris-tinta suave como el boceto.
+let u=0;
+function obs(body, shade, firma){
+  const id='o'+(++u), L='#4A4A5C';
+  const n=(d,w=15)=>`<path d="${d}" fill="none" stroke="${L}" stroke-width="${w+4}" stroke-linecap="round"/><path d="${d}" fill="none" stroke="url(#${id}g)" stroke-width="${w}" stroke-linecap="round"/>`;
+  let s=`<defs><radialGradient id="${id}g" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset=".35" stop-color="${body}"/><stop offset="1" stop-color="${shade}"/></radialGradient></defs>`;
+  s+=`<ellipse cx="100" cy="252" rx="46" ry="6" fill="#000" opacity=".08"/>`;
+  s+=n('M88,200 q-2,26 -4,44 q-2,6 -12,6',17)+n('M112,200 q2,26 4,44 q2,6 12,6',17);
+  s+=n('M76,128 q-18,40 -14,84',13)+n('M124,128 q18,40 14,84',13);
+  s+=`<path d="M100,112 C128,112 134,140 134,170 C134,200 120,212 100,212 C80,212 66,200 66,170 C66,140 72,112 100,112Z" fill="url(#${id}g)" stroke="${L}" stroke-width="3.5"/>`;
+  if(firma==='bufanda') s+=`<path d="M74,118 q26,14 52,0 l2,12 q-28,14 -56,0z" fill="#E07A5F" stroke="${L}" stroke-width="3"/><path d="M114,126 l6,30 l-12,2 l-2,-28" fill="#E07A5F" stroke="${L}" stroke-width="3"/>`;
+  if(firma==='sudadera') s+=`<path d="M66,150 C66,120 80,108 100,108 C120,108 134,120 134,150" fill="none" stroke="${L}" stroke-width="3"/><path d="M92,150 v18 M108,150 v18" stroke="${L}" stroke-width="2.5"/><path d="M80,180 h40" stroke="${L}" stroke-width="2.5"/>`;
+  s+=`<circle cx="100" cy="74" r="38" fill="url(#${id}g)" stroke="${L}" stroke-width="3.5"/>`;
+  if(firma==='gorro') s+=`<path d="M64,66 C64,30 136,30 136,66 Z" fill="#E9A23B" stroke="${L}" stroke-width="3"/><rect x="62" y="60" width="76" height="12" rx="6" fill="#D88E2A" stroke="${L}" stroke-width="3"/>`;
+  if(firma==='mechon') s+=`<path d="M100,37 c-8,-14 10,-20 4,-30" fill="none" stroke="${L}" stroke-width="4" stroke-linecap="round"/>`;
+  if(firma==='lentes') s+=`<circle cx="88" cy="80" r="11" fill="none" stroke="${L}" stroke-width="3"/><circle cx="114" cy="80" r="11" fill="none" stroke="${L}" stroke-width="3"/><path d="M99,80 h4" stroke="${L}" stroke-width="3"/>`;
+  s+=`<circle cx="88" cy="81" r="3.6" fill="${L}"/><circle cx="114" cy="81" r="3.6" fill="${L}"/><path d="M81,69 q6,-3 12,0 M107,69 q6,-3 12,0" fill="none" stroke="${L}" stroke-width="2.6" stroke-linecap="round"/><path d="M96,96 q5,3 10,0" fill="none" stroke="${L}" stroke-width="2.6" stroke-linecap="round"/>`;
+  if(firma==='mejillas') s+=`<ellipse cx="80" cy="92" rx="7" ry="4" fill="#F28482" opacity=".5"/><ellipse cx="122" cy="92" rx="7" ry="4" fill="#F28482" opacity=".5"/>`;
+  return s;
+}
+const V=[
+ ['Blanco cálido (base)','#FBF8F3','#D9D4CC',''],
+ ['Blanco + bufanda','#FBF8F3','#D9D4CC','bufanda'],
+ ['Lila','#D9CCF0','#A996D1',''],
+ ['Lila + mejillas','#D9CCF0','#A996D1','mejillas'],
+ ['Durazno','#FAD3BF','#E3A587',''],
+ ['Durazno + gorro','#FAD3BF','#E3A587','gorro'],
+ ['Azul cielo','#CFE6F5','#97BFDD',''],
+ ['Azul + sudadera','#CFE6F5','#97BFDD','sudadera'],
+ ['Arena','#EEDCC0','#CDB48D',''],
+ ['Arena + lentes','#EEDCC0','#CDB48D','lentes'],
+ ['Menta','#CDEBDD','#96CBB2',''],
+ ['Menta + mechón','#CDEBDD','#96CBB2','mechon'],
+];
+document.getElementById('g').innerHTML=V.map((v,i)=>`<div class="t"><b>${String.fromCharCode(65+i)}</b><svg width="200" height="250" viewBox="20 0 160 260">${obs(v[1],v[2],v[3])}</svg><span>${v[0]}</span></div>`).join('');
+</script></body></html>
