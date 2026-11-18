@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Hoja de personaje · Mechón</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#E9E4DC; font-family: Nunito, system-ui, sans-serif; color:#24264F; }
+  .sheet { width:1600px; padding:28px; box-sizing:border-box; display:flex; flex-direction:column; gap:22px; }
+  .card { border-radius:26px; padding:20px 24px; display:grid; grid-template-columns: 330px 1fr 300px; gap:18px; position:relative; overflow:hidden; }
+  .card h2 { margin:0; font-size:30px; font-weight:900; }
+  .card .sub { font-size:15px; opacity:.75; margin:4px 0 0; }
+  .moods { display:grid; grid-template-columns: repeat(3, 1fr); gap:8px; }
+  .mood { background:rgba(255,255,255,.55); border-radius:16px; text-align:center; font-size:14px; font-weight:800; padding-bottom:6px; }
+  .side { display:flex; flex-direction:column; gap:10px; }
+  .row { display:flex; gap:12px; align-items:flex-end; }
+  .label { font-size:12px; font-weight:800; opacity:.7; text-transform:uppercase; letter-spacing:.04em; }
+  .sw { display:flex; gap:6px; }
+  .sw div { width:40px; height:40px; border-radius:10px; border:2px solid rgba(0,0,0,.12); }
+  .sil svg path, .sil svg circle, .sil svg rect, .sil svg ellipse { fill:#111 !important; stroke:#111 !important; }
+  .avatar { width:48px; height:48px; border-radius:50%; overflow:hidden; border:2px solid rgba(0,0,0,.15); background:#fff; }
+  .grain { position:absolute; inset:0; pointer-events:none; opacity:.07; }
+  svg { display:block; }
+</style>
+</head>
+<body>
+<div class="sheet" id="sheet"></div>
+<script src="personaje.js"></script>
+<script>
+const MOODS = [['calma','Calma'],['feliz','Feliz'],['triste','Triste'],['ansiedad','Ansiedad'],['enojo','Enojo'],['idea','Idea']];
+const OPCIONES = [
+  { key:'coral', titulo:'Opción 1 · Mechón', desc:'Persona estilizada; el mechón identifica y además expresa la emoción.', ventana:false },
+  { key:'terracota', titulo:'Opción 2 · Mechón mexicano', desc:'Mismo personaje con paleta de barro, cempasúchil y añil, y suéter de cuello alto.', ventana:false },
+  { key:'ventana', titulo:'Opción 3 · Cabeza-ventana', desc:'La cabeza es una ventana a su clima interno: “lo invisible, visible”.', ventana:true },
+];
+const svg = (inner, vb, w, h) => `<svg width="${w}" height="${h}" viewBox="${vb}">${inner}</svg>`;
+const grain = `<svg class="grain" width="100%" height="100%"><filter id="gr"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2"/></filter><rect width="100%" height="100%" filter="url(#gr)"/></svg>`;
+
+function miniatura(o) {
+  // plantilla de miniatura validada en el benchmark: personaje a un lado, 2–5 palabras en mayúsculas sobre amarillo
+  const p = PALETAS[o.key];
+  return `<svg width="300" height="169" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="${p.fondo}"/>
+    <circle cx="1040" cy="300" r="250" fill="${o.key==='terracota'?'#F3D9B8':'#F6E3C8'}"/>
+    <g transform="translate(790 40) scale(1.1)">${personaje({ paleta:o.key, mood:'ansiedad', ventana:o.ventana })}</g>
+    <rect x="60" y="210" width="640" height="130" rx="18" fill="#FFD84A"/>
+    <text x="90" y="305" font-family="Nunito" font-weight="900" font-size="92" fill="#1D1D2B">PIENSAN</text>
+    <rect x="60" y="360" width="700" height="130" rx="18" fill="#1D1D2B"/>
+    <text x="90" y="455" font-family="Nunito" font-weight="900" font-size="92" fill="#fff">DE MÁS</text>
+  </svg>`;
+}
+
+document.getElementById('sheet').innerHTML = OPCIONES.map(o => {
+  const p = PALETAS[o.key];
+  const sw = [p.piel, p.pelo, p.ropa, p.pantalon, p.zapato, p.fondo];
+  return `<div class="card" style="background:${p.fondo}">
+    ${grain}
+    <div>
+      <h2>${o.titulo}</h2><p class="sub">${o.desc}</p>
+      ${svg(personaje({ paleta:o.key, mood:'feliz', brazos:'saludo', ventana:o.ventana }), '40 0 340 600', 300, 530)}
+    </div>
+    <div>
+      <div class="label" style="margin:6px 0 8px">Expresiones (${o.ventana ? 'el cielo de la cabeza cambia' : 'el mechón cambia'} con la emoción)</div>
+      <div class="moods">${MOODS.map(([m, n]) =>
+        `<div class="mood">${svg(personaje({ paleta:o.key, mood:m, ventana:o.ventana, brazos: m==='triste'?'caidos': m==='idea'?'barbilla': m==='feliz'?'arriba':'neutral' }), '70 0 260 290', 250, 279)}${n}</div>`).join('')}</div>
+    </div>
+    <div class="side">
+      <div class="label">Prueba de silueta</div>
+      <div class="row">
+        <div class="sil">${svg(personaje({ paleta:o.key, mood:'calma', ventana:o.ventana }), '60 0 280 600', 70, 150)}</div>
+        <div class="sil">${svg(personaje({ paleta:o.key, mood:'ansiedad', ventana:o.ventana }), '60 0 280 600', 70, 150)}</div>
+        <div><div class="label">Avatar 48 px</div><div class="avatar">${svg(personaje({ paleta:o.key, mood:'calma', ventana:o.ventana }), '108 40 184 184', 48, 48)}</div></div>
+      </div>
+      <div class="label">Paleta</div>
+      <div class="sw">${sw.map(c => `<div style="background:${c}" title="${c}"></div>`).join('')}</div>
+      <div class="label">En miniatura de video</div>
+      ${miniatura(o)}
+    </div>
+  </div>`;
+}).join('');
+</script>
+</body>
+</html>

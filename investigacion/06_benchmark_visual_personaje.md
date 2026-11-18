@@ -33,7 +33,7 @@ Fecha: 18-nov-2026. Ronda 2 de investigación.
    - figura humanoide alargada color salvia sobre fondo crema: La Psicología Invisible;
    - ser azul con cabeza de gota: Strange Planet;
    - **cerebro con cara: Pictoline/Cartoon Network en México** ("La vida secreta de tu mente");
-   - **brote o hoja en la cabeza: la mascota de Psych2Go**. Esto afecta directamente al concepto "C · Brote" de `personaje/REFERENCIAS_Y_PROMPTS.md`;
+   - **brote o hoja en la cabeza: la mascota de Psych2Go**. Esto afecta directamente al concepto "C · Brote" de `personaje/exploracion/REFERENCIAS_Y_PROMPTS.md`;
    - blob rosa malva: Lennnie.
 4. **Lo que hoy suena a "IA genérica":**
    - en la imagen: tinte amarillo o sepia, acabado liso y "plástico", fondos sobredetallados que cambian de un plano a otro, personaje que muta entre escenas, manos y texto raros, estética de óleo antiguo o de "libro ilustrado" de ChatGPT;
