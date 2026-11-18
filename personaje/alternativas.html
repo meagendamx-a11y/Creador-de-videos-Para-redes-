@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Alternativas de personaje</title>
+<style>
+  body { margin:0; background:#F6F1E9; font-family: system-ui, sans-serif; color:#2B2B33; }
+  .sheet { width:1200px; padding:32px; box-sizing:border-box; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:22px; margin:28px 0 10px; }
+  p.sub { margin:0 0 20px; color:#6b6670; }
+  .grid { display:grid; grid-template-columns: repeat(2, 1fr); gap:14px; }
+  .card { background:#fff; border-radius:18px; padding:12px 16px; }
+  .card b { font-size:20px; }
+  .card span { font-size:13px; color:#6b6670; display:block; min-height:34px; }
+  .moods { display:flex; justify-content:space-around; }
+  .styles { display:grid; grid-template-columns: repeat(5, 1fr); gap:12px; }
+  .style { background:#fff; border-radius:18px; padding:10px; text-align:center; font-size:13px; color:#6b6670; }
+  .style b { display:block; color:#2B2B33; font-size:15px; }
+  svg { display:block; margin:auto; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <!-- Trazo a mano: deforma ligeramente las líneas con ruido -->
+    <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter>
+    <!-- Acuarela: bordes irregulares y suaves -->
+    <filter id="watercolor"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="8"/><feDisplacementMap in="SourceGraphic" scale="5"/><feGaussianBlur stdDeviation="0.5"/></filter>
+    <!-- Grano tipo risografía/papel -->
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="1" seed="2"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.4 .75"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+  </defs>
+</svg>
+<div class="sheet">
+  <h1>Alternativas de personaje</h1>
+  <p class="sub">Primera decisión: <b>qué es</b> el personaje. Cada uno tiene un “indicador emocional” propio, además de la cara.</p>
+  <div class="grid" id="grid"></div>
+  <h2>Segunda decisión: cómo se ve (mismo personaje, 5 estilos, todos producibles gratis)</h2>
+  <div class="styles" id="styles"></div>
+</div>
+<script src="helpers.js"></script>
+<script>
+const MOODS = ['neutral','triste','feliz'];
+const thick = (d, color, w=13) =>
+  `<path d="${d}" fill="none" stroke="${INK}" stroke-width="${w}" stroke-linecap="round"/><path d="${d}" fill="none" stroke="${color}" stroke-width="${w-6.5}" stroke-linecap="round"/>`;
+
+// 1. Nube: el clima interno. Triste = se oscurece y llueve.
+function nube(mood) {
+  const c = mood==='triste' ? '#BCC6D4' : '#E3ECF7', cx=110;
+  let s = shadow(cx,262,56);
+  if (mood==='triste') [80,110,140].forEach((x,i)=> s+=`<path d="M${x},${228+i%2*10} q5,10 0,14 q-5,-4 0,-14z" fill="#8EC5E8" stroke="${INK}" stroke-width="2.5"/>`);
+  if (mood==='feliz') s += `<circle cx="178" cy="98" r="20" fill="#F7D774" stroke="${INK}" stroke-width="3.5"/>`;
+  s += arms(60,182,172,182,mood,c);
+  s += `<path d="M62,212 C38,212 32,180 56,170 C50,138 82,122 100,136 C108,106 152,102 160,134 C188,130 200,162 182,176 C198,194 184,214 162,212 Z" fill="${c}" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>`;
+  return s + eyes(cx+6,170,20,mood) + mouth(cx+6,196,mood);
+}
+
+// 2. Ajolote: ícono mexicano, se regenera = resiliencia. Las branquias son su indicador emocional.
+function ajolote(mood) {
+  const c='#F6BCC8', g='#E68AA1', cx=110;
+  const ang = {neutral:[-28,0,28], triste:[30,52,74], feliz:[-58,-30,-2]}[mood];
+  let gills = '';
+  [[-1,52],[1,168]].forEach(([side,x])=> ang.forEach((a,i)=>{
+    const y = 128 + i*20, rad = (a*side)*Math.PI/180, L=30;
+    const ex = x + side*Math.cos(rad)*L, ey = y + Math.sin(a*Math.PI/180)*L;
+    gills += thick(`M${x},${y} L${ex.toFixed(1)},${ey.toFixed(1)}`, g, 15);
+  }));
+  return shadow(cx,262,50) + legs(cx,236,c,22) +
+    thick(`M${cx+30},226 q40,10 46,-18`, c, 16) + gills +
+    `<ellipse cx="${cx}" cy="214" rx="42" ry="30" fill="${c}" stroke="${INK}" stroke-width="${SW}"/>
+     <ellipse cx="${cx}" cy="150" rx="66" ry="54" fill="${c}" stroke="${INK}" stroke-width="${SW}"/>` +
+    eyes(cx,142,30,mood) + mouth(cx,170,mood) +
+    ({neutral:[`M${cx-38},206 q-12,6 -12,18`,`M${cx+38},206 q12,6 12,18`],
+      triste:[`M${cx-38},206 q-6,10 -4,22`,`M${cx+38},206 q6,10 4,22`],
+      feliz:[`M${cx-38},206 q-16,-4 -20,-20`,`M${cx+38},206 q16,-4 20,-20`]}[mood]).map(d=>thick(d,c,13)).join('');
+}
+
+// 3. Pajarito: ligero, cotidiano. El copete es su indicador.
+function pajaro(mood) {
+  const c='#9CC7E6', cx=110;
+  const tuft = {neutral:'M110,96 q-6,-22 4,-30 M114,96 q4,-20 18,-22', triste:'M110,96 q-14,-8 -18,-2 M114,96 q12,-6 18,2', feliz:'M108,96 q-14,-26 -4,-36 M112,96 q0,-28 12,-36 M116,96 q12,-20 26,-20'}[mood];
+  const w = {neutral:[20,-20], triste:[40,-40], feliz:[-40,40]}[mood];
+  return shadow(cx,262,48) +
+    `<path d="M98,226 l-4,30 m-6,0 h14 M122,226 l4,30 m-8,0 h14" stroke="#E39A4C" stroke-width="5" stroke-linecap="round"/>` +
+    `<path d="${tuft}" fill="none" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>` +
+    `<circle cx="${cx}" cy="165" r="68" fill="${c}" stroke="${INK}" stroke-width="${SW}"/>
+     <ellipse cx="${cx}" cy="192" rx="40" ry="32" fill="#EAF4FB"/>` +
+    `<ellipse cx="46" cy="172" rx="14" ry="30" transform="rotate(${w[0]} 46 150)" fill="${c}" stroke="${INK}" stroke-width="${SW}"/>
+     <ellipse cx="174" cy="172" rx="14" ry="30" transform="rotate(${w[1]} 174 150)" fill="${c}" stroke="${INK}" stroke-width="${SW}"/>` +
+    eyes(cx,150,24,mood) + `<path d="M${cx-8},166 l8,10 l8,-10z" fill="#F2A65A" stroke="${INK}" stroke-width="3" stroke-linejoin="round"/>`;
+}
+
+// 4. Gatito: el animal más viral en redes. Orejas y cola = indicadores.
+function gato(mood) {
+  const c='#D8C4AE', cx=110;
+  const ear = {neutral:0, triste:28, feliz:-8}[mood];
+  const tail = {neutral:`M150,228 q44,-6 34,-50`, triste:`M150,232 q40,10 50,22`, feliz:`M150,226 q46,-20 26,-72 q-4,-10 8,-12`}[mood];
+  return shadow(cx,262,52) + legs(cx,234,c,20) + thick(tail,c,15) +
+    `<path d="M62,108 L64,58 L100,90Z" transform="rotate(${-ear} 80 100)" fill="${c}" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>
+     <path d="M158,108 L156,58 L120,90Z" transform="rotate(${ear} 140 100)" fill="${c}" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>` +
+    arms(cx-56,180,cx+56,180,mood,c) +
+    `<path d="M50,160 C50,105 80,86 110,86 C140,86 170,105 170,160 C170,212 146,238 110,238 C74,238 50,212 50,160Z" fill="${c}" stroke="${INK}" stroke-width="${SW}"/>` +
+    eyes(cx,148,24,mood) + `<path d="M${cx-5},164 h10 l-5,5z" fill="#E59A9A"/>` + mouth(cx,176,mood);
+}
+
+// 5. Flamita: "tu llama interior". Su tamaño/brillo cambia con la emoción.
+function flama(mood) {
+  const cx=110, k={neutral:1, triste:.82, feliz:1.12}[mood];
+  const c = mood==='triste' ? '#E8B98C' : mood==='feliz' ? '#FFAE57' : '#F7A55E';
+  return shadow(cx,262,46) + legs(cx,230,'#F7C59A',18) +
+    `<g transform="translate(${cx} 235) scale(${k}) translate(${-cx} -235)">` +
+    arms(cx-48,178,cx+48,178,mood,c) +
+    `<path d="M110,40 C130,80 170,100 168,170 C166,214 140,236 110,236 C80,236 54,214 52,172 C50,130 80,120 86,86 C100,104 104,70 110,40Z" fill="${c}" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>
+     <path d="M110,150 C122,170 136,180 134,204 C132,222 122,230 110,230 C98,230 88,222 86,206 C86,186 102,178 110,150Z" fill="#FFE0A3" opacity=".8"/>` +
+    eyes(cx,168,20,mood) + mouth(cx,194,mood) + `</g>`;
+}
+
+// 6. Persona simplificada: identificación directa (como la referencia), color no realista para no asignar etnia.
+function persona(mood) {
+  const c='#A9C4A2', cx=110;
+  const tilt = mood==='triste' ? 6 : 0;
+  return shadow(cx,262,46) + legs(cx,232,c,16) + arms(cx-38,160,cx+38,160,mood,c) +
+    `<path d="M74,232 C70,190 76,152 110,150 C144,152 150,190 146,232Z" fill="${c}" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>` +
+    `<g transform="rotate(${tilt} 110 140)"><circle cx="${cx}" cy="102" r="46" fill="${c}" stroke="${INK}" stroke-width="${SW}"/>
+     <path d="M96,58 q10,-14 22,-2" fill="none" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>` +
+    eyes(cx,100,17,mood) + mouth(cx,124,mood) + `</g>`;
+}
+
+const ALTS = [
+  ['D · Nube', 'Clima interno: se nubla y llueve cuando está triste, sale el sol cuando está bien.', nube],
+  ['E · Ajolote', 'Ícono mexicano que se regenera = resiliencia. Las branquias caen o se alzan.', ajolote],
+  ['F · Pajarito', 'Ligero y cotidiano. El copete y las alas expresan.', pajaro],
+  ['G · Gatito', 'Animal más viral en redes. Orejas y cola expresan.', gato],
+  ['H · Flamita', '“Tu llama interior”: se apaga o se aviva. Ojo: puede leerse como enojo o burnout.', flama],
+  ['I · Persona simple', 'Identificación directa (como la referencia). Color no realista para que nadie quede fuera.', persona],
+];
+document.getElementById('grid').innerHTML = ALTS.map(([n,d,fn]) =>
+  `<div class="card"><b>${n}</b><span>${d}</span><div class="moods">` +
+  MOODS.map(m=>`<svg width="150" height="190" viewBox="0 0 220 280">${fn(m)}</svg>`).join('') + `</div></div>`).join('');
+
+// Variantes de estilo aplicadas por post-proceso del mismo SVG.
+const base = ajolote('neutral');
+const kawaii = base.replaceAll('#2B2B33','#7A5A48').replace(/stroke-width="4.5"/g,'stroke-width="3"');
+const STYLES = [
+  ['Vector limpio', 'Nítido, moderno. Lo que ya viste.', base, ''],
+  ['Trazo a mano', 'Líneas imperfectas tipo plumón. Más cálido.', base, 'url(#rough)'],
+  ['Acuarela / cuento', 'Tipo libro ilustrado. Emotivo, suave.', base.replaceAll('#2B2B33','#5B4A44'), 'url(#watercolor)'],
+  ['Kawaii pastel', 'Contorno café, tierno tipo Sumikko Gurashi.', kawaii, ''],
+  ['Editorial con grano', 'Textura de papel / riso. Más “adulto”.', base, 'url(#rough)', true],
+];
+document.getElementById('styles').innerHTML = STYLES.map(([n,d,svg,f,grain]) =>
+  `<div class="style"><svg width="190" height="240" viewBox="0 0 220 280">
+     <rect width="220" height="280" fill="${n.startsWith('Acuarela')||grain?'#FBF6EC':'#fff'}"/>
+     <g filter="${f}">${svg}</g>
+     ${grain?'<rect width="220" height="280" fill="#2B2B33" filter="url(#grain)" opacity=".35"/>':''}
+   </svg><b>${n}</b>${d}</div>`).join('');
+</script>
+</body>
+</html>
