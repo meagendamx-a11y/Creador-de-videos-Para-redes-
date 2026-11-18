@@ -102,6 +102,11 @@ def escena(base, s, d, out, tmp):
     clip = base / s["clip"] if s.get("clip") else None
     vf_fit = f"scale={W}:{MEDIA_H}:force_original_aspect_ratio=increase,crop={W}:{MEDIA_H}"
     if clip and clip.exists():
+        wh = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                             "-of", "csv=p=0", str(clip)], check=True, capture_output=True, text=True).stdout.strip().split(",")
+        if int(wh[0]) > int(wh[1]):
+            # clip horizontal: se muestra completo (sin recortar al personaje), centrado sobre el color de marca
+            vf_fit = f"scale={W}:-2,pad={W}:{MEDIA_H}:0:(oh-ih)/2:color={BG}"
         # leve corrección de color: quita el tinte sepia típico de los generadores
         vf = f"{vf_fit},colorbalance=rm=-0.06:bm=0.06:rh=-0.04:bh=0.04,eq=saturation=0.9,fps=30,setpts=PTS-STARTPTS"
         run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", str(clip), "-t", f"{d:.3f}", "-an",
