@@ -19,3 +19,8 @@ Para editar: `python3 produccion/editar.py contenido/<carpeta>/edicion.json`
 Pendiente general: el nombre y la cédula del psicólogo para las descripciones.
 
 Temas descartados por el fundador: autismo en mujeres (delicado), primera sesión de terapia (no convenció el enfoque), personas que piden perdón por todo.
+
+## Siguiente paso (acordado el 18-nov-2026)
+1. **Terminar el 001:** faltan las escenas E3–E7. Los prompts están en `001_ensayan_conversaciones/prompts_gemini.md` (E1 se puede rehacer con fondo 2D y sin sepia).
+2. Después, los videos **006, 007, 008, 009 y 010**. Los audios ya están en ElevenLabs. Los prompts del 006–008 ya existen; los del 009 y 010 se escriben con los tiempos del audio.
+Cuando el fundador lo pida, se le entregan los prompts completos o los que falten de cada video.
