@@ -27,3 +27,38 @@
 **Reglas:**
 - "Libre de regalías" no significa "sin reclamos". Guarda el comprobante de la licencia de cada pista que uses.
 - Música suave e instrumental, debajo de la voz (aprox. −18 a −24 dB respecto a la voz).
+
+## Grabación de voz (si grabas tu voz real)
+| Herramienta | Costo | Uso |
+|---|---|---|
+| **Celular** (Grabadora de iPhone / Android) | $0 | Suficiente si grabas en un clóset o cuarto con ropa y cortinas (sin eco), a 15–20 cm del teléfono |
+| **Audacity** (PC/Mac) | $0, código abierto | Grabar y limpiar: reducción de ruido, normalización, cortes ([referencia](https://www.guideflow.com/blog/voiceover-software)) |
+| Adobe Podcast "Enhance Speech" (web) | Plan gratis con límites | Hace que una grabación casera suene a estudio. Verifica los límites vigentes |
+| ElevenLabs Voice Isolator | Incluido en el plan | Quita el ruido de fondo |
+| Micrófono USB (opcional, más adelante) | ~USD 30–60 | Solo si el celular no alcanza |
+
+Entrega: archivo WAV o M4A, una toma por guion. Los errores no importan: yo corto las pausas.
+
+## Música tipo "La Psicología Invisible"
+El estilo del nicho es **piano suave, ambient o lo-fi tranquilo**, sin voz, a volumen bajo.
+
+**Opción A: Biblioteca de audio de YouTube (gratis)**
+- En YouTube Studio → Biblioteca de audio, filtra por *Estado de ánimo: Calma*, *Género: Ambient / Clásica / Piano* y *Atribución: no se requiere*.
+- Descarga 3 a 5 pistas y súbelas a `audio/musica/` junto con una nota del nombre y la licencia de cada una.
+- ⚠️ Fuera de YouTube (TikTok, Instagram) depende de la licencia de cada pista: algunas piden atribución o no permiten otros usos ([guía](https://usethirdchair.com/blog/can-you-use-youtube-audio-library-music-on-instagram), [comparativa](https://www.digitalapplied.com/blog/social-video-music-rights-platform-comparison)).
+
+**Opción B: música propia con ElevenLabs Music (recomendada si contratas Starter)**
+- Generas una vez 3 loops de ~1 minuto (piano calmado, ambient pensativo, lo-fi cálido) y los reutilizas en todos los videos.
+- Son pistas generadas con tu plan y con uso comercial, así que no debería haber reclamos de terceros ni dudas entre plataformas. Gasta ~900 créditos por minuto, pero solo se hace una vez.
+
+**Opción C: música nativa de TikTok e Instagram** (desde la app; en cuentas de empresa, la biblioteca comercial). Solo sirve dentro de esa plataforma.
+
+## Edición (Claude)
+Claude puede armar el video completo con herramientas gratuitas (ffmpeg + transcripción automática local):
+1. Une los clips de Gemini en el orden del guion.
+2. Pone tu voz y la música debajo; la música baja sola cuando hablas.
+3. **Subtítulos automáticos palabra por palabra**, con la palabra clave resaltada, transcritos de tu voz.
+4. Textos en pantalla: la idea principal en el primer cuadro, listas numeradas y el cierre.
+5. Exporta en 9:16 (1080×1920) para TikTok, Reels y Shorts, y en 16:9 para YouTube largo.
+6. Miniatura con la plantilla del canal.
+Tú revisas el video final antes de publicarlo.
