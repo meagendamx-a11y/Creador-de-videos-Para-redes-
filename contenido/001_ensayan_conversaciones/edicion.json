@@ -1,0 +1,17 @@
+{
+  "voz": "assets/voz.mp3",
+  "musica": "assets/musica_calma_suave.mp3",
+  "volumen_musica_db": -20,
+  "correcciones": {"38": "esto se", "58": "dé"},
+  "resaltar": ["discusión", "regadera", "ensayan", "conversaciones", "prepararte", "miedo", "emociones", "cuidado", "círculo", "desgastando", "nota", "guardado", "alguien"],
+  "firma": "Guion revisado por [Psicólogo/a] · Cédula [XXXX]",
+  "secciones": [
+    {"id": "E1", "inicio": 0.0,   "clip": "assets/E1.mp4", "titulo": ""},
+    {"id": "E2", "inicio": 3.9,   "clip": "assets/E2.mp4", "titulo": "Ensayar conversaciones"},
+    {"id": "E3", "inicio": 13.4,  "clip": "assets/E3.mp4", "titulo": "1. Te prepara"},
+    {"id": "E4", "inicio": 24.7,  "clip": "assets/E4.mp4", "titulo": "2. Ordena lo que sentiste"},
+    {"id": "E5", "inicio": 32.5,  "clip": "assets/E5.mp4", "titulo": "3. Cuida tus vínculos"},
+    {"id": "E6", "inicio": 38.0,  "clip": "assets/E6.mp4", "titulo": "Cuando se vuelve un círculo"},
+    {"id": "E7", "inicio": 47.9,  "clip": "assets/E7.mp4", "titulo": "Escríbelo una vez"}
+  ]
+}
