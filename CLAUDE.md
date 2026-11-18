@@ -17,7 +17,7 @@
 4. `docs/reglas_contenido.md`: reglas obligatorias para todo guion o video.
 
 ## Personaje oficial
-**El Observador**: ficha y rasgos canónicos en `personaje/observer/README.md`. Nunca unir los ojos con una línea (evita el parecido con Baymax). El video lo genera Gemini (`personaje/observer/PROMPTS_GEMINI.md`).
+**El Observador**: personaje por defecto en todos los videos (neutro, o hombre cuando haga falta). **La Observadora**: solo cuando el fundador pida un personaje mujer. Ficha y rasgos canónicos en `personaje/observer/README.md`. Nunca unir los ojos con una línea (evita el parecido con Baymax). El video lo genera Gemini (`personaje/observer/PROMPTS_GEMINI.md`).
 
 ## Reglas no negociables
 - **El personaje es un guía de ficción y nunca se presenta como psicólogo.**

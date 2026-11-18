@@ -47,12 +47,11 @@ Consejos:
 - Deja libre la parte de arriba del encuadre para los textos.
 - Si en algún clip el personaje cambia, por ejemplo con ojos unidos, otro grosor o nariz, se descarta.
 
-## 4. Versiones mujer y hombre (para historias de pareja)
+## 4. La Observadora (solo cuando se pida un personaje mujer)
+Adjunta **las dos referencias**: `referencia_gemini_conceptos_observer.jpg` y `referencia_gemini_observadora.jpg`.
 ```
 [CHARACTER SHEET]
-Using the attached references, create two companion characters in EXACTLY the same style, body shape, colors (#FBF8F3 body, #D9D4CC shading, #4A4A5C line) and face style (two separate dot eyes, short eyebrows, tiny mouth):
-1) "La Observadora": a woman — chin-length soft bob with bangs, loose cozy sweater, optional scarf.
-2) "El Observador" (man): short slightly messy hair, loose sweater or hoodie.
-Only hair and clothing may change; proportions, line and face must match the original Observer.
-Show each in: front neutral, happy, sad, thinking, and both together sitting on a couch talking. Plain off-white background, no text.
+Draw "La Observadora" exactly as in the attached reference: same body, colors (#FBF8F3 body, #D9D4CC shading, #4A4A5C line) and face style as The Observer (two separate dot eyes, short eyebrows, tiny mouth), plus a chin-length soft bob with bangs, a loose cozy sweater and an optional scarf.
+Scene: {DESCRIBE LA ESCENA}. If The Observer also appears, keep him exactly as his reference.
+Plain off-white background, no text.
 ```
