@@ -21,3 +21,13 @@
 
 [warmly] Si te identificaste mucho… vale la pena preguntarlo.
 ```
+
+## Escenas (borrador)
+| Escena | Título en pantalla |
+|---|---|
+| E1 | **¿Todo al último minuto?** |
+| E2 | **Mil proyectos, pocos terminados** |
+| E3 | **Atención y motivación** |
+| E4 | **Solo un profesional diagnostica** |
+
+Prompts: `prompts_gemini.md`.

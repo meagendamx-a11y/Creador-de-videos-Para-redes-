@@ -21,3 +21,13 @@
 
 [warmly] Es tu cuerpo intentando protegerte. Y si te pasa seguido, o sientes dolor en el pecho, busca atención médica.
 ```
+
+## Escenas (borrador)
+| Escena | Título en pantalla |
+|---|---|
+| E1 | **¿Te falta el aire?** |
+| E2 | **Tu cerebro activa una alarma** |
+| E3 | **Exhala más largo** |
+| E4 | **Tu cuerpo intenta protegerte** |
+
+Prompts: `prompts_gemini.md`.

@@ -19,3 +19,13 @@
 
 [warmly] Si les cuesta salir de ese ciclo, hablarlo en terapia de pareja ayuda.
 ```
+
+## Escenas (borrador)
+| Escena | Título en pantalla |
+|---|---|
+| E1 | **¿Te dejó de hablar?** |
+| E2 | **Pausa ≠ castigo** |
+| E3 | **"Necesito un rato, luego hablamos"** |
+| E4 | **Hablarlo ayuda** |
+
+Prompts: `prompts_gemini.md`.
