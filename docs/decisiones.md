@@ -18,11 +18,13 @@ Formato: fecha · decisión · por qué · estado.
 | 2026-11-18 | Reparto: Claude hace diseño, guiones y revisión; **Gemini genera el video** a partir de la referencia canónica | Indicación del fundador | ✅ Decidido |
 | 2026-11-18 | **Video: empezar con Gemini** (suscripción barata) y guardar las alternativas: Kling, Seedance, Runway, Higgsfield | El personaje nació en Gemini, tiene créditos diarios y la función "Ingredients" para la consistencia. Ver `docs/herramientas_video.md` | ✅ Decidido |
 | 2026-11-18 | Flujo de video: imagen fija por escena → imagen a video (Gemini) → Claude arma voz, subtítulos, música y miniatura | Controlar la consistencia antes de gastar en video | ✅ Decidido |
+| 2026-11-18 | **Voz: ElevenLabs Starter, clonación instantánea de la voz del fundador.** Texto → audio listo. Opcional: Claude genera el audio vía API si se guarda la clave con el formulario seguro | El fundador quiere solo pasar texto y recibir el audio | ✅ Decidido |
+| 2026-11-18 | **Música:** piano suave o ambient, volumen bajo, de la biblioteca de YouTube o de las bibliotecas de TikTok/IG. El fundador descarga las pistas; Claude indica el estilo | Gratis y con bajo riesgo de reclamos. Guardar la licencia de cada pista | ✅ Decidido |
+| 2026-11-18 | **Edición: Claude** (clips + voz + música + subtítulos + textos + miniatura). El fundador aprueba guion, imágenes y el video final | Reparto acordado | ✅ Decidido |
 
 ## Pendientes de decisión del fundador
 - Si El Observador lleva un acento distintivo (bufanda, color) para diferenciarse de Baymax y del muñeco de stock. Ver `personaje/observer/variantes.png`.
 - Nombre en español del personaje.
-- Voz: grabar directamente o clonar con ElevenLabs (ver `docs/herramientas_audio.md`).
 - Psicólogo responsable de firmar y revisar los guiones.
 - Si se limpia el historial de git de imágenes de terceros.
 - Consultar a un abogado si el aviso de publicidad de COFEPRIS aplica cuando se promocionen citas.
