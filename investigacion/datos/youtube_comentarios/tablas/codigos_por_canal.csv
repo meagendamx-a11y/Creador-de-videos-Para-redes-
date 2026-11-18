@@ -1,0 +1,721 @@
+grupo,codigo,n_grupo,n,pct,pct_likes,pct_logw
+AprendemosJuntos,IDENT,446,4,0.9,0.87,0.88
+AprendemosJuntos,CONFESION,446,0,0.0,0.0,0.0
+AprendemosJuntos,CRISIS,446,0,0.0,0.0,0.0
+AprendemosJuntos,AYUDA,446,0,0.0,0.0,0.0
+AprendemosJuntos,PIDE_TEMA,446,2,0.45,0.25,0.6
+AprendemosJuntos,GRATITUD,446,190,42.6,60.35,42.87
+AprendemosJuntos,CLARIDAD,446,4,0.9,1.37,1.09
+AprendemosJuntos,VOZ,446,4,0.9,0.06,0.61
+AprendemosJuntos,VOZ_POS,446,1,0.22,0.02,0.18
+AprendemosJuntos,VISUAL,446,0,0.0,0.0,0.0
+AprendemosJuntos,MINIATURA,446,0,0.0,0.0,0.0
+AprendemosJuntos,MUSICA,446,0,0.0,0.0,0.0
+AprendemosJuntos,CRIT_IA,446,0,0.0,0.0,0.0
+AprendemosJuntos,CRIT_EXACT,446,3,0.67,0.08,0.53
+AprendemosJuntos,CRIT_PATOLOG,446,0,0.0,0.0,0.0
+AprendemosJuntos,HOROSCOPO,446,0,0.0,0.0,0.0
+AprendemosJuntos,TERAPIA,446,7,1.57,1.08,1.36
+AprendemosJuntos,TER_POS,446,0,0.0,0.0,0.0
+AprendemosJuntos,TER_NEG,446,0,0.0,0.0,0.0
+AprendemosJuntos,TER_COSTO,446,0,0.0,0.0,0.0
+AprendemosJuntos,TER_MIEDO,446,0,0.0,0.0,0.0
+AprendemosJuntos,VIDEO_COMO_TERAPIA,446,1,0.22,0.02,0.18
+AprendemosJuntos,HUMOR,446,6,1.35,1.48,1.49
+AprendemosJuntos,COMUNIDAD,446,2,0.45,0.15,0.43
+AprendemosJuntos,FE,446,15,3.36,0.95,3.01
+AprendemosJuntos,FAMILIA,446,6,1.35,1.69,1.48
+AprendemosJuntos,PAREJA,446,19,4.26,10.89,4.85
+AprendemosJuntos,CRIT_FORMA,446,1,0.22,0.0,0.1
+AprendemosJuntos,ELOGIO_GEN,446,43,9.64,10.13,10.55
+AprendemosJuntos,HUMANO,446,9,2.02,1.58,2.14
+CuriosaMente,IDENT,907,35,3.86,2.35,4.61
+CuriosaMente,CONFESION,907,51,5.62,3.84,8.14
+CuriosaMente,CRISIS,907,1,0.11,0.0,0.05
+CuriosaMente,AYUDA,907,3,0.33,0.01,0.28
+CuriosaMente,PIDE_TEMA,907,14,1.54,0.19,1.7
+CuriosaMente,GRATITUD,907,115,12.68,4.62,12.76
+CuriosaMente,CLARIDAD,907,9,0.99,0.64,1.27
+CuriosaMente,VOZ,907,5,0.55,0.0,0.27
+CuriosaMente,VOZ_POS,907,3,0.33,0.0,0.16
+CuriosaMente,VISUAL,907,22,2.43,1.49,2.04
+CuriosaMente,MINIATURA,907,0,0.0,0.0,0.0
+CuriosaMente,MUSICA,907,0,0.0,0.0,0.0
+CuriosaMente,CRIT_IA,907,3,0.33,0.05,0.43
+CuriosaMente,CRIT_EXACT,907,21,2.32,0.16,2.1
+CuriosaMente,CRIT_PATOLOG,907,8,0.88,0.04,0.88
+CuriosaMente,HOROSCOPO,907,2,0.22,0.0,0.11
+CuriosaMente,TERAPIA,907,120,13.23,12.15,14.97
+CuriosaMente,TER_POS,907,7,0.77,0.76,1.46
+CuriosaMente,TER_NEG,907,1,0.11,0.01,0.14
+CuriosaMente,TER_COSTO,907,4,0.44,0.0,0.21
+CuriosaMente,TER_MIEDO,907,2,0.22,0.15,0.35
+CuriosaMente,VIDEO_COMO_TERAPIA,907,3,0.33,0.04,0.44
+CuriosaMente,HUMOR,907,90,9.92,9.94,9.32
+CuriosaMente,COMUNIDAD,907,6,0.66,0.08,0.83
+CuriosaMente,FE,907,10,1.1,1.46,1.02
+CuriosaMente,FAMILIA,907,47,5.18,9.19,7.01
+CuriosaMente,PAREJA,907,14,1.54,0.04,1.2
+CuriosaMente,CRIT_FORMA,907,6,0.66,0.08,1.01
+CuriosaMente,ELOGIO_GEN,907,34,3.75,0.72,3.61
+CuriosaMente,HUMANO,907,5,0.55,1.45,0.67
+César Lozano,IDENT,199,4,2.01,0.0,1.33
+César Lozano,CONFESION,199,5,2.51,1.42,2.55
+César Lozano,CRISIS,199,0,0.0,0.0,0.0
+César Lozano,AYUDA,199,1,0.5,0.4,0.7
+César Lozano,PIDE_TEMA,199,0,0.0,0.0,0.0
+César Lozano,GRATITUD,199,56,28.14,18.22,26.9
+César Lozano,CLARIDAD,199,1,0.5,0.0,0.33
+César Lozano,VOZ,199,0,0.0,0.0,0.0
+César Lozano,VOZ_POS,199,0,0.0,0.0,0.0
+César Lozano,VISUAL,199,0,0.0,0.0,0.0
+César Lozano,MINIATURA,199,0,0.0,0.0,0.0
+César Lozano,MUSICA,199,0,0.0,0.0,0.0
+César Lozano,CRIT_IA,199,0,0.0,0.0,0.0
+César Lozano,CRIT_EXACT,199,2,1.01,0.2,0.9
+César Lozano,CRIT_PATOLOG,199,0,0.0,0.0,0.0
+César Lozano,HOROSCOPO,199,0,0.0,0.0,0.0
+César Lozano,TERAPIA,199,1,0.5,0.0,0.33
+César Lozano,TER_POS,199,1,0.5,0.0,0.33
+César Lozano,TER_NEG,199,0,0.0,0.0,0.0
+César Lozano,TER_COSTO,199,0,0.0,0.0,0.0
+César Lozano,TER_MIEDO,199,0,0.0,0.0,0.0
+César Lozano,VIDEO_COMO_TERAPIA,199,0,0.0,0.0,0.0
+César Lozano,HUMOR,199,10,5.03,4.45,5.11
+César Lozano,COMUNIDAD,199,0,0.0,0.0,0.0
+César Lozano,FE,199,29,14.57,8.5,15.3
+César Lozano,FAMILIA,199,16,8.04,9.11,8.41
+César Lozano,PAREJA,199,8,4.02,6.48,5.46
+César Lozano,CRIT_FORMA,199,1,0.5,0.0,0.33
+César Lozano,ELOGIO_GEN,199,9,4.52,2.83,5.35
+César Lozano,HUMANO,199,5,2.51,19.43,4.09
+DOCTORA FLOREZ,IDENT,615,28,4.55,5.1,3.81
+DOCTORA FLOREZ,CONFESION,615,25,4.07,3.98,4.68
+DOCTORA FLOREZ,CRISIS,615,3,0.49,0.07,0.48
+DOCTORA FLOREZ,AYUDA,615,2,0.33,0.0,0.16
+DOCTORA FLOREZ,PIDE_TEMA,615,3,0.49,0.01,0.3
+DOCTORA FLOREZ,GRATITUD,615,331,53.82,39.27,50.84
+DOCTORA FLOREZ,CLARIDAD,615,13,2.11,0.76,2.25
+DOCTORA FLOREZ,VOZ,615,2,0.33,0.07,0.33
+DOCTORA FLOREZ,VOZ_POS,615,1,0.16,0.0,0.08
+DOCTORA FLOREZ,VISUAL,615,0,0.0,0.0,0.0
+DOCTORA FLOREZ,MINIATURA,615,0,0.0,0.0,0.0
+DOCTORA FLOREZ,MUSICA,615,0,0.0,0.0,0.0
+DOCTORA FLOREZ,CRIT_IA,615,1,0.16,0.0,0.08
+DOCTORA FLOREZ,CRIT_EXACT,615,2,0.33,0.0,0.16
+DOCTORA FLOREZ,CRIT_PATOLOG,615,0,0.0,0.0,0.0
+DOCTORA FLOREZ,HOROSCOPO,615,1,0.16,1.74,0.5
+DOCTORA FLOREZ,TERAPIA,615,26,4.23,2.12,3.98
+DOCTORA FLOREZ,TER_POS,615,5,0.81,0.46,0.9
+DOCTORA FLOREZ,TER_NEG,615,0,0.0,0.0,0.0
+DOCTORA FLOREZ,TER_COSTO,615,1,0.16,0.0,0.08
+DOCTORA FLOREZ,TER_MIEDO,615,0,0.0,0.0,0.0
+DOCTORA FLOREZ,VIDEO_COMO_TERAPIA,615,0,0.0,0.0,0.0
+DOCTORA FLOREZ,HUMOR,615,3,0.49,0.01,0.3
+DOCTORA FLOREZ,COMUNIDAD,615,9,1.46,0.36,1.45
+DOCTORA FLOREZ,FE,615,79,12.85,19.1,15.9
+DOCTORA FLOREZ,FAMILIA,615,22,3.58,2.33,4.37
+DOCTORA FLOREZ,PAREJA,615,87,14.15,24.5,16.54
+DOCTORA FLOREZ,CRIT_FORMA,615,3,0.49,1.01,0.76
+DOCTORA FLOREZ,ELOGIO_GEN,615,47,7.64,1.12,5.63
+DOCTORA FLOREZ,HUMANO,615,6,0.98,0.53,0.99
+Desansiedad,IDENT,672,3,0.45,0.12,0.53
+Desansiedad,CONFESION,672,46,6.85,33.4,10.54
+Desansiedad,CRISIS,672,1,0.15,0.17,0.3
+Desansiedad,AYUDA,672,2,0.3,0.0,0.14
+Desansiedad,PIDE_TEMA,672,1,0.15,0.18,0.31
+Desansiedad,GRATITUD,672,422,62.8,21.86,57.32
+Desansiedad,CLARIDAD,672,5,0.74,0.02,0.5
+Desansiedad,VOZ,672,6,0.89,5.71,1.17
+Desansiedad,VOZ_POS,672,4,0.6,0.42,0.68
+Desansiedad,VISUAL,672,0,0.0,0.0,0.0
+Desansiedad,MINIATURA,672,0,0.0,0.0,0.0
+Desansiedad,MUSICA,672,0,0.0,0.0,0.0
+Desansiedad,CRIT_IA,672,0,0.0,0.0,0.0
+Desansiedad,CRIT_EXACT,672,0,0.0,0.0,0.0
+Desansiedad,CRIT_PATOLOG,672,1,0.15,0.06,0.24
+Desansiedad,HOROSCOPO,672,0,0.0,0.0,0.0
+Desansiedad,TERAPIA,672,31,4.61,19.03,5.43
+Desansiedad,TER_POS,672,1,0.15,0.05,0.22
+Desansiedad,TER_NEG,672,0,0.0,0.0,0.0
+Desansiedad,TER_COSTO,672,1,0.15,0.05,0.22
+Desansiedad,TER_MIEDO,672,1,0.15,0.01,0.12
+Desansiedad,VIDEO_COMO_TERAPIA,672,0,0.0,0.0,0.0
+Desansiedad,HUMOR,672,4,0.6,0.04,0.45
+Desansiedad,COMUNIDAD,672,13,1.93,9.67,3.27
+Desansiedad,FE,672,106,15.77,45.17,21.85
+Desansiedad,FAMILIA,672,5,0.74,0.7,1.0
+Desansiedad,PAREJA,672,4,0.6,0.43,0.84
+Desansiedad,CRIT_FORMA,672,4,0.6,0.2,0.77
+Desansiedad,ELOGIO_GEN,672,75,11.16,4.45,9.59
+Desansiedad,HUMANO,672,3,0.45,0.37,0.81
+Dr. Mario Guzman,IDENT,534,6,1.12,1.68,1.35
+Dr. Mario Guzman,CONFESION,534,15,2.81,2.85,3.67
+Dr. Mario Guzman,CRISIS,534,1,0.19,0.08,0.22
+Dr. Mario Guzman,AYUDA,534,0,0.0,0.0,0.0
+Dr. Mario Guzman,PIDE_TEMA,534,5,0.94,0.59,1.18
+Dr. Mario Guzman,GRATITUD,534,341,63.86,34.15,59.24
+Dr. Mario Guzman,CLARIDAD,534,37,6.93,3.86,6.39
+Dr. Mario Guzman,VOZ,534,4,0.75,5.07,1.38
+Dr. Mario Guzman,VOZ_POS,534,3,0.56,5.04,1.2
+Dr. Mario Guzman,VISUAL,534,1,0.19,0.12,0.25
+Dr. Mario Guzman,MINIATURA,534,0,0.0,0.0,0.0
+Dr. Mario Guzman,MUSICA,534,0,0.0,0.0,0.0
+Dr. Mario Guzman,CRIT_IA,534,0,0.0,0.0,0.0
+Dr. Mario Guzman,CRIT_EXACT,534,4,0.75,17.76,1.7
+Dr. Mario Guzman,CRIT_PATOLOG,534,0,0.0,0.0,0.0
+Dr. Mario Guzman,HOROSCOPO,534,0,0.0,0.0,0.0
+Dr. Mario Guzman,TERAPIA,534,70,13.11,38.25,18.93
+Dr. Mario Guzman,TER_POS,534,3,0.56,0.16,0.58
+Dr. Mario Guzman,TER_NEG,534,0,0.0,0.0,0.0
+Dr. Mario Guzman,TER_COSTO,534,0,0.0,0.0,0.0
+Dr. Mario Guzman,TER_MIEDO,534,1,0.19,0.7,0.42
+Dr. Mario Guzman,VIDEO_COMO_TERAPIA,534,1,0.19,0.04,0.18
+Dr. Mario Guzman,HUMOR,534,2,0.37,0.16,0.45
+Dr. Mario Guzman,COMUNIDAD,534,3,0.56,2.81,0.84
+Dr. Mario Guzman,FE,534,31,5.81,8.08,6.95
+Dr. Mario Guzman,FAMILIA,534,5,0.94,0.62,1.1
+Dr. Mario Guzman,PAREJA,534,5,0.94,0.31,0.97
+Dr. Mario Guzman,CRIT_FORMA,534,4,0.75,2.03,1.1
+Dr. Mario Guzman,ELOGIO_GEN,534,141,26.4,11.12,24.36
+Dr. Mario Guzman,HUMANO,534,10,1.87,2.89,2.09
+Escéptico,IDENT,752,25,3.32,5.87,4.49
+Escéptico,CONFESION,752,16,2.13,3.33,2.99
+Escéptico,CRISIS,752,3,0.4,0.1,0.41
+Escéptico,AYUDA,752,2,0.27,1.22,0.47
+Escéptico,PIDE_TEMA,752,4,0.53,0.19,0.75
+Escéptico,GRATITUD,752,158,21.01,2.65,16.16
+Escéptico,CLARIDAD,752,6,0.8,0.37,0.89
+Escéptico,VOZ,752,2,0.27,0.19,0.43
+Escéptico,VOZ_POS,752,0,0.0,0.0,0.0
+Escéptico,VISUAL,752,0,0.0,0.0,0.0
+Escéptico,MINIATURA,752,0,0.0,0.0,0.0
+Escéptico,MUSICA,752,0,0.0,0.0,0.0
+Escéptico,CRIT_IA,752,0,0.0,0.0,0.0
+Escéptico,CRIT_EXACT,752,5,0.66,0.08,0.61
+Escéptico,CRIT_PATOLOG,752,0,0.0,0.0,0.0
+Escéptico,HOROSCOPO,752,0,0.0,0.0,0.0
+Escéptico,TERAPIA,752,12,1.6,0.51,1.64
+Escéptico,TER_POS,752,2,0.27,0.36,0.39
+Escéptico,TER_NEG,752,0,0.0,0.0,0.0
+Escéptico,TER_COSTO,752,0,0.0,0.0,0.0
+Escéptico,TER_MIEDO,752,0,0.0,0.0,0.0
+Escéptico,VIDEO_COMO_TERAPIA,752,0,0.0,0.0,0.0
+Escéptico,HUMOR,752,15,1.99,0.7,1.96
+Escéptico,COMUNIDAD,752,20,2.66,7.83,3.23
+Escéptico,FE,752,55,7.31,5.19,7.88
+Escéptico,FAMILIA,752,22,2.93,2.35,3.48
+Escéptico,PAREJA,752,16,2.13,0.69,2.42
+Escéptico,CRIT_FORMA,752,8,1.06,0.27,1.06
+Escéptico,ELOGIO_GEN,752,50,6.65,1.06,5.48
+Escéptico,HUMANO,752,7,0.93,0.97,1.49
+Fanny Psiquiatra,IDENT,661,3,0.45,0.16,0.45
+Fanny Psiquiatra,CONFESION,661,30,4.54,4.9,5.02
+Fanny Psiquiatra,CRISIS,661,1,0.15,0.0,0.09
+Fanny Psiquiatra,AYUDA,661,5,0.76,0.07,0.6
+Fanny Psiquiatra,PIDE_TEMA,661,25,3.78,2.35,4.18
+Fanny Psiquiatra,GRATITUD,661,124,18.76,12.01,19.1
+Fanny Psiquiatra,CLARIDAD,661,6,0.91,2.04,1.04
+Fanny Psiquiatra,VOZ,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,VOZ_POS,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,VISUAL,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,MINIATURA,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,MUSICA,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,CRIT_IA,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,CRIT_EXACT,661,6,0.91,3.82,1.19
+Fanny Psiquiatra,CRIT_PATOLOG,661,2,0.3,0.0,0.18
+Fanny Psiquiatra,HOROSCOPO,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,TERAPIA,661,60,9.08,19.93,10.53
+Fanny Psiquiatra,TER_POS,661,2,0.3,0.0,0.18
+Fanny Psiquiatra,TER_NEG,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,TER_COSTO,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,TER_MIEDO,661,2,0.3,0.09,0.32
+Fanny Psiquiatra,VIDEO_COMO_TERAPIA,661,0,0.0,0.0,0.0
+Fanny Psiquiatra,HUMOR,661,12,1.82,0.4,1.55
+Fanny Psiquiatra,COMUNIDAD,661,2,0.3,0.56,0.46
+Fanny Psiquiatra,FE,661,23,3.48,1.69,3.62
+Fanny Psiquiatra,FAMILIA,661,14,2.12,2.2,2.3
+Fanny Psiquiatra,PAREJA,661,10,1.51,2.11,1.59
+Fanny Psiquiatra,CRIT_FORMA,661,1,0.15,0.07,0.21
+Fanny Psiquiatra,ELOGIO_GEN,661,27,4.08,3.52,5.05
+Fanny Psiquiatra,HUMANO,661,3,0.45,0.02,0.32
+Fernando Leiva - Psicólogo,IDENT,791,15,1.9,1.11,2.36
+Fernando Leiva - Psicólogo,CONFESION,791,16,2.02,1.92,2.73
+Fernando Leiva - Psicólogo,CRISIS,791,4,0.51,0.86,0.85
+Fernando Leiva - Psicólogo,AYUDA,791,2,0.25,0.01,0.15
+Fernando Leiva - Psicólogo,PIDE_TEMA,791,0,0.0,0.0,0.0
+Fernando Leiva - Psicólogo,GRATITUD,791,420,53.1,53.25,52.61
+Fernando Leiva - Psicólogo,CLARIDAD,791,8,1.01,0.22,0.87
+Fernando Leiva - Psicólogo,VOZ,791,3,0.38,0.1,0.36
+Fernando Leiva - Psicólogo,VOZ_POS,791,2,0.25,0.1,0.31
+Fernando Leiva - Psicólogo,VISUAL,791,0,0.0,0.0,0.0
+Fernando Leiva - Psicólogo,MINIATURA,791,0,0.0,0.0,0.0
+Fernando Leiva - Psicólogo,MUSICA,791,0,0.0,0.0,0.0
+Fernando Leiva - Psicólogo,CRIT_IA,791,0,0.0,0.0,0.0
+Fernando Leiva - Psicólogo,CRIT_EXACT,791,1,0.13,0.15,0.21
+Fernando Leiva - Psicólogo,CRIT_PATOLOG,791,0,0.0,0.0,0.0
+Fernando Leiva - Psicólogo,HOROSCOPO,791,1,0.13,0.55,0.27
+Fernando Leiva - Psicólogo,TERAPIA,791,93,11.76,13.56,13.49
+Fernando Leiva - Psicólogo,TER_POS,791,2,0.25,0.16,0.34
+Fernando Leiva - Psicólogo,TER_NEG,791,1,0.13,0.0,0.05
+Fernando Leiva - Psicólogo,TER_COSTO,791,1,0.13,0.02,0.13
+Fernando Leiva - Psicólogo,TER_MIEDO,791,1,0.13,0.13,0.2
+Fernando Leiva - Psicólogo,VIDEO_COMO_TERAPIA,791,0,0.0,0.0,0.0
+Fernando Leiva - Psicólogo,HUMOR,791,9,1.14,1.4,1.22
+Fernando Leiva - Psicólogo,COMUNIDAD,791,3,0.38,0.37,0.41
+Fernando Leiva - Psicólogo,FE,791,197,24.91,23.5,24.13
+Fernando Leiva - Psicólogo,FAMILIA,791,32,4.05,16.99,6.12
+Fernando Leiva - Psicólogo,PAREJA,791,56,7.08,9.79,8.57
+Fernando Leiva - Psicólogo,CRIT_FORMA,791,3,0.38,1.11,0.52
+Fernando Leiva - Psicólogo,ELOGIO_GEN,791,58,7.33,3.33,6.96
+Fernando Leiva - Psicólogo,HUMANO,791,8,1.01,0.57,1.01
+La Psicología Invisible,IDENT,1781,188,10.56,7.73,9.97
+La Psicología Invisible,CONFESION,1781,25,1.4,0.44,1.68
+La Psicología Invisible,CRISIS,1781,1,0.06,0.0,0.03
+La Psicología Invisible,AYUDA,1781,1,0.06,0.0,0.03
+La Psicología Invisible,PIDE_TEMA,1781,11,0.62,2.25,0.61
+La Psicología Invisible,GRATITUD,1781,286,16.06,1.73,11.58
+La Psicología Invisible,CLARIDAD,1781,17,0.95,0.04,0.62
+La Psicología Invisible,VOZ,1781,7,0.39,1.82,0.78
+La Psicología Invisible,VOZ_POS,1781,0,0.0,0.0,0.0
+La Psicología Invisible,VISUAL,1781,14,0.79,0.12,0.73
+La Psicología Invisible,MINIATURA,1781,0,0.0,0.0,0.0
+La Psicología Invisible,MUSICA,1781,0,0.0,0.0,0.0
+La Psicología Invisible,CRIT_IA,1781,10,0.56,1.57,0.75
+La Psicología Invisible,CRIT_EXACT,1781,10,0.56,0.15,0.58
+La Psicología Invisible,CRIT_PATOLOG,1781,0,0.0,0.0,0.0
+La Psicología Invisible,HOROSCOPO,1781,2,0.11,0.0,0.06
+La Psicología Invisible,TERAPIA,1781,35,1.97,0.42,1.81
+La Psicología Invisible,TER_POS,1781,4,0.22,0.0,0.16
+La Psicología Invisible,TER_NEG,1781,1,0.06,0.0,0.03
+La Psicología Invisible,TER_COSTO,1781,0,0.0,0.0,0.0
+La Psicología Invisible,TER_MIEDO,1781,1,0.06,0.03,0.12
+La Psicología Invisible,VIDEO_COMO_TERAPIA,1781,2,0.11,0.0,0.09
+La Psicología Invisible,HUMOR,1781,76,4.27,5.87,4.89
+La Psicología Invisible,COMUNIDAD,1781,29,1.63,4.67,1.85
+La Psicología Invisible,FE,1781,50,2.81,0.77,2.77
+La Psicología Invisible,FAMILIA,1781,164,9.21,11.95,10.27
+La Psicología Invisible,PAREJA,1781,44,2.47,1.83,1.95
+La Psicología Invisible,CRIT_FORMA,1781,14,0.79,0.33,0.84
+La Psicología Invisible,ELOGIO_GEN,1781,78,4.38,1.93,3.27
+La Psicología Invisible,HUMANO,1781,39,2.19,0.59,2.12
+Psi Mammoliti,IDENT,621,66,10.63,8.88,10.44
+Psi Mammoliti,CONFESION,621,43,6.92,1.04,5.7
+Psi Mammoliti,CRISIS,621,12,1.93,0.27,1.57
+Psi Mammoliti,AYUDA,621,2,0.32,0.0,0.19
+Psi Mammoliti,PIDE_TEMA,621,4,0.64,0.05,0.51
+Psi Mammoliti,GRATITUD,621,222,35.75,24.69,34.75
+Psi Mammoliti,CLARIDAD,621,14,2.25,0.16,1.77
+Psi Mammoliti,VOZ,621,3,0.48,0.13,0.61
+Psi Mammoliti,VOZ_POS,621,1,0.16,0.05,0.22
+Psi Mammoliti,VISUAL,621,3,0.48,0.27,0.54
+Psi Mammoliti,MINIATURA,621,0,0.0,0.0,0.0
+Psi Mammoliti,MUSICA,621,0,0.0,0.0,0.0
+Psi Mammoliti,CRIT_IA,621,0,0.0,0.0,0.0
+Psi Mammoliti,CRIT_EXACT,621,3,0.48,0.2,0.52
+Psi Mammoliti,CRIT_PATOLOG,621,0,0.0,0.0,0.0
+Psi Mammoliti,HOROSCOPO,621,1,0.16,0.0,0.09
+Psi Mammoliti,TERAPIA,621,122,19.65,14.97,18.95
+Psi Mammoliti,TER_POS,621,9,1.45,1.24,1.82
+Psi Mammoliti,TER_NEG,621,2,0.32,0.02,0.25
+Psi Mammoliti,TER_COSTO,621,4,0.64,0.95,0.75
+Psi Mammoliti,TER_MIEDO,621,0,0.0,0.0,0.0
+Psi Mammoliti,VIDEO_COMO_TERAPIA,621,1,0.16,0.04,0.2
+Psi Mammoliti,HUMOR,621,19,3.06,10.37,3.19
+Psi Mammoliti,COMUNIDAD,621,7,1.13,1.06,1.53
+Psi Mammoliti,FE,621,13,2.09,5.39,3.22
+Psi Mammoliti,FAMILIA,621,62,9.98,13.69,12.47
+Psi Mammoliti,PAREJA,621,36,5.8,6.86,5.96
+Psi Mammoliti,CRIT_FORMA,621,3,0.48,0.04,0.41
+Psi Mammoliti,ELOGIO_GEN,621,30,4.83,1.45,4.6
+Psi Mammoliti,HUMANO,621,10,1.61,0.45,1.52
+Psic. Hannah Anda,IDENT,557,21,3.77,1.28,3.54
+Psic. Hannah Anda,CONFESION,557,12,2.15,11.37,2.98
+Psic. Hannah Anda,CRISIS,557,0,0.0,0.0,0.0
+Psic. Hannah Anda,AYUDA,557,0,0.0,0.0,0.0
+Psic. Hannah Anda,PIDE_TEMA,557,3,0.54,0.0,0.36
+Psic. Hannah Anda,GRATITUD,557,259,46.5,6.8,37.23
+Psic. Hannah Anda,CLARIDAD,557,11,1.97,0.22,1.53
+Psic. Hannah Anda,VOZ,557,21,3.77,0.31,2.68
+Psic. Hannah Anda,VOZ_POS,557,17,3.05,2.4,2.42
+Psic. Hannah Anda,VISUAL,557,0,0.0,0.0,0.0
+Psic. Hannah Anda,MINIATURA,557,0,0.0,0.0,0.0
+Psic. Hannah Anda,MUSICA,557,0,0.0,0.0,0.0
+Psic. Hannah Anda,CRIT_IA,557,0,0.0,0.0,0.0
+Psic. Hannah Anda,CRIT_EXACT,557,0,0.0,0.0,0.0
+Psic. Hannah Anda,CRIT_PATOLOG,557,1,0.18,0.0,0.1
+Psic. Hannah Anda,HOROSCOPO,557,0,0.0,0.0,0.0
+Psic. Hannah Anda,TERAPIA,557,21,3.77,0.85,3.7
+Psic. Hannah Anda,TER_POS,557,5,0.9,0.08,0.93
+Psic. Hannah Anda,TER_NEG,557,0,0.0,0.0,0.0
+Psic. Hannah Anda,TER_COSTO,557,2,0.36,0.0,0.2
+Psic. Hannah Anda,TER_MIEDO,557,2,0.36,0.01,0.31
+Psic. Hannah Anda,VIDEO_COMO_TERAPIA,557,2,0.36,0.0,0.27
+Psic. Hannah Anda,HUMOR,557,16,2.87,0.27,2.86
+Psic. Hannah Anda,COMUNIDAD,557,4,0.72,0.69,1.18
+Psic. Hannah Anda,FE,557,18,3.23,3.76,4.05
+Psic. Hannah Anda,FAMILIA,557,8,1.44,0.27,1.45
+Psic. Hannah Anda,PAREJA,557,6,1.08,0.26,1.09
+Psic. Hannah Anda,CRIT_FORMA,557,7,1.26,0.07,1.26
+Psic. Hannah Anda,ELOGIO_GEN,557,36,6.46,0.63,4.89
+Psic. Hannah Anda,HUMANO,557,12,2.15,0.36,2.22
+Psicología Animada,IDENT,545,29,5.32,5.95,5.71
+Psicología Animada,CONFESION,545,108,19.82,30.54,22.86
+Psicología Animada,CRISIS,545,12,2.2,0.78,2.32
+Psicología Animada,AYUDA,545,3,0.55,0.05,0.49
+Psicología Animada,PIDE_TEMA,545,3,0.55,0.07,0.4
+Psicología Animada,GRATITUD,545,130,23.85,8.22,20.63
+Psicología Animada,CLARIDAD,545,7,1.28,0.18,1.13
+Psicología Animada,VOZ,545,1,0.18,0.04,0.22
+Psicología Animada,VOZ_POS,545,0,0.0,0.0,0.0
+Psicología Animada,VISUAL,545,5,0.92,0.05,0.68
+Psicología Animada,MINIATURA,545,0,0.0,0.0,0.0
+Psicología Animada,MUSICA,545,0,0.0,0.0,0.0
+Psicología Animada,CRIT_IA,545,0,0.0,0.0,0.0
+Psicología Animada,CRIT_EXACT,545,0,0.0,0.0,0.0
+Psicología Animada,CRIT_PATOLOG,545,1,0.18,0.03,0.21
+Psicología Animada,HOROSCOPO,545,0,0.0,0.0,0.0
+Psicología Animada,TERAPIA,545,36,6.61,6.52,6.84
+Psicología Animada,TER_POS,545,6,1.1,0.72,1.18
+Psicología Animada,TER_NEG,545,0,0.0,0.0,0.0
+Psicología Animada,TER_COSTO,545,0,0.0,0.0,0.0
+Psicología Animada,TER_MIEDO,545,0,0.0,0.0,0.0
+Psicología Animada,VIDEO_COMO_TERAPIA,545,0,0.0,0.0,0.0
+Psicología Animada,HUMOR,545,3,0.55,0.3,0.74
+Psicología Animada,COMUNIDAD,545,22,4.04,15.92,5.59
+Psicología Animada,FE,545,145,26.61,61.99,32.43
+Psicología Animada,FAMILIA,545,32,5.87,3.79,6.63
+Psicología Animada,PAREJA,545,17,3.12,4.41,3.37
+Psicología Animada,CRIT_FORMA,545,3,0.55,0.02,0.34
+Psicología Animada,ELOGIO_GEN,545,20,3.67,2.74,3.47
+Psicología Animada,HUMANO,545,4,0.73,2.12,1.28
+Psiconociendo | Isaac Toiz,IDENT,234,4,1.71,0.48,1.43
+Psiconociendo | Isaac Toiz,CONFESION,234,1,0.43,0.64,0.65
+Psiconociendo | Isaac Toiz,CRISIS,234,0,0.0,0.0,0.0
+Psiconociendo | Isaac Toiz,AYUDA,234,1,0.43,0.16,0.42
+Psiconociendo | Isaac Toiz,PIDE_TEMA,234,0,0.0,0.0,0.0
+Psiconociendo | Isaac Toiz,GRATITUD,234,26,11.11,15.54,13.07
+Psiconociendo | Isaac Toiz,CLARIDAD,234,5,2.14,4.49,2.99
+Psiconociendo | Isaac Toiz,VOZ,234,3,1.28,3.37,1.51
+Psiconociendo | Isaac Toiz,VOZ_POS,234,0,0.0,0.0,0.0
+Psiconociendo | Isaac Toiz,VISUAL,234,1,0.43,0.0,0.25
+Psiconociendo | Isaac Toiz,MINIATURA,234,0,0.0,0.0,0.0
+Psiconociendo | Isaac Toiz,MUSICA,234,1,0.43,0.0,0.25
+Psiconociendo | Isaac Toiz,CRIT_IA,234,1,0.43,0.0,0.25
+Psiconociendo | Isaac Toiz,CRIT_EXACT,234,2,0.85,0.16,0.67
+Psiconociendo | Isaac Toiz,CRIT_PATOLOG,234,1,0.43,0.8,0.69
+Psiconociendo | Isaac Toiz,HOROSCOPO,234,0,0.0,0.0,0.0
+Psiconociendo | Isaac Toiz,TERAPIA,234,2,0.85,5.77,1.39
+Psiconociendo | Isaac Toiz,TER_POS,234,1,0.43,5.77,1.14
+Psiconociendo | Isaac Toiz,TER_NEG,234,0,0.0,0.0,0.0
+Psiconociendo | Isaac Toiz,TER_COSTO,234,0,0.0,0.0,0.0
+Psiconociendo | Isaac Toiz,TER_MIEDO,234,0,0.0,0.0,0.0
+Psiconociendo | Isaac Toiz,VIDEO_COMO_TERAPIA,234,0,0.0,0.0,0.0
+Psiconociendo | Isaac Toiz,HUMOR,234,21,8.97,2.88,7.78
+Psiconociendo | Isaac Toiz,COMUNIDAD,234,1,0.43,0.48,0.59
+Psiconociendo | Isaac Toiz,FE,234,7,2.99,1.12,2.59
+Psiconociendo | Isaac Toiz,FAMILIA,234,7,2.99,0.64,2.42
+Psiconociendo | Isaac Toiz,PAREJA,234,13,5.56,3.85,5.86
+Psiconociendo | Isaac Toiz,CRIT_FORMA,234,1,0.43,0.0,0.25
+Psiconociendo | Isaac Toiz,ELOGIO_GEN,234,16,6.84,6.09,7.56
+Psiconociendo | Isaac Toiz,HUMANO,234,1,0.43,0.48,0.59
+Psicóloga Maria Paula,IDENT,84,2,2.38,8.26,4.7
+Psicóloga Maria Paula,CONFESION,84,1,1.19,0.0,0.72
+Psicóloga Maria Paula,CRISIS,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,AYUDA,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,PIDE_TEMA,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,GRATITUD,84,16,19.05,34.4,24.58
+Psicóloga Maria Paula,CLARIDAD,84,2,2.38,0.92,2.42
+Psicóloga Maria Paula,VOZ,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,VOZ_POS,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,VISUAL,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,MINIATURA,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,MUSICA,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,CRIT_IA,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,CRIT_EXACT,84,1,1.19,0.92,1.5
+Psicóloga Maria Paula,CRIT_PATOLOG,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,HOROSCOPO,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,TERAPIA,84,12,14.29,4.13,11.72
+Psicóloga Maria Paula,TER_POS,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,TER_NEG,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,TER_COSTO,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,TER_MIEDO,84,1,1.19,0.0,0.72
+Psicóloga Maria Paula,VIDEO_COMO_TERAPIA,84,1,1.19,0.0,0.72
+Psicóloga Maria Paula,HUMOR,84,2,2.38,5.5,3.27
+Psicóloga Maria Paula,COMUNIDAD,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,FE,84,1,1.19,0.92,1.5
+Psicóloga Maria Paula,FAMILIA,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,PAREJA,84,6,7.14,19.27,9.09
+Psicóloga Maria Paula,CRIT_FORMA,84,0,0.0,0.0,0.0
+Psicóloga Maria Paula,ELOGIO_GEN,84,4,4.76,2.75,4.8
+Psicóloga Maria Paula,HUMANO,84,0,0.0,0.0,0.0
+Psych2Go,IDENT,1,0,0.0,0.0,0.0
+Psych2Go,CONFESION,1,0,0.0,0.0,0.0
+Psych2Go,CRISIS,1,0,0.0,0.0,0.0
+Psych2Go,AYUDA,1,0,0.0,0.0,0.0
+Psych2Go,PIDE_TEMA,1,0,0.0,0.0,0.0
+Psych2Go,GRATITUD,1,0,0.0,0.0,0.0
+Psych2Go,CLARIDAD,1,0,0.0,0.0,0.0
+Psych2Go,VOZ,1,0,0.0,0.0,0.0
+Psych2Go,VOZ_POS,1,0,0.0,0.0,0.0
+Psych2Go,VISUAL,1,0,0.0,0.0,0.0
+Psych2Go,MINIATURA,1,0,0.0,0.0,0.0
+Psych2Go,MUSICA,1,0,0.0,0.0,0.0
+Psych2Go,CRIT_IA,1,0,0.0,0.0,0.0
+Psych2Go,CRIT_EXACT,1,0,0.0,0.0,0.0
+Psych2Go,CRIT_PATOLOG,1,0,0.0,0.0,0.0
+Psych2Go,HOROSCOPO,1,0,0.0,0.0,0.0
+Psych2Go,TERAPIA,1,0,0.0,0.0,0.0
+Psych2Go,TER_POS,1,0,0.0,0.0,0.0
+Psych2Go,TER_NEG,1,0,0.0,0.0,0.0
+Psych2Go,TER_COSTO,1,0,0.0,0.0,0.0
+Psych2Go,TER_MIEDO,1,0,0.0,0.0,0.0
+Psych2Go,VIDEO_COMO_TERAPIA,1,0,0.0,0.0,0.0
+Psych2Go,HUMOR,1,0,0.0,0.0,0.0
+Psych2Go,COMUNIDAD,1,0,0.0,0.0,0.0
+Psych2Go,FE,1,0,0.0,0.0,0.0
+Psych2Go,FAMILIA,1,0,0.0,0.0,0.0
+Psych2Go,PAREJA,1,0,0.0,0.0,0.0
+Psych2Go,CRIT_FORMA,1,0,0.0,0.0,0.0
+Psych2Go,ELOGIO_GEN,1,0,0.0,0.0,0.0
+Psych2Go,HUMANO,1,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,IDENT,337,18,5.34,1.24,4.88
+Psych2Go Español - Psicología Para Llevar,CONFESION,337,7,2.08,0.46,2.52
+Psych2Go Español - Psicología Para Llevar,CRISIS,337,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,AYUDA,337,1,0.3,0.0,0.23
+Psych2Go Español - Psicología Para Llevar,PIDE_TEMA,337,2,0.59,0.0,0.28
+Psych2Go Español - Psicología Para Llevar,GRATITUD,337,18,5.34,0.38,4.48
+Psych2Go Español - Psicología Para Llevar,CLARIDAD,337,1,0.3,0.0,0.08
+Psych2Go Español - Psicología Para Llevar,VOZ,337,3,0.89,1.98,1.16
+Psych2Go Español - Psicología Para Llevar,VOZ_POS,337,3,0.89,1.98,1.16
+Psych2Go Español - Psicología Para Llevar,VISUAL,337,1,0.3,0.1,0.46
+Psych2Go Español - Psicología Para Llevar,MINIATURA,337,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,MUSICA,337,1,0.3,0.02,0.32
+Psych2Go Español - Psicología Para Llevar,CRIT_IA,337,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,CRIT_EXACT,337,4,1.19,0.01,0.51
+Psych2Go Español - Psicología Para Llevar,CRIT_PATOLOG,337,1,0.3,0.0,0.16
+Psych2Go Español - Psicología Para Llevar,HOROSCOPO,337,2,0.59,0.0,0.21
+Psych2Go Español - Psicología Para Llevar,TERAPIA,337,1,0.3,0.0,0.21
+Psych2Go Español - Psicología Para Llevar,TER_POS,337,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,TER_NEG,337,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,TER_COSTO,337,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,TER_MIEDO,337,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,VIDEO_COMO_TERAPIA,337,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,HUMOR,337,34,10.09,2.31,9.16
+Psych2Go Español - Psicología Para Llevar,COMUNIDAD,337,8,2.37,2.43,2.75
+Psych2Go Español - Psicología Para Llevar,FE,337,3,0.89,0.06,0.93
+Psych2Go Español - Psicología Para Llevar,FAMILIA,337,6,1.78,2.58,2.5
+Psych2Go Español - Psicología Para Llevar,PAREJA,337,168,49.85,46.41,53.46
+Psych2Go Español - Psicología Para Llevar,CRIT_FORMA,337,0,0.0,0.0,0.0
+Psych2Go Español - Psicología Para Llevar,ELOGIO_GEN,337,2,0.59,0.01,0.36
+Psych2Go Español - Psicología Para Llevar,HUMANO,337,3,0.89,0.03,0.64
+Píldoras de Psicología,IDENT,571,15,2.63,1.62,3.07
+Píldoras de Psicología,CONFESION,571,92,16.11,29.84,19.21
+Píldoras de Psicología,CRISIS,571,13,2.28,0.88,2.6
+Píldoras de Psicología,AYUDA,571,7,1.23,0.22,1.49
+Píldoras de Psicología,PIDE_TEMA,571,5,0.88,0.12,0.94
+Píldoras de Psicología,GRATITUD,571,164,28.72,27.15,24.06
+Píldoras de Psicología,CLARIDAD,571,18,3.15,0.44,2.62
+Píldoras de Psicología,VOZ,571,1,0.18,0.01,0.18
+Píldoras de Psicología,VOZ_POS,571,0,0.0,0.0,0.0
+Píldoras de Psicología,VISUAL,571,0,0.0,0.0,0.0
+Píldoras de Psicología,MINIATURA,571,0,0.0,0.0,0.0
+Píldoras de Psicología,MUSICA,571,0,0.0,0.0,0.0
+Píldoras de Psicología,CRIT_IA,571,0,0.0,0.0,0.0
+Píldoras de Psicología,CRIT_EXACT,571,2,0.35,0.01,0.24
+Píldoras de Psicología,CRIT_PATOLOG,571,0,0.0,0.0,0.0
+Píldoras de Psicología,HOROSCOPO,571,0,0.0,0.0,0.0
+Píldoras de Psicología,TERAPIA,571,46,8.06,12.09,10.65
+Píldoras de Psicología,TER_POS,571,4,0.7,0.53,1.03
+Píldoras de Psicología,TER_NEG,571,1,0.18,0.02,0.21
+Píldoras de Psicología,TER_COSTO,571,6,1.05,0.15,1.05
+Píldoras de Psicología,TER_MIEDO,571,2,0.35,0.47,0.57
+Píldoras de Psicología,VIDEO_COMO_TERAPIA,571,0,0.0,0.0,0.0
+Píldoras de Psicología,HUMOR,571,10,1.75,2.94,1.77
+Píldoras de Psicología,COMUNIDAD,571,37,6.48,7.67,7.62
+Píldoras de Psicología,FE,571,63,11.03,26.64,11.83
+Píldoras de Psicología,FAMILIA,571,19,3.33,2.01,3.35
+Píldoras de Psicología,PAREJA,571,12,2.1,0.87,2.27
+Píldoras de Psicología,CRIT_FORMA,571,5,0.88,0.14,1.0
+Píldoras de Psicología,ELOGIO_GEN,571,36,6.3,0.87,5.57
+Píldoras de Psicología,HUMANO,571,6,1.05,1.28,1.35
+R&A Psicólogos | Centro Psicológico en CDMX,IDENT,529,27,5.1,17.89,5.61
+R&A Psicólogos | Centro Psicológico en CDMX,CONFESION,529,126,23.82,21.69,25.49
+R&A Psicólogos | Centro Psicológico en CDMX,CRISIS,529,28,5.29,8.38,5.66
+R&A Psicólogos | Centro Psicológico en CDMX,AYUDA,529,12,2.27,0.32,2.04
+R&A Psicólogos | Centro Psicológico en CDMX,PIDE_TEMA,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,GRATITUD,529,115,21.74,8.06,20.69
+R&A Psicólogos | Centro Psicológico en CDMX,CLARIDAD,529,2,0.38,0.04,0.35
+R&A Psicólogos | Centro Psicológico en CDMX,VOZ,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,VOZ_POS,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,VISUAL,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,MINIATURA,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,MUSICA,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,CRIT_IA,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,CRIT_EXACT,529,3,0.57,5.39,1.22
+R&A Psicólogos | Centro Psicológico en CDMX,CRIT_PATOLOG,529,1,0.19,0.0,0.1
+R&A Psicólogos | Centro Psicológico en CDMX,HOROSCOPO,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,TERAPIA,529,41,7.75,6.69,7.84
+R&A Psicólogos | Centro Psicológico en CDMX,TER_POS,529,3,0.57,0.13,0.58
+R&A Psicólogos | Centro Psicológico en CDMX,TER_NEG,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,TER_COSTO,529,2,0.38,0.04,0.35
+R&A Psicólogos | Centro Psicológico en CDMX,TER_MIEDO,529,2,0.38,5.05,1.09
+R&A Psicólogos | Centro Psicológico en CDMX,VIDEO_COMO_TERAPIA,529,0,0.0,0.0,0.0
+R&A Psicólogos | Centro Psicológico en CDMX,HUMOR,529,4,0.76,0.13,0.68
+R&A Psicólogos | Centro Psicológico en CDMX,COMUNIDAD,529,13,2.46,3.2,2.94
+R&A Psicólogos | Centro Psicológico en CDMX,FE,529,54,10.21,13.8,13.21
+R&A Psicólogos | Centro Psicológico en CDMX,FAMILIA,529,59,11.15,25.79,13.45
+R&A Psicólogos | Centro Psicológico en CDMX,PAREJA,529,38,7.18,0.76,5.66
+R&A Psicólogos | Centro Psicológico en CDMX,CRIT_FORMA,529,2,0.38,0.08,0.37
+R&A Psicólogos | Centro Psicológico en CDMX,ELOGIO_GEN,529,16,3.02,1.78,3.57
+R&A Psicólogos | Centro Psicológico en CDMX,HUMANO,529,1,0.19,0.06,0.24
+Sapiencia práctica,IDENT,802,27,3.37,4.04,3.34
+Sapiencia práctica,CONFESION,802,6,0.75,0.02,0.54
+Sapiencia práctica,CRISIS,802,0,0.0,0.0,0.0
+Sapiencia práctica,AYUDA,802,3,0.37,0.03,0.41
+Sapiencia práctica,PIDE_TEMA,802,6,0.75,1.04,0.95
+Sapiencia práctica,GRATITUD,802,46,5.74,4.32,4.89
+Sapiencia práctica,CLARIDAD,802,1,0.12,0.0,0.05
+Sapiencia práctica,VOZ,802,3,0.37,0.0,0.2
+Sapiencia práctica,VOZ_POS,802,0,0.0,0.0,0.0
+Sapiencia práctica,VISUAL,802,7,0.87,0.09,0.83
+Sapiencia práctica,MINIATURA,802,71,8.85,52.07,12.6
+Sapiencia práctica,MUSICA,802,0,0.0,0.0,0.0
+Sapiencia práctica,CRIT_IA,802,0,0.0,0.0,0.0
+Sapiencia práctica,CRIT_EXACT,802,3,0.37,0.01,0.26
+Sapiencia práctica,CRIT_PATOLOG,802,1,0.12,0.0,0.05
+Sapiencia práctica,HOROSCOPO,802,0,0.0,0.0,0.0
+Sapiencia práctica,TERAPIA,802,4,0.5,0.01,0.37
+Sapiencia práctica,TER_POS,802,2,0.25,0.0,0.11
+Sapiencia práctica,TER_NEG,802,0,0.0,0.0,0.0
+Sapiencia práctica,TER_COSTO,802,0,0.0,0.0,0.0
+Sapiencia práctica,TER_MIEDO,802,1,0.12,0.0,0.05
+Sapiencia práctica,VIDEO_COMO_TERAPIA,802,0,0.0,0.0,0.0
+Sapiencia práctica,HUMOR,802,72,8.98,8.99,10.41
+Sapiencia práctica,COMUNIDAD,802,5,0.62,1.11,1.03
+Sapiencia práctica,FE,802,8,1.0,0.39,0.99
+Sapiencia práctica,FAMILIA,802,21,2.62,3.84,2.45
+Sapiencia práctica,PAREJA,802,67,8.35,7.4,9.69
+Sapiencia práctica,CRIT_FORMA,802,1,0.12,0.03,0.2
+Sapiencia práctica,ELOGIO_GEN,802,8,1.0,0.13,1.1
+Sapiencia práctica,HUMANO,802,6,0.75,0.01,0.43
+Serious Psychology with Guillermo Orozco,IDENT,762,6,0.79,0.07,0.66
+Serious Psychology with Guillermo Orozco,CONFESION,762,23,3.02,8.43,4.59
+Serious Psychology with Guillermo Orozco,CRISIS,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,AYUDA,762,2,0.26,0.0,0.15
+Serious Psychology with Guillermo Orozco,PIDE_TEMA,762,4,0.52,0.13,0.59
+Serious Psychology with Guillermo Orozco,GRATITUD,762,381,50.0,42.94,49.53
+Serious Psychology with Guillermo Orozco,CLARIDAD,762,1,0.13,0.0,0.08
+Serious Psychology with Guillermo Orozco,VOZ,762,10,1.31,0.99,1.93
+Serious Psychology with Guillermo Orozco,VOZ_POS,762,8,1.05,0.49,1.24
+Serious Psychology with Guillermo Orozco,VISUAL,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,MINIATURA,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,MUSICA,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,CRIT_IA,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,CRIT_EXACT,762,1,0.13,0.0,0.08
+Serious Psychology with Guillermo Orozco,CRIT_PATOLOG,762,1,0.13,0.38,0.34
+Serious Psychology with Guillermo Orozco,HOROSCOPO,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,TERAPIA,762,13,1.71,14.87,2.91
+Serious Psychology with Guillermo Orozco,TER_POS,762,4,0.52,0.05,0.5
+Serious Psychology with Guillermo Orozco,TER_NEG,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,TER_COSTO,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,TER_MIEDO,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,VIDEO_COMO_TERAPIA,762,0,0.0,0.0,0.0
+Serious Psychology with Guillermo Orozco,HUMOR,762,21,2.76,0.11,1.98
+Serious Psychology with Guillermo Orozco,COMUNIDAD,762,5,0.66,2.14,1.13
+Serious Psychology with Guillermo Orozco,FE,762,29,3.81,16.63,5.33
+Serious Psychology with Guillermo Orozco,FAMILIA,762,15,1.97,5.13,3.02
+Serious Psychology with Guillermo Orozco,PAREJA,762,32,4.2,2.22,4.45
+Serious Psychology with Guillermo Orozco,CRIT_FORMA,762,2,0.26,0.12,0.34
+Serious Psychology with Guillermo Orozco,ELOGIO_GEN,762,51,6.69,2.52,5.96
+Serious Psychology with Guillermo Orozco,HUMANO,762,10,1.31,0.62,1.4
+Sprouts,IDENT,1,0,0.0,0.0,0.0
+Sprouts,CONFESION,1,0,0.0,0.0,0.0
+Sprouts,CRISIS,1,0,0.0,0.0,0.0
+Sprouts,AYUDA,1,0,0.0,0.0,0.0
+Sprouts,PIDE_TEMA,1,0,0.0,0.0,0.0
+Sprouts,GRATITUD,1,0,0.0,0.0,0.0
+Sprouts,CLARIDAD,1,0,0.0,0.0,0.0
+Sprouts,VOZ,1,0,0.0,0.0,0.0
+Sprouts,VOZ_POS,1,0,0.0,0.0,0.0
+Sprouts,VISUAL,1,0,0.0,0.0,0.0
+Sprouts,MINIATURA,1,0,0.0,0.0,0.0
+Sprouts,MUSICA,1,0,0.0,0.0,0.0
+Sprouts,CRIT_IA,1,0,0.0,0.0,0.0
+Sprouts,CRIT_EXACT,1,0,0.0,0.0,0.0
+Sprouts,CRIT_PATOLOG,1,0,0.0,0.0,0.0
+Sprouts,HOROSCOPO,1,0,0.0,0.0,0.0
+Sprouts,TERAPIA,1,0,0.0,0.0,0.0
+Sprouts,TER_POS,1,0,0.0,0.0,0.0
+Sprouts,TER_NEG,1,0,0.0,0.0,0.0
+Sprouts,TER_COSTO,1,0,0.0,0.0,0.0
+Sprouts,TER_MIEDO,1,0,0.0,0.0,0.0
+Sprouts,VIDEO_COMO_TERAPIA,1,0,0.0,0.0,0.0
+Sprouts,HUMOR,1,0,0.0,0.0,0.0
+Sprouts,COMUNIDAD,1,0,0.0,0.0,0.0
+Sprouts,FE,1,0,0.0,0.0,0.0
+Sprouts,FAMILIA,1,0,0.0,0.0,0.0
+Sprouts,PAREJA,1,0,0.0,0.0,0.0
+Sprouts,CRIT_FORMA,1,0,0.0,0.0,0.0
+Sprouts,ELOGIO_GEN,1,0,0.0,0.0,0.0
+Sprouts,HUMANO,1,0,0.0,0.0,0.0
+Sprouts Español,IDENT,558,22,3.94,2.14,4.61
+Sprouts Español,CONFESION,558,33,5.91,1.33,6.35
+Sprouts Español,CRISIS,558,7,1.25,0.93,1.67
+Sprouts Español,AYUDA,558,0,0.0,0.0,0.0
+Sprouts Español,PIDE_TEMA,558,1,0.18,0.01,0.22
+Sprouts Español,GRATITUD,558,59,10.57,2.25,9.81
+Sprouts Español,CLARIDAD,558,3,0.54,0.11,0.57
+Sprouts Español,VOZ,558,1,0.18,0.0,0.12
+Sprouts Español,VOZ_POS,558,0,0.0,0.0,0.0
+Sprouts Español,VISUAL,558,4,0.72,0.6,1.06
+Sprouts Español,MINIATURA,558,0,0.0,0.0,0.0
+Sprouts Español,MUSICA,558,0,0.0,0.0,0.0
+Sprouts Español,CRIT_IA,558,0,0.0,0.0,0.0
+Sprouts Español,CRIT_EXACT,558,6,1.08,0.12,0.98
+Sprouts Español,CRIT_PATOLOG,558,0,0.0,0.0,0.0
+Sprouts Español,HOROSCOPO,558,0,0.0,0.0,0.0
+Sprouts Español,TERAPIA,558,25,4.48,2.66,4.74
+Sprouts Español,TER_POS,558,4,0.72,1.05,1.06
+Sprouts Español,TER_NEG,558,1,0.18,0.0,0.15
+Sprouts Español,TER_COSTO,558,0,0.0,0.0,0.0
+Sprouts Español,TER_MIEDO,558,4,0.72,0.03,0.75
+Sprouts Español,VIDEO_COMO_TERAPIA,558,0,0.0,0.0,0.0
+Sprouts Español,HUMOR,558,25,4.48,6.51,6.06
+Sprouts Español,COMUNIDAD,558,7,1.25,3.19,2.02
+Sprouts Español,FE,558,22,3.94,1.72,4.56
+Sprouts Español,FAMILIA,558,167,29.93,24.41,35.3
+Sprouts Español,PAREJA,558,24,4.3,1.48,4.55
+Sprouts Español,CRIT_FORMA,558,14,2.51,0.64,2.39
+Sprouts Español,ELOGIO_GEN,558,18,3.23,0.32,2.99
+Sprouts Español,HUMANO,558,10,1.79,0.24,2.19
+The School of Life,IDENT,1,0,0.0,0.0,0.0
+The School of Life,CONFESION,1,0,0.0,0.0,0.0
+The School of Life,CRISIS,1,0,0.0,0.0,0.0
+The School of Life,AYUDA,1,0,0.0,0.0,0.0
+The School of Life,PIDE_TEMA,1,0,0.0,0.0,0.0
+The School of Life,GRATITUD,1,0,0.0,0.0,0.0
+The School of Life,CLARIDAD,1,0,0.0,0.0,0.0
+The School of Life,VOZ,1,0,0.0,0.0,0.0
+The School of Life,VOZ_POS,1,0,0.0,0.0,0.0
+The School of Life,VISUAL,1,0,0.0,0.0,0.0
+The School of Life,MINIATURA,1,0,0.0,0.0,0.0
+The School of Life,MUSICA,1,0,0.0,0.0,0.0
+The School of Life,CRIT_IA,1,0,0.0,0.0,0.0
+The School of Life,CRIT_EXACT,1,0,0.0,0.0,0.0
+The School of Life,CRIT_PATOLOG,1,0,0.0,0.0,0.0
+The School of Life,HOROSCOPO,1,0,0.0,0.0,0.0
+The School of Life,TERAPIA,1,0,0.0,0.0,0.0
+The School of Life,TER_POS,1,0,0.0,0.0,0.0
+The School of Life,TER_NEG,1,0,0.0,0.0,0.0
+The School of Life,TER_COSTO,1,0,0.0,0.0,0.0
+The School of Life,TER_MIEDO,1,0,0.0,0.0,0.0
+The School of Life,VIDEO_COMO_TERAPIA,1,0,0.0,0.0,0.0
+The School of Life,HUMOR,1,0,0.0,0.0,0.0
+The School of Life,COMUNIDAD,1,0,0.0,0.0,0.0
+The School of Life,FE,1,0,0.0,0.0,0.0
+The School of Life,FAMILIA,1,0,0.0,0.0,0.0
+The School of Life,PAREJA,1,0,0.0,0.0,0.0
+The School of Life,CRIT_FORMA,1,0,0.0,0.0,0.0
+The School of Life,ELOGIO_GEN,1,1,100.0,100.0,100.0
+The School of Life,HUMANO,1,0,0.0,0.0,0.0

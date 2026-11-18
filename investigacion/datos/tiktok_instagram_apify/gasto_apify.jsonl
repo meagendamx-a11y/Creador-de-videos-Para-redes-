@@ -1,0 +1,12 @@
+{"ts": "test", "actor": "clockworks~tiktok-scraper", "run": "c9sJ5dSoBhcgXUvgj", "status": "SUCCEEDED", "items": 3, "usd": 0.0121, "events": {"result": 3, "actor-start": 1}, "out": "tt_test.json"}
+{"ts": "03:14:04", "actor": "clockworks~tiktok-scraper", "run": "fdyKWT7iHl7r62t1E", "status": "SUCCEEDED", "items": 96, "usd": 0.3562, "events": {"result": 96, "actor-start": 1}, "out": "tt_hashtags.json"}
+{"ts": "03:15:14", "actor": "clockworks~tiktok-scraper", "run": "TCH1fKxuLgPhdFl28", "status": "SUCCEEDED", "items": 24, "usd": 0.0898, "events": {"result": 24, "actor-start": 1}, "out": "tt_search.json"}
+{"ts": "03:16:58", "actor": "clockworks~tiktok-scraper", "run": "IEeinwsSFbsh4hqOA", "status": "SUCCEEDED", "items": 255, "usd": 0.9445, "events": {"result": 255, "actor-start": 1}, "out": "tt_profiles.json"}
+{"ts": "03:20:37", "actor": "clockworks~tiktok-comments-scraper", "run": "c81og75JA8pUe6Daz", "status": "SUCCEEDED", "items": 5, "usd": 0.00625, "events": {"result": 5}, "out": "tt_comments_test.json"}
+{"ts": "03:22:59", "actor": "clockworks~tiktok-comments-scraper", "run": "IWcvkOARfoXVlhLgn", "status": "SUCCEEDED", "items": 1112, "usd": 1.3900000000000001, "events": {"result": 1112}, "out": "tt_comments.json"}
+{"ts": "03:24:00", "actor": "apify~instagram-scraper", "run": "fUiFE5zGTmjH54Eqh", "status": "SUCCEEDED", "items": 2, "usd": 0.0054, "events": {"result": 2}, "out": "ig_details_test.json"}
+{"ts": "03:24:59", "actor": "apify~instagram-scraper", "run": "zFfCMHjGZpyEecb0f", "status": "SUCCEEDED", "items": 13, "usd": 0.0351, "events": {"result": 13}, "out": "ig_details.json"}
+{"ts": "03:26:04", "actor": "apify~instagram-scraper", "run": "qbeayKCGDuwuN9mcq", "status": "SUCCEEDED", "items": 2, "usd": 0.0054, "events": {"result": 2}, "out": "ig_posts_test.json"}
+{"ts": "03:27:44", "actor": "apify~instagram-scraper", "run": "m71ve5H7PBtsQWNK9", "status": "SUCCEEDED", "items": 170, "usd": 0.459, "events": {"result": 170}, "out": "ig_posts.json"}
+{"ts": "03:28:51", "actor": "apify~instagram-comment-scraper", "run": "u68RPe99TK64dmj0O", "status": "SUCCEEDED", "items": 3, "usd": 0.0078, "events": {"comment": 3}, "out": "ig_comments_test.json"}
+{"ts": "03:29:36", "actor": "apify~instagram-comment-scraper", "run": "sqxGnInm9uSSlTwlI", "status": "SUCCEEDED", "items": 165, "usd": 0.429, "events": {"comment": 165}, "out": "ig_comments.json"}

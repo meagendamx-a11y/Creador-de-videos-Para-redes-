@@ -1,0 +1,42 @@
+termino,grupo,G_12m_idx,G_5y_idx,G_yoy_%,G_5a_%,YT_12m_idx,YT_5y_idx,YT_yoy_%,YT_5a_%
+ansiedad,emociones,656.7,818.5,-5.0,-33.0,2961.9,2821.3,-35.0,89.0
+adolescentes,familia,610.1,838.1,-12.0,-42.0,1788.8,2049.1,-12.0,-26.0
+personalidad,autoconocimiento,352.8,487.3,-7.0,-48.0,500.2,360.6,84.0,57.0
+soledad,emociones,336.9,378.0,-9.0,-12.0,2703.8,3522.3,-3.0,-14.0
+autismo,neurodivergencia,291.6,296.4,-3.0,3.0,273.2,235.4,2.0,76.0
+divorcio,familia,288.8,302.5,2.0,-7.0,711.5,576.2,7.0,28.0
+tdah,neurodivergencia,253.4,267.5,-6.0,9.0,219.7,174.2,1.0,226.0
+duelo,relaciones,243.4,234.9,7.0,7.0,3646.2,3733.1,-3.0,-12.0
+depresión,emociones,191.1,240.5,4.0,-39.0,406.7,330.7,43.0,84.0
+salud mental,terapia,181.2,231.3,-19.0,-28.0,126.1,131.6,-6.0,55.0
+estrés,emociones,174.8,159.3,23.0,0.0,173.3,196.2,5.0,-22.0
+ira,emociones,167.4,155.4,16.0,5.0,536.2,545.7,-4.0,-11.0
+trauma,autoconocimiento,146.5,125.6,28.0,17.0,183.2,152.5,11.0,60.0
+tristeza,emociones,142.1,200.9,-9.0,-42.0,1822.8,1954.7,-6.0,-21.0
+narcisista,relaciones,118.5,182.3,-8.0,-48.0,345.7,388.2,-13.0,23.0
+psiquiatra,terapia,115.3,115.0,5.0,6.0,387.9,466.4,-10.0,5.0
+psicólogo,terapia (ancla),100.0,100.0,10.0,-3.0,100.0,100.0,2.0,18.0
+apego,relaciones,96.6,117.9,-3.0,-6.0,130.6,114.4,6.0,64.0
+celos,relaciones,94.0,106.6,3.0,-28.0,1206.7,1467.5,-8.0,-27.0
+autoestima,autoconocimiento,92.5,154.9,-19.0,-62.0,214.0,298.9,-17.0,-37.0
+infidelidad,relaciones,89.6,102.6,2.0,-23.0,467.3,552.7,-7.0,-23.0
+insomnio,emociones,87.2,102.5,-1.0,-29.0,947.6,517.7,48.0,351.0
+burnout,trabajo,78.0,71.6,19.0,4.0,161.5,149.5,4.0,38.0
+ruptura,relaciones,77.1,79.3,9.0,-9.0,176.8,154.0,26.0,31.0
+crianza,familia,57.3,62.8,-13.0,-4.0,97.8,91.0,5.0,36.0
+inteligencia emocional,autoconocimiento,47.2,85.3,-25.0,-55.0,55.2,82.1,-27.0,-40.0
+test de personalidad,autoconocimiento,22.0,79.5,-67.0,-86.0,2.6,12.8,-70.0,-88.0
+introvertido,autoconocimiento,21.8,33.9,-78.0,-96.0,7.9,12.7,-46.0,-14.0
+tdah adultos,neurodivergencia,17.4,19.4,-17.0,13.0,26.6,18.9,-10.0,338.0
+dependencia emocional,relaciones,10.7,21.3,-14.0,-65.0,20.1,29.1,-29.0,-23.0
+terapia psicológica,terapia,7.0,8.2,-2.0,-2.0,0.1,0.4,-100.0,-100.0
+autismo adultos,neurodivergencia,7.0,3.8,-44.0,100.0,3.1,1.5,20.0,1100.0
+estrés laboral,trabajo,6.6,6.1,10.0,-8.0,0.0,0.1,-100.0,
+ataque de pánico,emociones,3.4,3.5,62.0,-7.0,0.4,0.2,,-100.0
+síndrome del impostor,trabajo,1.4,2.1,137.0,-30.0,0.8,0.3,150.0,150.0
+relación tóxica,relaciones,0.5,1.8,100.0,-83.0,0.0,1.0,-100.0,
+padres tóxicos,familia,0.0,0.0,,,0.0,0.0,,
+jefe tóxico,trabajo,0.0,0.0,,,0.0,0.2,,-100.0
+terapia en línea,terapia,0.0,0.0,,,0.0,0.0,,
+psicólogo cerca de mí,terapia,0.0,0.0,,,0.0,0.0,,
+cuánto cuesta un psicólogo,terapia,0.0,0.0,,,0.3,0.1,,

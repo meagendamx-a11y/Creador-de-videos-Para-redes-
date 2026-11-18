@@ -1,0 +1,528 @@
+
+== THEME primary es long: n=8238 top-decile n=825 (local_score >= 5.19)
+cat                              n  share topshr  lift med_ls p90_ls
+inteligencia                   163   2.0%   2.9%  1.47   1.10   9.76
+rasgos_cotidianos              266   3.2%   4.4%  1.35   1.06  10.07
+apego                          642   7.8%  10.1%  1.29   1.31   6.80
+social_comunicacion            280   3.4%   4.2%  1.25   0.96   7.33
+trastornos_salud_mental        543   6.6%   7.5%  1.14   0.97   6.34
+psicologia_oscura              307   3.7%   4.1%  1.11   1.09   5.83
+toxico_narcisismo              904  11.0%  12.1%  1.10   1.08   5.54
+amor_pareja                    903  11.0%  11.6%  1.06   1.06   5.55
+cerebro_cuerpo_sueno           179   2.2%   2.2%  1.00   0.81   5.09
+personalidad_tipos             389   4.7%   4.6%  0.98   1.00   5.04
+trauma_heridas                  98   1.2%   1.1%  0.92   0.92   4.35
+otro                          2701  32.8%  28.8%  0.88   0.93   4.55
+emociones                      360   4.4%   3.5%  0.80   0.97   4.36
+autoayuda_desarrollo           237   2.9%   1.5%  0.51   0.80   3.28
+familia_infancia               230   2.8%   1.2%  0.43   0.77   3.33
+generaciones_nostalgia          36   0.4%   0.1%  0.28   0.83   1.96
+
+== THEME any-tag es long: n=8238 top-decile n=825 (local_score >= 5.19)
+cat                              n  share topshr  lift med_ls p90_ls
+inteligencia                   188   2.3%   3.4%  1.49   1.10   9.52
+trauma_heridas                 134   1.6%   2.2%  1.34   0.99   7.19
+rasgos_cotidianos              458   5.6%   7.0%  1.26   1.02   7.62
+apego                          668   8.1%  10.1%  1.24   1.26   6.62
+amor_pareja                   1281  15.5%  17.2%  1.11   1.06   5.68
+toxico_narcisismo              957  11.6%  12.8%  1.11   1.09   5.60
+psicologia_oscura              307   3.7%   4.1%  1.11   1.09   5.83
+trastornos_salud_mental        607   7.4%   8.0%  1.09   0.97   6.06
+social_comunicacion            478   5.8%   6.2%  1.07   1.00   5.56
+cerebro_cuerpo_sueno           239   2.9%   2.8%  0.96   0.89   4.88
+emociones                      662   8.0%   7.4%  0.92   1.04   4.81
+personalidad_tipos             541   6.6%   5.9%  0.90   1.00   4.93
+otro                          2701  32.8%  28.8%  0.88   0.93   4.55
+autoayuda_desarrollo           485   5.9%   5.1%  0.86   0.89   4.53
+familia_infancia               348   4.2%   2.4%  0.57   0.83   3.33
+generaciones_nostalgia          37   0.4%   0.1%  0.27   0.88   2.18
+
+== TEMPLATE es long: n=8238 top-decile n=825 (local_score >= 5.19)
+cat                              n  share topshr  lift med_ls p90_ls
+explicado_en_N_min              51   0.6%   2.1%  3.33   2.06  25.14
+psicologia_de_personas_que     308   3.7%   6.1%  1.62   1.23  13.02
+lista_senales                  440   5.3%   8.2%  1.54   1.16   8.96
+que_es                         181   2.2%   3.2%  1.43   1.04   7.86
+psicologia_de_X                173   2.1%   2.7%  1.27   1.04   6.15
+lista_numerada                 885  10.7%  12.7%  1.18   1.02   5.80
+test_quiz                       77   0.9%   1.1%  1.17   1.17   6.67
+si_tu_condicional               27   0.3%   0.4%  1.11   1.44   3.43
+como_hacer                     757   9.2%   9.2%  1.00   0.96   5.08
+por_que                        656   8.0%   7.8%  0.97   1.00   4.90
+otro                          4559  55.3%  45.6%  0.82   0.96   4.38
+que_dice_de_ti                 113   1.4%   1.0%  0.71   0.82   4.52
+
+== THEME primary es long ULTIMOS 12M: n=3837 top-decile n=385 (local_score >= 4.40)
+cat                              n  share topshr  lift med_ls p90_ls
+inteligencia                   105   2.7%   5.7%  2.09   1.10  12.64
+rasgos_cotidianos              242   6.3%  10.6%  1.69   1.09  10.19
+social_comunicacion            177   4.6%   7.3%  1.58   1.00   8.04
+trastornos_salud_mental        198   5.2%   6.2%  1.21   0.97   4.70
+personalidad_tipos             291   7.6%   8.3%  1.10   1.05   4.80
+psicologia_oscura              215   5.6%   5.5%  0.97   1.09   4.13
+emociones                      168   4.4%   4.2%  0.95   1.02   4.17
+otro                          1372  35.8%  32.7%  0.92   0.99   4.06
+amor_pareja                    350   9.1%   8.1%  0.88   1.06   3.85
+cerebro_cuerpo_sueno           100   2.6%   2.1%  0.80   0.76   3.41
+trauma_heridas                  53   1.4%   1.0%  0.75   0.80   3.33
+apego                          174   4.5%   2.9%  0.63   1.14   3.27
+generaciones_nostalgia          33   0.9%   0.5%  0.60   0.79   1.96
+toxico_narcisismo              153   4.0%   2.3%  0.59   0.92   2.88
+familia_infancia               135   3.5%   1.8%  0.52   0.75   2.32
+autoayuda_desarrollo            71   1.9%   0.8%  0.42   0.80   2.35
+
+== TEMPLATE es long ULTIMOS 12M: n=3837 top-decile n=385 (local_score >= 4.40)
+cat                              n  share topshr  lift med_ls p90_ls
+explicado_en_N_min              43   1.1%   4.2%  3.71   2.45  25.14
+test_quiz                       37   1.0%   2.1%  2.15   1.27  10.00
+psicologia_de_personas_que     297   7.7%  14.8%  1.91   1.30  14.24
+lista_senales                  170   4.4%   7.0%  1.58   1.11   8.17
+psicologia_de_X                153   4.0%   5.7%  1.43   1.12   7.12
+que_dice_de_ti                  67   1.7%   1.8%  1.04   0.81   3.30
+lista_numerada                 281   7.3%   7.0%  0.96   0.96   3.93
+si_tu_condicional               21   0.5%   0.5%  0.95   1.06   3.33
+por_que                        430  11.2%  10.4%  0.93   0.96   4.10
+que_es                          39   1.0%   0.8%  0.77   0.86   2.07
+otro                          2069  53.9%  41.3%  0.77   0.97   3.63
+como_hacer                     227   5.9%   4.2%  0.70   0.89   3.29
+
+== THEME primary es short: n=2769 top-decile n=278 (local_score >= 2.87)
+cat                              n  share topshr  lift med_ls p90_ls
+inteligencia                    22   0.8%   2.2%  2.72   1.25   6.75
+personalidad_tipos              15   0.5%   1.1%  1.99   1.22   3.48
+familia_infancia                59   2.1%   4.0%  1.86   0.91   3.67
+psicologia_oscura               24   0.9%   1.4%  1.66   1.31   3.04
+trastornos_salud_mental        178   6.4%   7.2%  1.12   0.95   2.93
+toxico_narcisismo              125   4.5%   5.0%  1.12   0.93   2.95
+apego                          321  11.6%  12.6%  1.09   1.11   3.27
+amor_pareja                   1119  40.4%  42.4%  1.05   1.03   3.01
+emociones                       77   2.8%   2.9%  1.03   0.96   2.64
+cerebro_cuerpo_sueno            29   1.0%   1.1%  1.03   0.97   2.12
+social_comunicacion             49   1.8%   1.8%  1.02   0.98   2.81
+rasgos_cotidianos               10   0.4%   0.4%  1.00   0.79   2.06
+otro                           643  23.2%  16.2%  0.70   0.95   2.25
+autoayuda_desarrollo            49   1.8%   1.1%  0.61   0.91   1.75
+trauma_heridas                  45   1.6%   0.7%  0.44   0.92   1.48
+
+== TEMPLATE es short: n=2769 top-decile n=278 (local_score >= 2.87)
+cat                              n  share topshr  lift med_ls p90_ls
+como_hacer                     488  17.6%  23.0%  1.31   0.96   3.44
+que_es                         101   3.6%   4.7%  1.28   1.14   2.96
+por_que                        124   4.5%   4.7%  1.04   1.15   2.79
+lista_senales                   29   1.0%   1.1%  1.03   1.20   2.46
+otro                          1940  70.1%  64.4%  0.92   0.99   2.70
+lista_numerada                  47   1.7%   1.4%  0.85   1.06   2.00
+si_tu_condicional               22   0.8%   0.4%  0.45   1.04   1.48
+
+== THEME primary en long: n=5290 top-decile n=532 (local_score >= 5.80)
+cat                              n  share topshr  lift med_ls p90_ls
+apego                           38   0.7%   1.5%  2.09   1.58   8.20
+rasgos_cotidianos              202   3.8%   6.8%  1.77   1.24  11.86
+cerebro_cuerpo_sueno           135   2.6%   3.9%  1.55   0.99   8.70
+inteligencia                   146   2.8%   4.1%  1.50   1.13   7.85
+amor_pareja                    974  18.4%  26.1%  1.42   1.46   7.40
+personalidad_tipos             138   2.6%   3.6%  1.37   1.15   8.67
+trastornos_salud_mental        509   9.6%  10.0%  1.04   1.04   6.17
+trauma_heridas                 135   2.6%   2.6%  1.03   1.00   5.51
+psicologia_oscura               50   0.9%   0.9%  0.99   0.81   5.69
+generaciones_nostalgia          21   0.4%   0.4%  0.95   0.51   1.63
+toxico_narcisismo              283   5.3%   4.7%  0.88   1.06   5.16
+familia_infancia               154   2.9%   2.4%  0.84   0.98   4.78
+otro                          1778  33.6%  24.8%  0.74   0.79   4.26
+social_comunicacion            189   3.6%   2.6%  0.74   0.92   5.18
+emociones                      216   4.1%   2.4%  0.60   0.90   3.81
+autoayuda_desarrollo           322   6.1%   3.0%  0.49   0.80   3.83
+
+== THEME any-tag en long: n=5290 top-decile n=532 (local_score >= 5.80)
+cat                              n  share topshr  lift med_ls p90_ls
+apego                           38   0.7%   1.5%  2.09   1.58   8.20
+rasgos_cotidianos              357   6.7%  10.2%  1.50   1.17   9.68
+inteligencia                   165   3.1%   4.5%  1.45   1.16   7.85
+amor_pareja                   1120  21.2%  30.1%  1.42   1.38   7.28
+cerebro_cuerpo_sueno           200   3.8%   4.9%  1.29   0.99   8.17
+personalidad_tipos             220   4.2%   5.1%  1.22   1.17   6.80
+trastornos_salud_mental        524   9.9%  10.0%  1.01   1.04   5.65
+psicologia_oscura               50   0.9%   0.9%  0.99   0.81   5.69
+trauma_heridas                 141   2.7%   2.6%  0.99   1.00   5.51
+generaciones_nostalgia          22   0.4%   0.4%  0.90   0.52   1.63
+toxico_narcisismo              289   5.5%   4.9%  0.89   1.07   5.25
+social_comunicacion            327   6.2%   5.1%  0.82   1.03   5.18
+familia_infancia               257   4.9%   3.9%  0.81   1.07   5.17
+autoayuda_desarrollo           619  11.7%   8.8%  0.76   0.97   4.67
+otro                          1778  33.6%  24.8%  0.74   0.79   4.26
+emociones                      336   6.4%   4.3%  0.68   0.98   4.28
+
+== TEMPLATE en long: n=5290 top-decile n=532 (local_score >= 5.80)
+cat                              n  share topshr  lift med_ls p90_ls
+psicologia_de_X                124   2.3%   4.7%  2.00   1.03  11.75
+que_es                         101   1.9%   3.4%  1.77   1.28   9.21
+psicologia_de_personas_que     167   3.2%   5.5%  1.73   1.22  18.55
+test_quiz                       75   1.4%   2.4%  1.72   1.08   8.67
+lista_senales                  847  16.0%  19.5%  1.22   1.19   7.04
+lista_numerada                1298  24.5%  27.4%  1.12   1.03   6.51
+que_dice_de_ti                  40   0.8%   0.8%  0.99   0.86   5.19
+otro                          1907  36.0%  28.0%  0.78   0.85   4.67
+como_hacer                     319   6.0%   3.9%  0.65   1.10   4.27
+si_tu_condicional               50   0.9%   0.6%  0.60   0.90   3.41
+por_que                        348   6.6%   3.8%  0.57   0.88   3.20
+
+== THEME primary en long ULTIMOS 12M: n=1229 top-decile n=124 (local_score >= 5.97)
+cat                              n  share topshr  lift med_ls p90_ls
+inteligencia                    67   5.5%   9.7%  1.78   1.21  13.79
+rasgos_cotidianos              163  13.3%  21.8%  1.64   1.20  11.93
+cerebro_cuerpo_sueno            61   5.0%   7.3%  1.46   0.99   8.36
+toxico_narcisismo               46   3.7%   4.8%  1.29   0.71   6.67
+generaciones_nostalgia          18   1.5%   1.6%  1.10   0.52   1.63
+amor_pareja                    183  14.9%  16.1%  1.08   1.22   6.08
+trastornos_salud_mental         68   5.5%   5.6%  1.02   1.04   5.44
+otro                           319  26.0%  19.4%  0.75   0.89   4.27
+trauma_heridas                  41   3.3%   2.4%  0.73   1.04   3.42
+autoayuda_desarrollo            63   5.1%   3.2%  0.63   0.74   2.90
+personalidad_tipos              17   1.4%   0.8%  0.58   0.90   3.73
+social_comunicacion             69   5.6%   3.2%  0.57   0.92   4.83
+emociones                       54   4.4%   2.4%  0.55   0.94   3.41
+familia_infancia                45   3.7%   1.6%  0.44   1.12   3.76
+apego                           11   0.9%   0.0%  0.00   1.46   3.54
+
+== TEMPLATE en long ULTIMOS 12M: n=1229 top-decile n=124 (local_score >= 5.97)
+cat                              n  share topshr  lift med_ls p90_ls
+que_es                          36   2.9%   8.1%  2.75   1.81  12.38
+psicologia_de_X                109   8.9%  16.9%  1.91   1.08  16.16
+test_quiz                       44   3.6%   6.5%  1.80   1.09   8.23
+psicologia_de_personas_que     165  13.4%  22.6%  1.68   1.21  18.55
+lista_senales                   68   5.5%   5.6%  1.02   1.12   4.10
+lista_numerada                 113   9.2%   7.3%  0.79   0.95   5.33
+por_que                        154  12.5%   9.7%  0.77   0.95   3.41
+otro                           425  34.6%  20.2%  0.58   0.97   3.85
+como_hacer                      61   5.0%   2.4%  0.49   0.87   4.27
+si_tu_condicional               37   3.0%   0.8%  0.27   0.78   2.55
+que_dice_de_ti                  10   0.8%   0.0%  0.00   0.76   2.45
+
+== THEME primary en short: n=754 top-decile n=77 (local_score >= 3.31)
+cat                              n  share topshr  lift med_ls p90_ls
+amor_pareja                    156  20.7%  37.7%  1.82   1.19   6.02
+rasgos_cotidianos               40   5.3%   9.1%  1.71   0.92   7.55
+trastornos_salud_mental         81  10.7%  16.9%  1.57   1.05   5.57
+toxico_narcisismo               29   3.8%   5.2%  1.35   0.90   3.90
+personalidad_tipos              15   2.0%   2.6%  1.31   1.13   2.67
+cerebro_cuerpo_sueno            23   3.1%   3.9%  1.28   1.14   1.97
+trauma_heridas                  18   2.4%   2.6%  1.09   1.38   2.90
+social_comunicacion             44   5.8%   5.2%  0.89   0.99   2.45
+emociones                       35   4.6%   2.6%  0.56   0.95   2.45
+otro                           247  32.8%  13.0%  0.40   0.90   2.05
+autoayuda_desarrollo            21   2.8%   0.0%  0.00   1.03   1.76
+familia_infancia                18   2.4%   0.0%  0.00   0.88   1.64
+
+== TEMPLATE en short: n=754 top-decile n=77 (local_score >= 3.31)
+cat                              n  share topshr  lift med_ls p90_ls
+psicologia_de_personas_que      27   3.6%  14.3%  3.99   1.56  50.94
+lista_senales                   45   6.0%  11.7%  1.96   1.50   7.37
+que_es                          16   2.1%   3.9%  1.84   1.23   5.80
+lista_numerada                  59   7.8%  14.3%  1.83   1.40   4.22
+como_hacer                      45   6.0%   5.2%  0.87   0.97   2.59
+otro                           472  62.6%  42.9%  0.68   0.93   2.37
+que_dice_de_ti                  18   2.4%   1.3%  0.54   0.86   1.64
+por_que                         52   6.9%   2.6%  0.38   1.06   2.22
+
+== TITLE FLAGS (es long, last 12M): median local score with vs without
+es caps_emphasis    with n=1065 med=1.04 | without n=2772 med=0.98
+es all_caps_title   with n=  72 med=0.86 | without n=3765 med=1.00
+es question         with n= 696 med=0.93 | without n=3141 med=1.02
+es parenthetical    with n= 380 med=1.04 | without n=3457 med=1.00
+es number           with n= 790 med=1.07 | without n=3047 med=0.98
+es second_person    with n= 913 med=1.00 | without n=2924 med=1.00
+es emoji            with n=  53 med=1.00 | without n=3784 med=1.00
+en caps_emphasis    with n=  93 med=0.94 | without n=1136 med=1.00
+en question         with n= 150 med=0.85 | without n=1079 med=1.03
+en parenthetical    with n= 200 med=1.04 | without n=1029 med=1.00
+en number           with n= 252 med=0.95 | without n= 977 med=1.03
+en second_person    with n= 508 med=0.98 | without n= 721 med=1.03
+
+== DURATION buckets (long, last 12M): median local score / median views
+es <3m     n= 156 med_ls=0.93 med_os=0.42 share_top10x=1.3%
+es 3-5m    n= 229 med_ls=0.90 med_os=0.24 share_top10x=2.2%
+es 5-8m    n= 567 med_ls=1.00 med_os=0.36 share_top10x=4.1%
+es 8-12m   n= 757 med_ls=0.97 med_os=0.74 share_top10x=8.7%
+es 12-20m  n= 725 med_ls=0.93 med_os=0.79 share_top10x=5.7%
+es 20-40m  n=1222 med_ls=1.08 med_os=1.07 share_top10x=8.2%
+es 40m+    n= 181 med_ls=1.30 med_os=0.99 share_top10x=4.4%
+en <3m     n=  24 med_ls=0.76 med_os=0.34 share_top10x=0.0%
+en 3-5m    n= 236 med_ls=0.91 med_os=0.43 share_top10x=8.1%
+en 5-8m    n= 462 med_ls=1.02 med_os=0.46 share_top10x=1.9%
+en 8-12m   n= 262 med_ls=1.10 med_os=0.75 share_top10x=11.5%
+en 12-20m  n= 234 med_ls=1.03 med_os=1.12 share_top10x=20.1%
+en 20-40m  n=   9 med_ls=1.26 med_os=0.40 share_top10x=0.0%
+en 40m+    n=   2 med_ls=4.42 med_os=2.00 share_top10x=0.0%
+
+== TRENDS es long: upload share and median local score by theme and period
+
+-- es: n per period P0_0-6m=927 P1_6-12m=911 P2_12-24m=1999 P3_24-36m=1111 P4_36m+=3194
+theme                                P0_0-6m          P1_6-12m         P2_12-24m         P3_24-36m           P4_36m+
+amor_pareja                     6.8% ls 1.26      9.5% ls 1.00     10.0% ls 1.10     14.0% ls 1.00     12.2% ls 1.07
+apego                           2.3% ls 1.02      2.6% ls 1.90      6.5% ls 1.11      9.5% ls 1.41     11.3% ls 1.44
+autoayuda_desarrollo            2.4% ls 0.94      1.4% ls 0.88      1.8% ls 0.66      2.5% ls 1.03      4.2% ls 0.77
+cerebro_cuerpo_sueno            4.9% ls 0.82      4.1% ls 0.74      0.9% ls 0.71      1.4% ls 0.81      1.9% ls 0.99
+emociones                       5.9% ls 0.97      4.0% ls 1.12      3.9% ls 0.96      3.4% ls 1.14      4.7% ls 0.93
+familia_infancia                3.9% ls 1.19      3.7% ls 0.64      3.3% ls 0.70      2.0% ls 0.69      2.0% ls 0.92
+generaciones_nostalgia          1.0% ls 0.79      2.2% ls 0.74      0.2% ls  nan      0.1% ls  nan      0.1% ls  nan
+inteligencia                    3.0% ls 1.11      3.0% ls 0.93      2.5% ls 1.17      0.8% ls 0.87      1.4% ls 1.11
+otro                           34.1% ls 0.99     32.6% ls 1.03     38.0% ls 0.97     25.8% ls 0.93     31.4% ls 0.83
+personalidad_tipos              4.6% ls 1.02      6.4% ls 1.00      9.5% ls 1.10      1.4% ls 0.84      2.4% ls 0.77
+psicologia_oscura               1.9% ls 1.00      6.4% ls 1.15      7.0% ls 1.05      3.3% ls 1.03      1.7% ls 1.17
+rasgos_cotidianos              13.5% ls 1.04      9.9% ls 1.41      1.4% ls 0.80      0.1% ls  nan      0.5% ls 1.18
+social_comunicacion             6.5% ls 1.21      5.9% ls 1.07      3.2% ls 0.91      2.1% ls 0.59      2.2% ls 1.04
+toxico_narcisismo               3.2% ls 0.82      3.0% ls 0.66      4.8% ls 1.10     26.5% ls 1.06     14.3% ls 1.13
+trastornos_salud_mental         5.4% ls 0.88      4.2% ls 0.99      5.5% ls 0.98      5.9% ls 0.94      8.7% ls 1.00
+trauma_heridas                  0.6% ls 0.98      1.2% ls 0.78      1.8% ls 0.77      1.3% ls 0.89      0.9% ls 1.29
+TEMPLATE                  
+como_hacer                      3.8% ls 0.91      5.5% ls 0.95      7.1% ls 0.89      9.9% ls 0.89     13.0% ls 1.05
+crecieron_hijos_de              0.0% ls  nan      0.1% ls  nan      0.1% ls  nan      0.1% ls  nan      0.2% ls 0.53
+explicado_en_N_min              1.4% ls 0.88      2.4% ls 4.24      0.4% ls 2.91      0.4% ls  nan      0.1% ls  nan
+lista_numerada                  9.1% ls 1.15      7.4% ls 0.90      6.5% ls 0.92     11.8% ls 1.18     14.5% ls 1.01
+lista_senales                   6.1% ls 1.01      5.7% ls 1.25      3.1% ls 1.08      5.4% ls 1.25      6.4% ls 1.17
+otro                           42.3% ls 1.02     43.6% ls 0.93     64.0% ls 0.98     61.1% ls 0.94     55.4% ls 0.95
+por_que                        12.8% ls 0.87     10.3% ls 0.93     10.9% ls 1.09      5.5% ls 1.10      4.8% ls 1.24
+psicologia_de_X                 4.9% ls 1.28      6.3% ls 0.92      2.6% ls 1.19      0.5% ls 0.60      0.2% ls 0.36
+psicologia_de_personas_que     15.7% ls 1.29     14.2% ls 1.32      1.1% ls 1.28      0.0% ls  nan      0.0% ls  nan
+que_dice_de_ti                  2.5% ls 0.70      1.8% ls 1.06      1.4% ls 0.81      2.0% ls 1.19      0.7% ls 0.87
+que_es                          0.6% ls 0.49      0.4% ls  nan      1.5% ls 0.86      2.3% ls 1.27      3.6% ls 1.09
+si_tu_condicional               0.3% ls  nan      0.8% ls 2.21      0.6% ls 0.81      0.3% ls  nan      0.1% ls  nan
+test_quiz                       0.4% ls  nan      1.6% ls 1.21      0.9% ls 1.46      0.8% ls 1.05      1.0% ls 1.16
+
+-- en: n per period P0_0-6m=355 P1_6-12m=400 P2_12-24m=474 P3_24-36m=472 P4_36m+=3562
+theme                                P0_0-6m          P1_6-12m         P2_12-24m         P3_24-36m           P4_36m+
+amor_pareja                     5.4% ls 1.07     15.5% ls 1.27     21.5% ls 1.24     29.0% ls 1.19     18.3% ls 1.60
+apego                           0.3% ls  nan      0.8% ls  nan      1.5% ls 0.94      1.3% ls 1.17      0.6% ls 1.85
+autoayuda_desarrollo            7.0% ls 0.70      2.8% ls 0.33      5.7% ls 0.90      7.0% ls 1.14      6.2% ls 0.79
+cerebro_cuerpo_sueno            8.2% ls 1.21      3.0% ls 0.82      4.2% ls 0.74      1.9% ls 1.20      1.8% ls 0.97
+emociones                       3.7% ls 0.90      4.0% ls 1.04      5.3% ls 0.74      2.5% ls 0.96      4.2% ls 0.85
+familia_infancia                3.4% ls 1.41      5.2% ls 0.61      2.5% ls 1.14      1.9% ls 0.70      2.8% ls 0.84
+generaciones_nostalgia          2.0% ls 0.77      2.8% ls 0.49      0.0% ls  nan      0.2% ls  nan      0.0% ls  nan
+inteligencia                   11.8% ls 1.19      5.2% ls 1.25      0.8% ls  nan      0.4% ls  nan      2.0% ls 1.04
+otro                           27.9% ls 0.98     24.5% ls 0.79     25.7% ls 0.89     27.1% ls 0.89     37.1% ls 0.75
+personalidad_tipos              2.3% ls 1.08      1.5% ls 0.79      0.6% ls  nan      0.6% ls  nan      3.3% ls 1.32
+psicologia_oscura               0.3% ls  nan      0.2% ls  nan      0.4% ls  nan      2.3% ls 0.69      1.0% ls 1.20
+rasgos_cotidianos              16.3% ls 1.08     19.8% ls 1.24      5.5% ls 2.78      1.3% ls 1.44      0.8% ls 1.23
+social_comunicacion             4.5% ls 1.23      6.2% ls 1.12      5.9% ls 0.71      3.6% ls 0.80      2.9% ls 1.04
+toxico_narcisismo               0.3% ls  nan      2.2% ls 1.20      7.6% ls 0.69      8.5% ls 0.77      5.5% ls 1.26
+trastornos_salud_mental         4.2% ls 0.99      4.0% ls 1.04      7.8% ls 1.41      6.8% ls 1.07     11.5% ls 1.03
+trauma_heridas                  2.5% ls 1.00      2.2% ls 1.78      4.9% ls 0.89      5.5% ls 0.95      1.9% ls 1.02
+TEMPLATE                  
+como_hacer                      2.5% ls 0.82      4.5% ls 0.79      7.2% ls 1.00      7.2% ls 0.94      6.3% ls 1.21
+crecieron_hijos_de              0.0% ls  nan      0.0% ls  nan      0.0% ls  nan      0.2% ls  nan      0.1% ls  nan
+explicado_en_N_min              2.0% ls 0.77      0.0% ls  nan      0.0% ls  nan      0.6% ls  nan      0.0% ls  nan
+lista_numerada                  5.9% ls 0.62      3.5% ls 0.74     16.5% ls 1.15     25.4% ls 1.05     29.8% ls 1.03
+lista_senales                   5.4% ls 1.27      3.0% ls 0.62      7.8% ls 1.06     16.3% ls 1.08     19.7% ls 1.21
+otro                           23.1% ls 0.99     38.2% ls 1.00     40.1% ls 0.93     39.8% ls 0.92     36.0% ls 0.80
+por_que                        20.3% ls 0.95     11.2% ls 1.00      7.8% ls 0.86      6.6% ls 0.71      4.4% ls 0.88
+psicologia_de_X                20.0% ls 1.15      8.0% ls 1.02      1.3% ls 0.92      0.4% ls  nan      0.2% ls 0.78
+psicologia_de_personas_que     16.9% ls 1.06     21.2% ls 1.23      4.2% ls 4.72      0.0% ls  nan      0.0% ls  nan
+que_dice_de_ti                  0.3% ls  nan      1.0% ls  nan      1.1% ls 0.77      0.8% ls  nan      0.7% ls 0.98
+que_es                          1.1% ls  nan      2.2% ls 2.28      4.9% ls 1.94      1.5% ls 0.89      1.6% ls 1.34
+si_tu_condicional               2.3% ls 1.21      6.8% ls 0.65      0.4% ls  nan      0.4% ls  nan      0.3% ls 1.08
+test_quiz                       0.3% ls  nan      0.2% ls  nan      8.9% ls 1.00      0.6% ls  nan      0.8% ls 1.07
+
+== SUPPLY/DEMAND of 'psicologia_de_personas_que' template by approx month (es long, all channels)
+es 2025-11 uploads=1999 PDP_que= 22 (1%) med_views_PDP=   8050.0 med_views_other=     8500
+es 2025-12 uploads= 184 PDP_que= 16 (9%) med_views_PDP=   1500.0 med_views_other=   3750.0
+es 2026-01 uploads= 165 PDP_que= 34 (21%) med_views_PDP=   1400.0 med_views_other=     4200
+es 2026-02 uploads= 136 PDP_que= 26 (19%) med_views_PDP=   1300.0 med_views_other=   4550.0
+es 2026-03 uploads= 128 PDP_que=  6 (5%) med_views_PDP= 126000.0 med_views_other=   3700.0
+es 2026-04 uploads= 155 PDP_que= 23 (15%) med_views_PDP=     3800 med_views_other=   4300.0
+es 2026-05 uploads= 143 PDP_que= 24 (17%) med_views_PDP=  16000.0 med_views_other=     3500
+es 2026-06 uploads= 150 PDP_que= 25 (17%) med_views_PDP=     6800 med_views_other=     4000
+es 2026-07 uploads= 163 PDP_que= 28 (17%) med_views_PDP=   1050.0 med_views_other=     4000
+es 2026-08 uploads= 167 PDP_que= 25 (15%) med_views_PDP=     1800 med_views_other=   2050.0
+es 2026-09 uploads= 162 PDP_que= 28 (17%) med_views_PDP=   1100.0 med_views_other=   5050.0
+es 2026-10 uploads= 246 PDP_que= 35 (14%) med_views_PDP=     1500 med_views_other=     5500
+es 2026-11 uploads= 135 PDP_que= 16 (12%) med_views_PDP=    631.0 med_views_other=     5600
+en 2025-11 uploads= 474 PDP_que= 20 (4%) med_views_PDP=  79500.0 med_views_other=  92000.0
+en 2025-12 uploads=  73 PDP_que=  7 (10%) med_views_PDP=    10000 med_views_other=  61500.0
+en 2026-01 uploads=  63 PDP_que=  7 (11%) med_views_PDP=     6000 med_views_other=  73500.0
+en 2026-02 uploads=  68 PDP_que= 15 (22%) med_views_PDP=     2700 med_views_other=    47000
+en 2026-03 uploads=  62 PDP_que= 21 (34%) med_views_PDP=     5200 med_views_other=    40000
+en 2026-04 uploads=  67 PDP_que= 25 (37%) med_views_PDP=     8900 med_views_other=  51500.0
+en 2026-05 uploads=  67 PDP_que= 10 (15%) med_views_PDP=  56500.0 med_views_other=    22000
+en 2026-06 uploads=  67 PDP_que= 20 (30%) med_views_PDP=   8300.0 med_views_other=    43000
+en 2026-07 uploads=  61 PDP_que= 19 (31%) med_views_PDP=     4700 med_views_other=  13000.0
+en 2026-08 uploads=  74 PDP_que= 12 (16%) med_views_PDP=   8950.0 med_views_other=  14500.0
+en 2026-09 uploads=  56 PDP_que=  2 (4%) med_views_PDP=   6200.0 med_views_other=  43500.0
+en 2026-10 uploads=  85 PDP_que=  7 (8%) med_views_PDP=     9100 med_views_other=  19500.0
+en 2026-11 uploads=  39 PDP_que=  2 (5%) med_views_PDP=   9450.0 med_views_other=    16000
+
+== NEW CHANNELS growth (videos tab): views of videos uploaded per approx month, cumulative
+
+LaPsicologiaInvisible: total_videos=81 total_views=22,495,600 first=2026-02
+   2026-02 uploads=  3 views=     66,000 max=    28,000
+   2026-03 uploads=  8 views=  3,065,000 max= 1,400,000
+   2026-04 uploads=  9 views=  5,186,000 max= 3,600,000
+   2026-05 uploads=  9 views=  6,227,000 max= 2,800,000
+   2026-06 uploads=  8 views=    752,500 max=   298,000
+   2026-07 uploads=  9 views=  1,850,000 max=   557,000
+   2026-08 uploads=  9 views=  2,236,700 max=   961,000
+   2026-09 uploads=  9 views=  1,388,000 max=   862,000
+   2026-10 uploads= 11 views=  1,426,000 max=   698,000
+   2026-11 uploads=  6 views=    298,400 max=   197,000
+
+LaMenteOculta: total_videos=21 total_views=2,393,018 first=2026-04
+   2026-04 uploads=  4 views=  2,332,900 max= 2,300,000
+   2026-05 uploads=  3 views=     51,800 max=    34,000
+   2026-07 uploads= 10 views=      6,938 max=     1,800
+   2026-08 uploads=  4 views=      1,380 max=       611
+
+PsicologiaClara: total_videos=80 total_views=535,807 first=2026-03
+   2026-03 uploads=  5 views=    105,301 max=   102,000
+   2026-04 uploads= 31 views=    419,747 max=   388,000
+   2026-05 uploads= 30 views=      8,454 max=     1,300
+   2026-06 uploads= 14 views=      2,305 max=       618
+
+PsicologiaSinFiltro: total_videos=47 total_views=1,491,407 first=2026-05
+   2026-05 uploads=  7 views=  1,277,200 max=   689,000
+   2026-06 uploads=  8 views=    125,044 max=    61,000
+   2026-07 uploads=  4 views=      9,700 max=     4,700
+   2026-08 uploads=  4 views=      5,592 max=     1,800
+   2026-09 uploads=  7 views=      8,108 max=     2,200
+   2026-10 uploads= 13 views=     64,302 max=    50,000
+   2026-11 uploads=  4 views=      1,461 max=       616
+
+LoDescomun: total_videos=38 total_views=2,912,653 first=2026-01
+   2026-01 uploads=  7 views=  2,673,000 max= 1,000,000
+   2026-02 uploads=  5 views=     42,300 max=    20,000
+   2026-03 uploads=  2 views=      5,200 max=     3,700
+   2026-04 uploads=  4 views=     19,600 max=    12,000
+   2026-06 uploads=  3 views=      2,339 max=       977
+   2026-07 uploads=  3 views=     10,876 max=     6,000
+   2026-08 uploads=  7 views=     45,058 max=    32,000
+   2026-09 uploads=  7 views=    114,280 max=    62,000
+
+IdealMente: total_videos=127 total_views=4,571,479 first=2026-02
+   2026-02 uploads= 22 views=    606,982 max=   575,000
+   2026-03 uploads= 21 views=  1,175,432 max=   693,000
+   2026-04 uploads= 14 views=    821,796 max=   477,000
+   2026-05 uploads= 15 views=    304,748 max=    83,000
+   2026-06 uploads= 15 views=    104,019 max=    73,000
+   2026-07 uploads= 10 views=     19,316 max=    16,000
+   2026-08 uploads=  9 views=      6,338 max=     2,000
+   2026-09 uploads=  4 views=     12,587 max=     8,700
+   2026-10 uploads= 11 views=    800,261 max=   642,000
+   2026-11 uploads=  6 views=    720,000 max=   416,000
+
+MenteConsciente: total_videos=23 total_views=855,279 first=2026-01
+   2026-01 uploads= 19 views=    837,953 max=   573,000
+   2026-02 uploads=  3 views=     17,134 max=    14,000
+   2026-03 uploads=  1 views=        192 max=       192
+
+ClaridadMental: total_videos=43 total_views=811,152 first=2026-08
+   2026-08 uploads=  3 views=        514 max=       345
+   2026-09 uploads=  6 views=        366 max=        92
+   2026-10 uploads= 23 views=    801,775 max=   781,000
+   2026-11 uploads= 11 views=      8,497 max=     4,500
+
+ManualDeVida: total_videos=93 total_views=528,788 first=2025-11
+   2025-11 uploads= 17 views=     18,248 max=    10,000
+   2026-02 uploads=  8 views=      3,053 max=     1,800
+   2026-03 uploads=  1 views=         38 max=        38
+   2026-05 uploads=  1 views=         13 max=        13
+   2026-06 uploads=  4 views=        962 max=       783
+   2026-07 uploads= 13 views=      2,159 max=     1,000
+   2026-08 uploads= 16 views=      1,198 max=       150
+   2026-10 uploads= 15 views=    474,147 max=   424,000
+   2026-11 uploads= 18 views=     28,970 max=     6,700
+
+PsicologiaCotidiana: total_videos=149 total_views=2,089,781 first=2026-06
+   2026-06 uploads= 13 views=     62,838 max=    27,000
+   2026-07 uploads= 25 views=  1,142,817 max=   982,000
+   2026-08 uploads= 28 views=    851,201 max=   797,000
+   2026-09 uploads= 41 views=     18,596 max=     1,500
+   2026-10 uploads= 32 views=     13,567 max=     1,100
+   2026-11 uploads= 10 views=        762 max=       150
+
+DatoVisual: total_videos=51 total_views=3,258,146 first=2025-11
+   2025-11 uploads=  2 views=    155,400 max=   154,000
+   2025-12 uploads=  6 views=    858,800 max=   514,000
+   2026-01 uploads=  5 views=  1,020,700 max= 1,000,000
+   2026-02 uploads=  4 views=    185,400 max=   175,000
+   2026-03 uploads=  5 views=    523,900 max=   482,000
+   2026-04 uploads=  6 views=    266,200 max=   149,000
+   2026-05 uploads=  4 views=     23,200 max=     8,500
+   2026-06 uploads=  3 views=     75,700 max=    72,000
+   2026-07 uploads=  3 views=     10,000 max=     6,000
+   2026-08 uploads=  4 views=     59,400 max=    36,000
+   2026-09 uploads=  4 views=     74,600 max=    69,000
+   2026-10 uploads=  4 views=      4,565 max=     1,500
+   2026-11 uploads=  1 views=        281 max=       281
+
+PsicologiaOscura: total_videos=103 total_views=2,261,732 first=2025-11
+   2025-11 uploads= 28 views=    556,980 max=   219,000
+   2025-12 uploads= 10 views=    102,500 max=    54,000
+   2026-01 uploads= 12 views=    802,800 max=   495,000
+   2026-02 uploads=  9 views=    674,188 max=   594,000
+   2026-03 uploads=  8 views=     25,000 max=     6,500
+   2026-04 uploads= 12 views=     62,100 max=    24,000
+   2026-06 uploads=  2 views=      3,800 max=     2,200
+   2026-07 uploads=  3 views=      5,000 max=     2,500
+   2026-08 uploads=  2 views=      1,911 max=     1,000
+   2026-09 uploads=  3 views=      6,000 max=     3,200
+   2026-10 uploads=  9 views=     17,680 max=     6,300
+   2026-11 uploads=  5 views=      3,773 max=     1,800
+
+ReversHub: total_videos=68 total_views=8,716,739 first=2025-11
+   2025-11 uploads= 28 views=  6,432,800 max= 3,300,000
+   2025-12 uploads=  8 views=  1,514,800 max= 1,400,000
+   2026-01 uploads=  3 views=    110,400 max=   100,000
+   2026-02 uploads=  6 views=    257,800 max=   238,000
+   2026-03 uploads=  2 views=      2,900 max=     1,500
+   2026-04 uploads=  4 views=    352,200 max=   346,000
+   2026-06 uploads=  5 views=     16,600 max=     7,400
+   2026-07 uploads=  9 views=     22,939 max=    11,000
+   2026-08 uploads=  3 views=      6,300 max=     3,300
+
+PsychologySimplified: total_videos=151 total_views=22,766,200 first=2025-12
+   2025-12 uploads= 16 views=  1,199,500 max=   484,000
+   2026-01 uploads= 13 views=  9,044,000 max= 3,100,000
+   2026-02 uploads= 15 views=  8,250,000 max= 3,500,000
+   2026-03 uploads= 10 views=    641,000 max=   151,000
+   2026-04 uploads= 10 views=  1,621,000 max= 1,000,000
+   2026-05 uploads= 10 views=    849,000 max=   662,000
+   2026-06 uploads= 10 views=    244,000 max=   102,000
+   2026-07 uploads= 11 views=    281,800 max=    64,000
+   2026-08 uploads= 10 views=     95,800 max=    14,000
+   2026-09 uploads= 13 views=     87,600 max=    11,000
+   2026-10 uploads= 23 views=    182,500 max=    16,000
+   2026-11 uploads= 10 views=    270,000 max=   209,000
+
+PsychToons: total_videos=148 total_views=29,576,575 first=2026-01
+   2026-01 uploads=  5 views=     11,576 max=     6,000
+   2026-02 uploads= 21 views=     33,954 max=     7,800
+   2026-03 uploads= 12 views=  2,331,653 max= 2,300,000
+   2026-04 uploads=  9 views=     52,600 max=    12,000
+   2026-05 uploads=  9 views=     80,763 max=    64,000
+   2026-06 uploads=  9 views=     26,266 max=    14,000
+   2026-07 uploads= 11 views=     27,863 max=     8,700
+   2026-08 uploads= 27 views= 13,166,300 max= 5,300,000
+   2026-09 uploads= 16 views=  8,032,000 max= 3,500,000
+   2026-10 uploads= 19 views=  5,546,000 max= 2,000,000
+   2026-11 uploads= 10 views=    267,600 max=   121,000
+
+PsychologyInsight: total_videos=74 total_views=6,234,142 first=2026-03
+   2026-03 uploads=  8 views=  3,189,000 max= 3,100,000
+   2026-04 uploads= 10 views=  2,505,400 max= 1,100,000
+   2026-05 uploads= 11 views=    101,800 max=    61,000
+   2026-06 uploads=  5 views=     13,600 max=     3,400
+   2026-07 uploads=  7 views=     26,973 max=    13,000
+   2026-08 uploads=  9 views=     18,944 max=     7,400
+   2026-09 uploads=  7 views=     45,200 max=    25,000
+   2026-10 uploads= 11 views=    237,500 max=   189,000
+   2026-11 uploads=  6 views=     95,725 max=    88,000
+
+ApexPsychology: total_videos=122 total_views=13,192,900 first=2026-02
+   2026-02 uploads=  5 views=     70,700 max=    50,000
+   2026-03 uploads= 14 views=    257,500 max=    74,000
+   2026-04 uploads= 14 views=  3,085,300 max= 2,800,000
+   2026-05 uploads= 13 views=  2,739,200 max=   870,000
+   2026-06 uploads= 14 views=  3,188,200 max= 1,000,000
+   2026-07 uploads= 12 views=    550,200 max=   138,000
+   2026-08 uploads= 15 views=  1,670,800 max= 1,100,000
+   2026-09 uploads= 11 views=    491,200 max=   184,000
+   2026-10 uploads= 20 views=    999,300 max=   593,000
+   2026-11 uploads=  4 views=    140,500 max=    98,000

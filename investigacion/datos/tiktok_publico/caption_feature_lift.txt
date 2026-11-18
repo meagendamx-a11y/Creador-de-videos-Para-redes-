@@ -1,0 +1,35 @@
+== Cuentas hispanas n= 1665 mediana lift global 1.0
+  respuesta_a_comentario                 n=  52 lift_med_con=1.02 sin=1.00
+  pregunta_en_caption                    n= 436 lift_med_con=1.03 sin=1.00
+  parte_serie                            n=  62 lift_med_con=0.84 sin=1.00
+  numero_lista(señales/cosas/tips)       n=  23 lift_med_con=2.44 sin=1.00
+  palabra_narcisista                     n=  56 lift_med_con=1.05 sin=1.00
+  ansiedad                               n= 115 lift_med_con=1.01 sin=1.00
+  pareja/relación                        n= 376 lift_med_con=1.04 sin=1.00
+  mamá/papá/hijos/infancia               n=  89 lift_med_con=1.33 sin=0.99
+  tlp/tdah/autismo(diagnóstico)          n= 111 lift_med_con=1.37 sin=0.99
+  famoso/noticia(cultura pop)            n=  31 lift_med_con=1.29 sin=1.00
+  disclaimer_no_autodiagnostico          n=  49 lift_med_con=1.72 sin=1.00
+  mandar/etiquetar a alguien             n=  94 lift_med_con=1.03 sin=1.00
+  greenscreen/duet/stitch                n=  12 lift_med_con=0.60 sin=1.00
+  dur 0-15s n=166 lift_med=0.94
+  dur 16-30s n=170 lift_med=1.00
+  dur 31-60s n=456 lift_med=0.97
+  dur 61-90s n=325 lift_med=1.00
+  dur 91-180s n=367 lift_med=1.03
+  dur 181-100000s n=181 lift_med=1.12
+  audio_musica_nombrada n=316 lift=0.92 | sonido_original n=1349 lift=1.01
+== Animadas/ilustradas n= 433 mediana lift global 1.0
+  pregunta_en_caption                    n=  81 lift_med_con=0.93 sin=1.00
+  parte_serie                            n=  33 lift_med_con=0.84 sin=1.00
+  pareja/relación                        n=  23 lift_med_con=0.90 sin=1.00
+  famoso/noticia(cultura pop)            n=  15 lift_med_con=1.80 sin=0.99
+  mandar/etiquetar a alguien             n=  11 lift_med_con=2.06 sin=1.00
+  dur 0-15s n=49 lift_med=0.58
+  dur 16-30s n=79 lift_med=0.99
+  dur 31-60s n=193 lift_med=1.04
+  dur 61-90s n=96 lift_med=1.72
+  dur 91-180s n=10 lift_med=1.09
+  dur 181-100000s n=6 lift_med=1.01
+  audio_musica_nombrada n=157 lift=1.03 | sonido_original n=276 lift=0.97
+ES videos>5k: save/view mediana 0.80%  p90 2.29% | share/view mediana 0.42% p90 1.36%

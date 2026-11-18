@@ -1,0 +1,76 @@
+lote,fuente,periodo,termino,indice_vs_psicologo,cambio_anual_%
+x0,google,12m,psicólogo,100.0,
+x0,google,12m,psicologo,123.5,
+x0,google,12m,psicologo cerca de mi,0.0,
+x0,google,12m,depresion,171.4,
+x0,google,12m,depresión,190.0,
+x0,google,5y,psicólogo,100.0,11.0
+x0,google,5y,psicologo,156.0,-14.0
+x0,google,5y,psicologo cerca de mi,0.0,
+x0,google,5y,depresion,284.6,-19.0
+x0,google,5y,depresión,242.3,4.0
+x0,youtube,12m,psicólogo,100.0,
+x0,youtube,12m,psicologo,143.3,
+x0,youtube,12m,psicologo cerca de mi,0.0,
+x0,youtube,12m,depresion,510.1,
+x0,youtube,12m,depresión,423.6,
+x1,google,12m,psicólogo,100.0,
+x1,google,12m,terapia online,0.3,
+x1,google,12m,terapia en linea,2.0,
+x1,google,12m,psicologo en linea,0.8,
+x1,google,12m,cuanto cobra un psicologo,0.0,
+x1,google,5y,psicólogo,100.0,11.0
+x1,google,5y,terapia online,1.3,100.0
+x1,google,5y,terapia en linea,2.7,-18.0
+x1,google,5y,psicologo en linea,1.4,11.0
+x1,google,5y,cuanto cobra un psicologo,0.2,
+x1,youtube,12m,psicólogo,100.0,
+x1,youtube,12m,terapia online,0.0,
+x1,youtube,12m,terapia en linea,0.0,
+x1,youtube,12m,psicologo en linea,0.3,
+x1,youtube,12m,cuanto cobra un psicologo,0.0,
+x2,google,12m,psicólogo,100.0,
+x2,google,12m,relacion toxica,0.5,
+x2,google,12m,padres toxicos,0.0,
+x2,google,12m,ataque de panico,7.6,
+x2,google,12m,estres laboral,8.1,
+x2,google,5y,psicólogo,100.0,11.0
+x2,google,5y,relacion toxica,4.2,-61.0
+x2,google,5y,padres toxicos,0.0,
+x2,google,5y,ataque de panico,11.2,-16.0
+x2,google,5y,estres laboral,15.0,-40.0
+x2,youtube,12m,psicólogo,100.0,
+x2,youtube,12m,relacion toxica,14.1,
+x2,youtube,12m,padres toxicos,0.0,
+x2,youtube,12m,ataque de panico,3.7,
+x2,youtube,12m,estres laboral,0.4,
+x3,google,12m,psicólogo,100.0,
+x3,google,12m,psicologo gratis,0.1,
+x3,google,12m,terapia de pareja,14.9,
+x3,google,12m,sindrome del impostor,9.4,
+x3,google,12m,jefe toxico,0.0,
+x3,google,5y,psicólogo,100.0,11.0
+x3,google,5y,psicologo gratis,1.7,-80.0
+x3,google,5y,terapia de pareja,16.6,-2.0
+x3,google,5y,sindrome del impostor,11.6,-24.0
+x3,google,5y,jefe toxico,0.0,
+x3,youtube,12m,psicólogo,100.0,
+x3,youtube,12m,psicologo gratis,0.3,
+x3,youtube,12m,terapia de pareja,13.3,
+x3,youtube,12m,sindrome del impostor,5.1,
+x3,youtube,12m,jefe toxico,0.3,
+x4,google,12m,psicólogo,100.0,
+x4,google,12m,ansiedad,656.8,
+x4,google,12m,apego ansioso,15.9,
+x4,google,12m,sobrepensar,8.6,
+x4,google,12m,salud mental,181.4,
+x4,google,5y,psicólogo,100.0,10.0
+x4,google,5y,ansiedad,818.5,-5.0
+x4,google,5y,apego ansioso,19.8,-13.0
+x4,google,5y,sobrepensar,12.2,-2.0
+x4,google,5y,salud mental,230.4,-19.0
+x4,youtube,12m,psicólogo,100.0,
+x4,youtube,12m,ansiedad,2961.9,
+x4,youtube,12m,apego ansioso,45.7,
+x4,youtube,12m,sobrepensar,43.8,
+x4,youtube,12m,salud mental,121.9,
