@@ -1,6 +1,6 @@
 {
   "voz": "assets/voz.mp3",
-  "musica": "assets/musica_calma_suave.mp3",
+  "musica": "../../audio/musica/calma_suave.mp3",
   "volumen_musica_db": -20,
   "correcciones": {
     "38": "esto se",
