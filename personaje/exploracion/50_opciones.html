@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>50 opciones de personaje</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#F4EFE7; font-family: Nunito, system-ui, sans-serif; color:#26263A; }
+  .sheet { width:1700px; padding:24px; box-sizing:border-box; }
+  h1 { margin:0 0 4px; font-size:30px; }
+  p { margin:0 0 16px; opacity:.7; }
+  .grid { display:grid; grid-template-columns: repeat(10, 1fr); gap:10px; }
+  .t { background:#fff; border-radius:14px; text-align:center; padding:4px 2px 8px; }
+  .t b { font-size:20px; display:block; }
+  .t span { font-size:12px; opacity:.7; display:block; height:30px; line-height:14px; }
+  svg { display:block; margin:auto; }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <h1>50 opciones de personaje</h1>
+  <p>Bocetos simples, solo para elegir dirección. Dime los números que te gusten.</p>
+  <div class="grid" id="g"></div>
+</div>
+<script>
+// Bocetos deliberadamente simples: el objetivo es comparar silueta y concepto, no acabado.
+const INK = '#26263A';
+const C = ['#8FB8A8','#E8A87C','#7C9CC9','#C9A3D4','#F2C14E','#E07A5F','#81B29A','#F4B6A6','#A8DADC','#B5838D','#D9875F','#9DB4C0','#E9C46A','#6D9F71','#F28482'];
+const sw = 'stroke="'+INK+'" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"';
+const dots = (x,y,g=14,r=4) => `<circle cx="${x-g}" cy="${y}" r="${r}" fill="${INK}"/><circle cx="${x+g}" cy="${y}" r="${r}" fill="${INK}"/>`;
+const brows = (x,y,g=14) => `<path d="M${x-g-6},${y} h12 M${x+g-6},${y} h12" ${sw} stroke-width="3"/>`;
+const smile = (x,y,w=8) => `<path d="M${x-w},${y} q${w},${w*.7} ${w*2},0" fill="none" ${sw} stroke-width="3"/>`;
+const noodle = (d,c,w=10) => `<path d="${d}" fill="none" stroke="${INK}" stroke-width="${w+5}" stroke-linecap="round"/><path d="${d}" fill="none" stroke="${c}" stroke-width="${w}" stroke-linecap="round"/>`;
+const legs = (x,y,c,g=14,h=22,w=10) => noodle(`M${x-g},${y} v${h}`,c,w)+noodle(`M${x+g},${y} v${h}`,c,w);
+const shadow = `<ellipse cx="100" cy="250" rx="52" ry="7" fill="${INK}" opacity=".1"/>`;
+
+const F = {
+  // Figura alargada sin rasgos marcados, brazos largos (familia de la referencia, en otra forma)
+  alargada(v){ const c=C[[0,3,8,11,7][v]]; const h=[0,10,-8,4,0][v];
+    let s=shadow+legs(100,228,c,12,18,9);
+    s+=noodle(`M74,${110+h} q-26,${v%2?40:60} -14,${v===4?40:115}`,c,9)+noodle(`M126,${110+h} q26,60 14,115`,c,9);
+    s+=`<path d="M100,${36+h} C124,${36+h} 130,70 130,110 L132,206 C132,230 118,236 100,236 C82,236 68,230 68,206 L70,110 C70,70 76,${36+h} 100,${36+h}Z" fill="${c}" ${sw}/>`;
+    return s+dots(100,80+h,10,v===2?0:3.5)+(v===3?brows(100,70,10):'')+(v===1?`<path d="M90,${100} q10,6 20,0" fill="none" ${sw} stroke-width="3"/>`:''); },
+  // Frijol humano bajito
+  frijol(v){ const c=C[[1,6,4,14][v]];
+    let s=shadow+legs(100,222,c,16,24,11)+noodle('M58,150 q-18,30 -8,56',c,10)+noodle('M142,150 q18,30 8,56',c,10);
+    s+=`<path d="M100,70 C140,70 150,110 148,160 C146,206 128,230 100,230 C72,230 54,206 52,160 C50,110 60,70 100,70Z" fill="${c}" ${sw}/>`;
+    if(v===1) s+=`<path d="M70,90 q30,-30 60,0" fill="none" ${sw} stroke-width="6"/>`;
+    if(v===3) s+=`<circle cx="100" cy="66" r="12" fill="${INK}"/>`;
+    return s+dots(100,135,16,4.5)+smile(100,158,v===2?10:7)+(v===2?brows(100,118,16):''); },
+  // Cabezón: cabeza grande, cuerpo chico
+  cabezon(v){ const skin=['#F4C7A1','#C98B62','#E8B48F','#F2A98F','#B97A57'][v]; const shirt=C[[2,4,9,5,12][v]];
+    let s=shadow+legs(100,212,'#3D405B',12,28,11);
+    s+=`<path d="M70,214 Q70,170 100,166 Q130,170 130,214Z" fill="${shirt}" ${sw}/>`;
+    s+=noodle('M74,182 q-16,14 -12,34',shirt,9)+noodle('M126,182 q16,14 12,34',shirt,9);
+    s+=`<circle cx="100" cy="104" r="58" fill="${skin}" ${sw}/>`;
+    const hair=[`<path d="M44,98 C44,40 156,40 156,98 C140,70 60,70 44,98Z" fill="${INK}"/>`,
+      `<circle cx="100" cy="40" r="18" fill="${INK}"/><path d="M46,94 C50,48 150,48 154,94 Q100,64 46,94Z" fill="${INK}"/>`,
+      [60,80,100,120,140].map((x,i)=>`<circle cx="${x}" cy="${58-(i%2)*6}" r="16" fill="${INK}"/>`).join(''),
+      '', `<path d="M44,104 C40,40 160,40 156,104 L150,80 L130,92 L112,74 L92,92 L70,76 L52,94Z" fill="#6B3E2E"/>`][v];
+    return s+hair+dots(100,112,18,5)+smile(100,134)+(v===3?brows(100,94,18):''); },
+  // Palito redondeado (mínimo)
+  palito(v){ const c=C[[5,2,6][v]];
+    let s=shadow+`<path d="M100,96 V180 M100,180 L84,240 M100,180 L116,240" fill="none" ${sw} stroke-width="6"/>`;
+    s+=v===2?`<path d="M100,120 L70,90 M100,120 L130,90" ${sw} stroke-width="6"/>`:`<path d="M100,120 L74,160 M100,120 L126,160" ${sw} stroke-width="6"/>`;
+    s+=`<circle cx="100" cy="68" r="30" fill="${v===0?'#fff':c}" ${sw}/>`;
+    if(v===0) s+=`<path d="M86,104 q14,12 28,0 l6,14" fill="none" stroke="${c}" stroke-width="9" stroke-linecap="round"/>`;
+    if(v===1) s+=`<path d="M70,62 q30,-40 60,0" fill="none" stroke="${INK}" stroke-width="8"/>`;
+    return s+dots(100,70,10,3.5)+smile(100,84,6); },
+  // Persona geométrica editorial
+  geom(v){ const skin=['#F4C7A1','#D9875F','#E8B48F','#C98B62','#F2D0B5'][v]; const c=C[[0,12,3,9,14][v]];
+    const body=['M100,118 L140,226 L60,226Z','M66,124 h68 v102 h-68Z','M60,226 A40,40 0 0 1 140,226 L140,160 A40,40 0 0 0 60,160Z','M58,124 L142,124 L100,226Z','M70,124 h60 q10,0 10,10 v92 h-80 v-92 q0,-10 10,-10Z'][v];
+    let s=shadow+`<path d="M88,226 v20 M112,226 v20" ${sw} stroke-width="6"/>`;
+    s+=`<path d="${body}" fill="${c}" ${sw}/><circle cx="100" cy="86" r="32" fill="${skin}" ${sw}/>`;
+    if(v%2===0) s+=`<path d="M68,82 C68,48 132,48 132,82 C120,66 80,66 68,82Z" fill="${INK}"/>`;
+    else s+=`<rect x="70" y="52" width="60" height="18" rx="9" fill="${INK}"/>`;
+    return s+`<path d="M90,90 h4 M106,90 h4" ${sw} stroke-width="4"/>`; },
+  // Cápsula
+  capsula(v){ const c=C[[8,10,13][v]];
+    let s=shadow+legs(100,226,c,14,20,10)+noodle('M66,150 q-14,30 -6,60',c,10)+noodle('M134,150 q14,30 6,60',c,10);
+    s+=`<rect x="64" y="56" width="72" height="176" rx="36" fill="${c}" ${sw}/>`;
+    s+=v===0?`<path d="M64,150 h72" ${sw}/>`:v===1?`<rect x="78" y="80" width="44" height="44" rx="22" fill="#FBEFE5" ${sw} stroke-width="3"/>`:`<path d="M80,160 h40" ${sw}/>`;
+    return s+dots(100,v===1?102:100,10,4)+(v!==1?smile(100,118,6):''); },
+  // Capucha / sudadera
+  capucha(v){ const c=C[[3,0,4,5][v]]; const skin=['#F4C7A1','#D9875F','#E8B48F','#C98B62'][v];
+    let s=shadow+legs(100,222,'#3D405B',14,24,11);
+    s+=`<path d="M58,226 Q54,140 100,132 Q146,140 142,226Z" fill="${c}" ${sw}/>`;
+    s+=noodle('M64,160 q-12,30 -4,56',c,11)+noodle('M136,160 q12,30 4,56',c,11);
+    s+=`<path d="M100,40 C150,40 156,90 150,130 C144,150 56,150 50,130 C44,90 50,40 100,40Z" fill="${c}" ${sw}/>`;
+    s+=`<ellipse cx="100" cy="102" rx="32" ry="34" fill="${skin}" ${sw}/>`;
+    if(v===2) s+=`<path d="M92,150 v20 M108,150 v20" stroke="${INK}" stroke-width="3"/>`;
+    return s+dots(100,100,12,4)+smile(100,116,6); },
+  // Sin cara: solo lenguaje corporal
+  sincara(v){ const c=C[[6,9,1][v]]; const skin=['#E8B48F','#C98B62','#F4C7A1'][v];
+    let s=shadow+`<path d="M86,214 v32 M114,214 v32" ${sw} stroke-width="9"/>`;
+    s+=`<path d="M64,216 Q62,132 100,128 Q138,132 136,216Z" fill="${c}" ${sw}/>`;
+    s+=v===1?noodle('M70,150 q-6,40 30,40',c,9)+noodle('M130,150 q6,40 -30,40',c,9):noodle('M70,150 q-14,30 -8,62',c,9)+noodle('M130,150 q14,30 8,62',c,9);
+    s+=`<ellipse cx="100" cy="88" rx="30" ry="36" fill="${skin}" ${sw}/>`;
+    return s+[`<path d="M70,82 C70,44 130,44 130,82 C118,64 82,64 70,82Z" fill="${INK}"/>`,`<path d="M70,88 C66,40 134,40 130,88 L130,120 L122,90 C108,74 92,74 78,90 L70,120Z" fill="#6B3E2E"/>`,`<circle cx="100" cy="50" r="14" fill="${INK}"/><path d="M70,84 C72,50 128,50 130,84 Q100,62 70,84Z" fill="${INK}"/>`][v]; },
+  // Ser humanoide liso (cabeza-cuerpo continuo, tipo foco)
+  ser(v){ const c=C[[7,6,12,3][v]];
+    let s=shadow+legs(100,222,c,14,24,10);
+    s+=noodle(v===2?'M70,150 q-30,-20 -30,-60':'M70,150 q-20,30 -14,64',c,10)+noodle('M130,150 q20,30 14,64',c,10);
+    s+=`<path d="M100,40 C142,40 152,80 140,110 C132,128 134,140 136,170 C138,210 124,228 100,228 C76,228 62,210 64,170 C66,140 68,128 60,110 C48,80 58,40 100,40Z" fill="${c}" ${sw}/>`;
+    return s+`<ellipse cx="88" cy="86" rx="5" ry="8" fill="${INK}"/><ellipse cx="112" cy="86" rx="5" ry="8" fill="${INK}"/>`+(v===1?smile(100,106,6):'')+(v===3?`<path d="M80,70 h14 M106,70 h14" ${sw} stroke-width="3"/>`:''); },
+  // Persona con lentes grandes (accesorio firma)
+  lentes(v){ const skin=['#F4C7A1','#C98B62','#E8B48F'][v]; const c=C[[2,13,10][v]];
+    let s=shadow+legs(100,220,'#3D405B',13,26,10);
+    s+=`<path d="M64,224 Q62,146 100,140 Q138,146 136,224Z" fill="${c}" ${sw}/>`+noodle('M68,162 q-14,28 -6,54',c,9)+noodle('M132,162 q14,28 6,54',c,9);
+    s+=`<circle cx="100" cy="92" r="44" fill="${skin}" ${sw}/>`;
+    s+=[`<path d="M56,90 C56,40 144,40 144,90 C130,64 70,64 56,90Z" fill="${INK}"/>`,`<path d="M58,96 C50,30 150,30 142,96 C150,140 136,150 132,130 L132,90 C110,70 90,70 68,90 L68,130 C64,150 50,140 58,96Z" fill="${INK}"/>`,`<path d="M58,84 C60,50 140,50 142,84 L140,72 L120,60 L100,70 L80,60 L60,72Z" fill="${INK}"/>`][v];
+    return s+`<circle cx="84" cy="96" r="14" fill="#fff" ${sw} stroke-width="3.5"/><circle cx="116" cy="96" r="14" fill="#fff" ${sw} stroke-width="3.5"/><path d="M98,96 h4" ${sw} stroke-width="3"/>`+dots(100,96,16,3.5)+smile(100,120,5); },
+  // Estilo webcomic: pelo revuelto, suéter grande
+  webcomic(v){ const skin=['#FBE3D0','#E8B48F','#C98B62','#F4C7A1'][v]; const c=C[[0,5,9,12][v]];
+    let s=shadow+legs(100,222,'#3D405B',12,24,9);
+    s+=`<path d="M60,226 Q56,140 100,134 Q144,140 140,226Z" fill="${c}" ${sw}/>`+noodle('M64,156 q-10,34 0,64',c,13)+noodle('M136,156 q10,34 0,64',c,13);
+    s+=`<ellipse cx="100" cy="94" rx="40" ry="44" fill="${skin}" ${sw}/>`;
+    s+=`<path d="M56,96 L52,70 L66,74 L64,50 L82,60 L88,38 L102,54 L116,36 L120,58 L138,48 L136,72 L150,70 L144,96 C134,74 66,74 56,96Z" fill="${['#26263A','#6B3E2E','#26263A','#B5651D'][v]}" ${sw} stroke-width="3"/>`;
+    return s+dots(100,100,14,3.5)+(v===1?`<path d="M92,120 h16" ${sw} stroke-width="3"/>`:smile(100,118,6))+`<path d="M80,112 h6 M114,112 h6" stroke="#F28482" stroke-width="4" stroke-linecap="round"/>`; },
+  // Sombra con ojos
+  sombra(v){ const c=['#2E2E48','#3D405B','#4A3F55'][v];
+    let s=shadow+legs(100,222,c,13,24,10)+noodle('M66,140 q-18,40 -10,76',c,9)+noodle('M134,140 q18,40 10,76',c,9);
+    s+=v===2?`<path d="M100,46 C138,46 142,90 138,130 L140,226 L60,226 L62,130 C58,90 62,46 100,46Z" fill="${c}" ${sw}/>`
+            :`<circle cx="100" cy="84" r="38" fill="${c}" ${sw}/><path d="M64,226 Q62,130 100,124 Q138,130 136,226Z" fill="${c}" ${sw}/>`;
+    return s+`<ellipse cx="88" cy="84" rx="7" ry="${v===1?4:9}" fill="#fff"/><ellipse cx="112" cy="84" rx="7" ry="${v===1?4:9}" fill="#fff"/>`+(v===0?`<circle cx="100" cy="30" r="0"/>`:''); },
+  // Línea continua minimalista con un acento de color
+  lineal(v){ const acc=C[[5,4,2,13][v]];
+    let s=shadow+`<g fill="none" ${sw} stroke-width="4">`;
+    s+=`<path d="M100,124 C70,124 66,160 66,226 M100,124 C130,124 134,160 134,226 M66,226 H134 M86,226 v20 M114,226 v20"/>`;
+    s+=`<circle cx="100" cy="84" r="34"/>`;
+    s+=v===0?`<path d="M70,80 C80,50 126,48 134,80"/>`:v===1?`<path d="M66,84 C66,40 134,40 134,84 L134,120"/>`:v===2?`<path d="M74,66 q26,-24 52,0"/>`:`<path d="M100,50 q-6,-20 10,-26"/>`;
+    s+=`</g>`;
+    s+=[`<circle cx="100" cy="176" r="14" fill="${acc}"/>`,`<path d="M66,140 h68 v14 h-68Z" fill="${acc}"/>`,`<circle cx="84" cy="88" r="11" fill="none" stroke="${acc}" stroke-width="4"/><circle cx="116" cy="88" r="11" fill="none" stroke="${acc}" stroke-width="4"/>`,`<path d="M90,190 a10,10 0 0 1 10,-10 a10,10 0 0 1 10,10 l-10,12z" fill="${acc}"/>`][v];
+    return s+dots(100,88,12,3); },
+};
+
+const LISTA = [
+  ...[0,1,2,3,4].map(v=>['alargada',v,'Figura alargada']),
+  ...[0,1,2,3].map(v=>['frijol',v,'Frijol humano']),
+  ...[0,1,2,3,4].map(v=>['cabezon',v,'Cabezón']),
+  ...[0,1,2].map(v=>['palito',v,'Palito redondo']),
+  ...[0,1,2,3,4].map(v=>['geom',v,'Geométrico editorial']),
+  ...[0,1,2].map(v=>['capsula',v,'Cápsula']),
+  ...[0,1,2,3].map(v=>['capucha',v,'Capucha']),
+  ...[0,1,2].map(v=>['sincara',v,'Sin cara']),
+  ...[0,1,2,3].map(v=>['ser',v,'Ser humanoide']),
+  ...[0,1,2].map(v=>['lentes',v,'Lentes grandes']),
+  ...[0,1,2,3].map(v=>['webcomic',v,'Webcomic']),
+  ...[0,1,2].map(v=>['sombra',v,'Sombra con ojos']),
+  ...[0,1,2,3].map(v=>['lineal',v,'Línea mínima']),
+];
+document.getElementById('g').innerHTML = LISTA.map(([f,v,n],i) =>
+  `<div class="t"><b>${i+1}</b><svg width="150" height="195" viewBox="0 10 200 255">${F[f](v)}</svg><span>${n}</span></div>`).join('');
+</script>
+</body>
+</html>
