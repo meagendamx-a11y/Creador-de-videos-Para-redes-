@@ -21,6 +21,7 @@ Formato: fecha · decisión · por qué · estado.
 | 2026-11-18 | **Voz: ElevenLabs Starter, clonación instantánea de la voz del fundador.** Texto → audio listo. Opcional: Claude genera el audio vía API si se guarda la clave con el formulario seguro | El fundador quiere solo pasar texto y recibir el audio | ✅ Decidido |
 | 2026-11-18 | **Música:** piano suave o ambient, volumen bajo, de la biblioteca de YouTube o de las bibliotecas de TikTok/IG. El fundador descarga las pistas; Claude indica el estilo | Gratis y con bajo riesgo de reclamos. Guardar la licencia de cada pista | ✅ Decidido |
 | 2026-11-18 | **Edición: Claude** (clips + voz + música + subtítulos + textos + miniatura). El fundador aprueba guion, imágenes y el video final | Reparto acordado | ✅ Decidido |
+| 2026-11-18 | **Elenco:** El Observador neutro (protagonista) + **La Observadora** (mujer, ya generada) + una versión hombre (pendiente), para historias de pareja y familia. Mismo estilo; solo cambian pelo y ropa | Las escenas de pareja rinden mucho (informe 07) y necesitan géneros claros | ✅ Decidido |
 
 ## Pendientes de decisión del fundador
 - Si El Observador lleva un acento distintivo (bufanda, color) para diferenciarse de Baymax y del muñeco de stock. Ver `personaje/observer/variantes.png`.

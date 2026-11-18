@@ -46,3 +46,13 @@ Consejos:
 - Pide escenas cortas de 5 a 8 s, una acción por clip. Yo armo la edición, los subtítulos y la voz.
 - Deja libre la parte de arriba del encuadre para los textos.
 - Si en algún clip el personaje cambia, por ejemplo con ojos unidos, otro grosor o nariz, se descarta.
+
+## 4. Versiones mujer y hombre (para historias de pareja)
+```
+[CHARACTER SHEET]
+Using the attached references, create two companion characters in EXACTLY the same style, body shape, colors (#FBF8F3 body, #D9D4CC shading, #4A4A5C line) and face style (two separate dot eyes, short eyebrows, tiny mouth):
+1) "La Observadora": a woman — chin-length soft bob with bangs, loose cozy sweater, optional scarf.
+2) "El Observador" (man): short slightly messy hair, loose sweater or hoodie.
+Only hair and clothing may change; proportions, line and face must match the original Observer.
+Show each in: front neutral, happy, sad, thinking, and both together sitting on a couch talking. Plain off-white background, no text.
+```

@@ -4,6 +4,16 @@
 - `referencia_gemini_conceptos_observer.jpg`: hoja de expresiones y poses (pensativo, curioso con lupa, empático, asombrado, confundido, reflexivo con libreta). **Es la referencia canónica.**
 - `referencia_gemini_12_conceptos.jpg`: primera hoja de 12 conceptos. Es el #10.
 
+## Elenco: neutro + versiones hombre y mujer (decisión 18-nov-2026)
+| Personaje | Uso | Referencia |
+|---|---|---|
+| **El Observador (neutro)** | Protagonista y narrador de la mayoría de los videos | `referencia_gemini_conceptos_observer.jpg` |
+| **La Observadora** (mujer) | Historias de pareja, familia y relaciones; cuando la escena necesita un género claro | `referencia_gemini_observadora.jpg` |
+| **El Observador** (hombre) | Su contraparte en historias de pareja y relaciones | Pendiente de generar con Gemini (prompt 4 de `PROMPTS_GEMINI.md`) |
+
+Rasgos de La Observadora: mismo cuerpo y estilo que el neutro (blanco cálido, línea gris suave, ojos de punto separados, cejas cortas), más **pelo corto a la altura del mentón con fleco**, **suéter holgado** y una **bufanda** como accesorio ocasional.
+**Regla:** los tres comparten proporciones, colores, línea y estilo de cara. Solo cambian el pelo y la ropa. Así se ven como el mismo universo.
+
 ## Por qué este personaje
 | Razón | Evidencia (ver `investigacion/`) |
 |---|---|
