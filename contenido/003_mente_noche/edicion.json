@@ -7,9 +7,8 @@
     "dormir",
     "nariz",
     "boca",
-    "inhala",
-    "exhala",
-    "profundo",
+    "tres",
+    "sostén",
     "pulmones",
     "vaciarte",
     "guárdalo"
@@ -26,20 +25,20 @@
       "id": "E2",
       "inicio": 0.0,
       "clip": "assets/E2.mp4",
-      "titulo": "1 · Por la nariz · 3 s y 3 s",
+      "titulo": "1 · Nariz: 3 s y 3 s · ×3",
       "_nota": "inicio se ajusta con los tiempos reales de la voz"
     },
     {
       "id": "E3",
       "inicio": 0.0,
       "clip": "assets/E3.mp4",
-      "titulo": "2 · Por la boca · 3 s y 3 s"
+      "titulo": "2 · Boca: 3 s y 3 s · ×3"
     },
     {
       "id": "E4",
       "inicio": 0.0,
       "clip": "assets/E4.mp4",
-      "titulo": "3 · Profunda: llena y vacía"
+      "titulo": "3 · Llena · sostén 3 s · vacía"
     }
   ]
 }

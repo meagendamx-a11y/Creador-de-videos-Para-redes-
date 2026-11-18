@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |---|---|
-| Formato | Short vertical · **~70 s** (ejercicio guiado completo) · TikTok, Reels y Shorts |
+| Formato | Short vertical · **~25 s** (se explican los pasos) · TikTok, Reels y Shorts |
 | Tipo de pieza | **Para guardar**: técnica guiada que se hace mientras se ve el video |
 | Personaje | El Observador |
 | Base | Guía de respiración del fundador (nariz 3×, boca 3×, respiración profunda final y pausa) |
@@ -11,44 +11,27 @@
 | Música | `audio/musica/calm_piano_drift.mp3` |
 | Revisión clínica | ⏳ Pendiente (crédito solo en la descripción) |
 
-## Texto para ElevenLabs (copiar y pegar)
-Los números se dicen despacio, uno por segundo. Si ElevenLabs los acelera, agrega más "…" entre ellos.
+## Texto para ElevenLabs (copiar y pegar) · ~25 s
+Se explican los pasos, sin guiar cada respiración.
 ```
 [softly] ¿No puedes dormir? Te comparto una respiración práctica.
 
-[calm] Siéntate o acuéstate cómodo… y relaja los hombros. Si en algún momento te mareas, detente y respira normal.
+[calm] Primero, por la nariz: inhala tres segundos… y exhala tres segundos. Repítelo tres veces.
 
-[calm] Primero, por la nariz.
-Inhala… dos… tres…
-Exhala… dos… tres…
-Inhala… dos… tres…
-Exhala… dos… tres…
-Una vez más. Inhala… dos… tres…
-Exhala… dos… tres…
+[calm] Después, lo mismo… pero por la boca. Tres veces.
 
-[gently] Ahora, por la boca.
-Inhala… dos… tres…
-Exhala… dos… tres…
-Inhala… dos… tres…
-Exhala… dos… tres…
-Última vez. Inhala… dos… tres…
-Exhala… dos… tres…
+[gently] Y al final: inhala por la boca hasta llenar tus pulmones… sostén tres segundos… y exhala lento, hasta vaciarte.
 
-[calm] Y para terminar: inhala profundo… hasta llenar tus pulmones, sin forzar…
-Ahora exhala lento… hasta vaciarte…
-Y quédate así… dos… tres…
-
-[warmly] Listo. Respira normal… y nota cómo se siente tu cuerpo.
-Guárdalo para esta noche.
+[warmly] Si te mareas, detente y respira normal. Guárdalo para esta noche.
 ```
 
-## Escenas (4 clips de 8 s; los de respiración se repiten en loop durante su sección)
+## Escenas (4 clips de 8 s; si una sección dura más, el clip se repite en loop)
 | Escena | Sección | Texto en pantalla |
 |---|---|---|
-| E1 | Introducción (¿no puedes dormir?) | **¿No puedes dormir? 🌙** |
-| E2 | Respiración por nariz (3×) | **1 · Por la nariz · 3 s y 3 s** |
-| E3 | Respiración por boca (3×) | **2 · Por la boca · 3 s y 3 s** |
-| E4 | Respiración profunda final + cierre | **3 · Profunda: llena y vacía** |
+| E1 · 0–4 s | ¿No puedes dormir? | **¿No puedes dormir? 🌙** |
+| E2 · 4–11 s | Nariz: inhala 3 s, exhala 3 s, ×3 | **1 · Nariz: 3 s y 3 s · ×3** |
+| E3 · 11–15 s | Lo mismo por la boca, ×3 | **2 · Boca: 3 s y 3 s · ×3** |
+| E4 · 15–25 s | Llena, sostén 3 s, vacía + cierre | **3 · Llena · sostén 3 s · vacía** |
 
 ## Publicación
 **Texto:** ¿No puedes dormir? Haz esta respiración conmigo 🌙

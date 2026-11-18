@@ -1,4 +1,4 @@
-# 003 · Prompts para Gemini (4 clips de 8 s)
+# 003 · Prompts para Gemini (4 clips de 8 s · video de ~25 s)
 
 Adjunta la referencia de El Observador y pega el **BLOQUE BASE** (DURACIÓN = 8). Agrega siempre: **"Show the full body; the character is medium-small in the frame, centered."**
 E2, E3 y E4 deben **empezar y terminar en la misma pose**, porque se repiten en loop.
@@ -21,10 +21,10 @@ SCENE: Same as E2. The Observer sits cross-legged, eyes closed, hands on its bel
 ACTION: 0–3 s it breathes IN through the mouth: belly rises, a small soft air swirl flows into the mouth. 3–6 s it breathes OUT through the mouth: belly lowers, the air swirl flows out. 6–8 s it returns to exactly the starting pose (seamless loop).
 ```
 
-## E4 · Respiración profunda final
+## E4 · Llena, sostén y vacía
 ```
 SCENE: Same night bedroom. The Observer sits cross-legged, eyes closed. Faint scribble lines float above its head.
-ACTION: 0–3 s a deep, slow breath in: chest fills, shoulders rise. 3–6 s a long, slow breath out: shoulders drop completely and the scribble lines dissolve into soft dots. 6–8 s it opens its eyes, a small peaceful smile, and lies down calmly.
+ACTION: 0–2 s a deep breath in through the mouth: chest fills, shoulders rise, cheeks slightly puffed. 2–4 s it HOLDS the breath, still, chest full. 4–7 s a long, slow breath out: shoulders drop completely and the scribble lines dissolve into soft dots. 7–8 s it opens its eyes with a small peaceful smile.
 ```
 
 ## Revisión
