@@ -11,9 +11,9 @@
 
 1. **La ansiedad es el tema con más demanda, y por mucho.** En Google, "ansiedad" se busca unas **6.6 veces más** que "psicólogo" y unas **3.4 veces más** que "depresión" (escrita con acento). Pasa lo mismo en el autocompletado: "cómo dejar de pensar demasiado", "cómo dejar de sobrepensar", "por qué me siento nervioso sin razón", "por qué siento que me falta el aire", "cómo controlar un ataque de ansiedad".
 2. **La neurodivergencia en adultos es lo que más crece.** En cinco años, en YouTube: "autismo adultos" **+1,100 %**, "TDAH adultos" **+338 %**, "TDAH" **+226 %**. En Google, "autismo adultos" se duplicó (+100 %). Entre las consultas "en aumento" aparecen *cómo detectar autismo en adultos* (Google, con un salto de +85,500 %), *rasgos de autismo en adultos* (YouTube, +138,250 %), *TDAH en mujeres adultas*, *autismo en mujeres adultas*, *cómo saber si tengo TDAH* y *quién diagnostica TDAH en adultos*. Estas preguntas llevan casi directo a una evaluación profesional.
-3. **Las relaciones de pareja son la mina de preguntas exactas.** Raíces como "mi pareja me…", "cómo superar…" o "señales de que…" devuelven cientos de frases en primera persona: *mi pareja me aplica la ley del hielo*, *me culpa de todo*, *me hace sentir insuficiente*, *cómo superar una infidelidad y seguir con tu pareja*, *cómo dejar de idealizar a una persona*, *mi pareja tiene apego evitativo*. En YouTube, "apego ansioso" y "apego evitativo" ya superan a "el apego" como consultas principales, y *qué tipo de apego tengo* sube +4,900 %.
+3. **Las relaciones de pareja son la mina de preguntas exactas.** Raíces como "mi pareja me…", "cómo superar…" o "señales de que…" devuelven cientos de frases en primera persona: *mi pareja me aplica la ley del hielo*, *me culpa de todo*, *me hace sentir insuficiente*, *cómo superar una infidelidad y seguir con tu pareja*, *cómo dejar de idealizar a una persona*, *mi pareja tiene apego evitativo*. En YouTube, "apego ansioso" y "apego evitativo" ya superan a "el apego" como consultas principales, y *qué tipo de apego tengo* sube +4,900 % y en Google *apego ansioso cómo superarlo* es Breakout (+31,050 %). Ese vocabulario ("apego ansioso", "sobrepensar", "relación tóxica") pesa entre 3 y 28 veces más en YouTube que en Google.
 4. **El formato "La psicología de las personas que…" es una tendencia de YouTube y Shorts en México.** El autocompletado devuelve más de 120 variantes: *…imaginan escenarios falsos*, *…mantienen su casa limpia*, *…prefieren estar solas*, *…no publican fotos en redes*, *…cortan el contacto con su familia*, *…se quedan calladas cuando están heridas*, *…te castigan con silencio*. Va hecho a la medida de un personaje animado.
-5. **La búsqueda explícita de terapia es pequeña y la gente pregunta por el precio.** "psicólogo" + "psicologo" (sin acento) juntos equivalen a ~1/3 de "ansiedad". Las búsquedas de servicio (*psicólogo cerca de mí*, *terapia en línea*, *cuánto cobra un psicólogo*) tienen tan poco volumen que Trends las redondea a 0 frente a los términos grandes. Aun así, en el autocompletado dominan **"psicólogo gratis"** (en línea, CDMX, Simi, DIF, IMSS, para niños, 24 horas) y en las consultas en aumento aparecen *cuánto cobra un psicólogo*, *psicólogo en línea gratis*, *psicólogo infantil gratuito* (+5,050 %) y *terapeuta y psicólogo es lo mismo*. Conclusión: **el puente hacia terapia se hace con contenido que resuelve dudas sobre síntomas ("¿esto que siento es ansiedad?") y que quita barreras ("¿cuánto cuesta?", "¿psicólogo o psiquiatra?", "¿cómo es la primera sesión?"), no con anuncios de "agenda tu cita".**
+5. **La búsqueda explícita de terapia es pequeña y la gente pregunta por el precio.** "psicólogo" + "psicologo" (sin acento) juntos equivalen a ~1/3 de "ansiedad". Las búsquedas de servicio (*psicólogo cerca de mí*, *terapia en línea*, *cuánto cobra un psicólogo*) tienen tan poco volumen que Trends las redondea a 0 frente a los términos grandes. Aun así, en el autocompletado dominan **"psicólogo gratis"** (en línea, CDMX, Simi, DIF, IMSS, para niños, 24 horas) y en las consultas en aumento aparecen *cuánto cobra un psicólogo*, *psicólogo en línea gratis*, *psicólogo infantil gratuito* (+5,050 %) y *terapeuta y psicólogo es lo mismo*. El tipo de terapia más buscado por nombre es **terapia de pareja** (CDMX, Guadalajara, Monterrey, Querétaro; en YouTube, *terapia de pareja por infidelidad*). Conclusión: **el puente hacia terapia se hace con contenido que resuelve dudas sobre síntomas ("¿esto que siento es ansiedad?") y que quita barreras ("¿cuánto cuesta?", "¿psicólogo o psiquiatra?", "¿cómo es la primera sesión?"), no con anuncios de "agenda tu cita".**
 6. **La estacionalidad depende sobre todo de eventos y del calendario escolar, no de la "cuesta de enero".** Diciembre es el valle de casi todos los temas (–15 % a –45 % frente a su promedio). La excepción es "soledad". Julio es el segundo valle para todo lo ligado a la escuela. Los picos llegan con fechas y con cultura pop: **Intensamente 2** (junio de 2024) dejó el máximo histórico de "ansiedad"; también pesan el **Día del Psicólogo** (20 de mayo, +82 % para "psicólogo"), el **Día Mundial del Autismo** (2 de abril), el **Día Mundial de la Salud Mental** (10 de octubre, +76 % para "salud mental") y el **Día Mundial de Lucha contra la Depresión** (13 de enero).
 7. **Hay ruido en los datos y hay que controlarlo.** Muchos términos se mezclan con canciones, lugares o noticias: "Ansiedad" de Fuerza Regida, "Duelo" (grupo musical), "Demasiada personalidad" de Carín León, "Insomnio mental" de Saúl de la Rosa, "Soledad de Graciano Sánchez", "depresión tropical", "Roth IRA". **Los índices de YouTube para emociones sueltas ("ansiedad", "soledad", "duelo", "tristeza", "celos") están inflados por música.** Para planear, conviene la frase con intención ("cómo superar…", "qué es el apego ansioso") y no la palabra suelta.
 
@@ -25,10 +25,10 @@
 |---|---|---|
 | 1. Interés en el tiempo | 40 términos en 7 grupos (emociones, relaciones, familia, trabajo, neurodivergencia, autoconocimiento, terapia). Lotes de 5 con **"psicólogo" como ancla común** en cada lote. Cada índice se expresa como *veces el volumen de "psicólogo"* (suma del término ÷ suma del ancla × 100). | Google y YouTube · 5 años (semanal) y 12 meses (semanal) · 40 llamadas de serie |
 | 1b. Variantes | Lotes extra con formas **sin acento** y frases reales ("psicologo", "depresion", "terapia online", "relacion toxica", "apego ansioso", "sobrepensar", "terapia de pareja", "psicologo gratis"…) | Google 5a/12m + YouTube 12m |
-| 2. Consultas relacionadas | "Principales" (top) y "en aumento" (rising) de los últimos 12 meses para cada término | 1,700+ filas, Google y YouTube |
+| 2. Consultas relacionadas | "Principales" (top) y "en aumento" (rising) de los últimos 12 meses para cada término | ~2,100 filas, Google y YouTube |
 | 3. Estacionalidad | Serie semanal de Google a 5 años → cociente de cada semana contra su media móvil de 52 semanas → promedio por mes (100 = mes típico) | 31 términos con datos suficientes |
 | 3b. Estados | Interés por estado (12 meses, Google), un término por consulta para que el índice 0–100 sea comparable entre estados | 11 términos clave |
-| 4. Sopa de letras | 41 raíces × (raíz sola + a–z + ñ) × Google y YouTube = **~2,200 consultas de autocompletado → ~15,000 sugerencias únicas**. Se clasificaron por expresiones regulares en 20 temas y se ponderaron por posición (las primeras sugerencias y las de la raíz sola valen más) | 0 consultas fallidas |
+| 4. Sopa de letras | 41 raíces × (raíz sola + a–z + ñ) × Google y YouTube = **2,296 consultas de autocompletado → ~16,450 sugerencias únicas (fuente × texto)**. Se clasificaron por expresiones regulares en 20 temas y se ponderaron por posición (las primeras sugerencias y las de la raíz sola valen más) | 0 consultas fallidas |
 
 Raíces de la sopa: *la psicología de las personas que · por qué me siento · cómo dejar de · cómo saber si · señales de que · por qué las personas · psicólogo · terapia · ansiedad · mi pareja · mi mamá · mi hijo*. Se añadieron dos rondas: (a) *qué hacer si · es normal · por qué no puedo · cómo superar · cómo manejar · test de*; (b) *cómo saber si tengo · cómo saber si soy · señales de que tienes · señales de que eres · mi pareja me · mi pareja no · por qué mi pareja · mi mamá me · mi mamá no · mi papá · mi hijo no · mi hijo adolescente · mi jefe · por qué soy · por qué siento · cómo controlar · cómo ayudar a · qué hacer cuando · cómo dejar de pensar en · es normal sentir · cómo poner límites · psicólogo gratis · cómo ser más*.
 
@@ -90,7 +90,23 @@ Raíces de la sopa: *la psicología de las personas que · por qué me siento ·
 
 \* = índice inflado por ruido no psicológico.
 
-<<EXTRA>>
+**Variantes sin acento y frases reales** (lotes extra, mismo ancla; archivo `variantes_indices.csv`):
+
+| Término | Google 12m | YouTube 12m | Lectura |
+|---|---:|---:|---|
+| psicologo (sin acento) | 123 | 143 | Más usado que "psicólogo" → demanda real de la palabra ≈ 223 |
+| depresion (sin acento) | 171 | 510 | Depresión total ≈ 361 en Google |
+| terapia de pareja | **15** | 13 | **El tipo de terapia más buscado.** Principales: *terapia de pareja CDMX, Guadalajara, Monterrey, Querétaro, cerca de mí, en línea, gratuita*. En YouTube: *terapia de pareja por infidelidad* |
+| apego ansioso | 16 | **46** | Pesa 3 veces más en YouTube. En aumento: *apego ansioso cómo superarlo* (Breakout, +31,050 %), *apego ansioso en niños* (+120 % en YouTube) |
+| sobrepensar | 9 | **44** | Pesa 5 veces más en YouTube. Principales: *dejar de sobrepensar*, *qué es sobrepensar* |
+| relacion toxica | 0.5 | **14** | Casi solo se busca en YouTube: *cómo salir de una relación tóxica*, *señales de una relación tóxica* |
+| sindrome del impostor (sin acento) | 9.4 | 5 | Se escribe sin acento (la versión con tilde da 1.4) |
+| ataque de panico / estres laboral (sin acento) | 7.6 / 8.1 | 3.7 / 0.4 | Igual: sumar las dos grafías. *Síntomas de estrés laboral* y *cómo evitar el estrés laboral* están en aumento |
+| terapia en linea · terapia online · psicologo en linea | 2.0 · 0.3 · 0.8 | ~0 | Muy pequeño. Lo que domina es **"gratis"**: *terapia en línea gratis*, *psicólogo en línea gratis* |
+| cuanto cobra un psicologo · psicologo gratis | ~0 · 0.1 | ~0 | Long tail. Principal: *cuánto cobra un psicólogo por sesión* |
+| padres toxicos · jefe toxico · psicologo cerca de mi | 0 | 0 | Por debajo del umbral |
+
+**Hallazgo:** el vocabulario "pop-psicológico" (apego ansioso, sobrepensar, relación tóxica) es **nativo de YouTube**. Relativo al ancla, se busca entre 3 y 28 veces más allí que en Google, mientras que términos institucionales como "salud mental" o "terapia de pareja" pesan igual o menos en YouTube.
 
 **Lectura limpia (solo intención psicológica), de mayor a menor demanda en Google:**
 **ansiedad ≫ depresión (sumando ambas grafías) > autismo ≈ TDAH > psicólogo/psicologo > salud mental > estrés > narcisista ≈ psiquiatra > apego ≈ autoestima ≈ celos ≈ infidelidad > insomnio > burnout > inteligencia emocional > dependencia emocional.**
@@ -217,13 +233,34 @@ Se omiten las que vienen de canciones, dramas o noticias. "Breakout" = más de +
 
 ## 6. Diferencias por estado
 
-<<REGION>>
+*Google, 12 meses. Índice 0–100 = proporción de búsquedas del término sobre el total de búsquedas del estado, escalada al estado máximo. Un término por consulta (archivo `estados_interes_por_termino.csv`). En estados pequeños (Colima, Campeche, BCS) hay más ruido, y un 0 significa que no alcanzan el umbral.*
+
+| Término | Estados más altos (100 = máximo) | Estados más bajos |
+|---|---|---|
+| ansiedad | Guerrero 100, Michoacán 99, Chiapas 97, Colima 95, Sinaloa 95, Guanajuato 94 | CDMX 71, BCS 62, Quintana Roo 53 |
+| depresión (sin acento) | Sonora 100, Durango 99, SLP 99, Colima 99, Sinaloa 99, Zacatecas 96 | Veracruz 70, Puebla 68, Q. Roo 60 |
+| psicólogo (sin acento) | Sinaloa 100, Sonora 99, Baja California 95, Durango 94, CDMX 92, Nayarit 92 | Campeche 66, Oaxaca 64, Chiapas 62 |
+| TDAH | Sinaloa 100, Colima 93, Sonora 90, Nayarit 89, Nuevo León 88 | Oaxaca 64, Guanajuato 63, Puebla 61 |
+| autismo | Sinaloa 100, Baja California 99, Campeche 98, Sonora 95, Nayarit 90 | CDMX 61, Guanajuato 60, Querétaro 58 |
+| apego | Colima 100, **CDMX 99**, Morelos 98, Edomex 96, Nayarit 93 | Nuevo León 76, Coahuila 74, Q. Roo 71 |
+| narcisista | Durango 100, Colima 95, Morelos 94, Chihuahua 93, Sonora 92 | Q. Roo 68, Tabasco 68, Puebla 67 |
+| terapia de pareja | **CDMX 100, Querétaro 93, Edomex 91, Jalisco 86, Yucatán 85** | Guerrero 40, Colima 0, Campeche 0 |
+| burnout | Zacatecas 100, **CDMX 96**, Sonora 89, Yucatán 89 | Edomex 63, Tlaxcala 62, Chiapas 58 |
+| autoestima | Tlaxcala 100, Oaxaca 96, Zacatecas 96, Guerrero 90, Hidalgo 90, Puebla 89 | Sonora 49, BCS 46, Q. Roo 44 |
+| divorcio | Aguascalientes 100, Campeche 100, Nuevo León 99, Tabasco 96, Zacatecas 96 | Querétaro 70, BCS 67, Puebla 64 |
+
+**Patrones:**
+- **Las ciudades con mercado de terapia buscan "servicio" y conceptos de relación.** CDMX, Querétaro, Edomex, Jalisco (Guadalajara) y Yucatán (Mérida) lideran *terapia de pareja*. CDMX también sobresale en *apego* y *burnout*. Son las plazas con más probabilidad de pagar terapia privada o en línea, y el público natural de Agenda PSI.
+- **El noroeste (Sinaloa, Sonora, Baja California, Nayarit, Durango) se interesa más en neurodivergencia y en "psicólogo".** TDAH, autismo y psicólogo tienen ahí sus índices más altos. Es una oportunidad para contenido de diagnóstico adulto con ejemplos del norte.
+- **El sur y el occidente (Guerrero, Michoacán, Chiapas, Oaxaca, Guanajuato) concentran la búsqueda de "ansiedad"**, con menor búsqueda de "psicólogo". La brecha entre malestar y acceso es mayor ahí, así que pesa el contenido gratuito, de autocuidado y de "cuándo pedir ayuda", y la mención de opciones de bajo costo.
+- **"Autoestima" sobre-indexa en estados del centro-sur con mucha población estudiantil** (Tlaxcala, Oaxaca, Puebla, Hidalgo, Guerrero), lo que es coherente con su estacionalidad escolar.
+- El norte industrial (Nuevo León, Aguascalientes, Coahuila) sobre-indexa en *divorcio*, que es sobre todo trámite.
 
 ---
 
 ## 7. Sopa de letras: lo que la gente escribe de verdad
 
-**Totales:** ~15,000 sugerencias únicas; ~3,300 de la primera ronda se clasificaron como psicológicas. El resto son ruido: salud física, trámites, WhatsApp, canciones, dramas.
+**Totales:** ~16,450 sugerencias únicas; ~3,300 de las ~8,200 de la primera ronda se clasificaron como psicológicas. El resto son ruido: salud física, trámites, WhatsApp, canciones, dramas.
 
 ### 7.1 Peso por tema en el autocompletado (ronda 1)
 
@@ -513,7 +550,8 @@ Carpeta: `/tmp/claude-0/-home-user-Creador-de-videos-Para-redes-/f6e80049-54f1-5
 | `interes_normalizado_largo.csv` | Todos los índices normalizados contra "psicólogo" + cambios anual, a 5 años y trimestral |
 | `resumen_terminos.csv` | Tabla resumen (§3–4) |
 | `estacionalidad_google.csv` | Índices mensuales (§5) |
-| `consultas_relacionadas.csv` | 1,700+ consultas relacionadas consolidadas |
+| `consultas_relacionadas.csv` | ~2,100 consultas relacionadas consolidadas |
+| `variantes_indices.csv` | Índices de variantes sin acento y frases reales (§3) |
 | `estados_interes_por_termino.csv` · `estados_sobreindice.csv` | §6 |
 | `autocomplete_raw.json` · `autocomplete_raw_ronda2.json` | Sugerencias crudas (Google y YouTube, raíz × letra) |
 | `autocomplete_clasificado.csv` · `autocomplete_temas.json` | Sugerencias clasificadas por tema con puntuación |
