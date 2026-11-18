@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FONT_DIR = ROOT / "produccion" / "fuentes"
 W, H = 1080, 1920
-MEDIA_Y, MEDIA_H = 300, 1350  # zona del video (4:5) dentro del lienzo 9:16
+MEDIA_Y, MEDIA_H = 0, 1920  # video a pantalla completa 9:16 (títulos y subtítulos van encima)
 BG = "0xFBF8F3"
 
 
@@ -61,7 +61,7 @@ WrapStyle: 0
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Titulo,Nunito,62,&H002E2E2E,&H00000000,{yellow},&H00000000,-1,0,0,0,100,100,0,0,3,14,0,8,80,80,120,1
-Style: Sub,Nunito,78,&H00FFFFFF,&H00000000,&H00202028,&H64000000,-1,0,0,0,100,100,0,0,1,7,2,2,70,70,330,1
+Style: Sub,Nunito,78,&H00FFFFFF,&H00000000,&H00202028,&H64000000,-1,0,0,0,100,100,0,0,1,7,2,2,70,70,250,1
 Style: Firma,Nunito,30,&H00808080,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,40,40,70,1
 
 [Events]
@@ -98,15 +98,36 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     out.write_text(head + "\n".join(ev) + "\n", encoding="utf-8")
 
 
+def foco_personaje(clip):
+    """Centro horizontal (0–1) de los píxeles casi blancos (personaje y burbujas) en varios fotogramas."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(clip), "-vf", "fps=1,scale=320:-2", "-f", "rawvideo",
+                          "-pix_fmt", "rgb24", "-"], check=True, capture_output=True).stdout
+    probe = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                            "-of", "csv=p=0", str(clip)], check=True, capture_output=True, text=True).stdout.strip().split(",")
+    w, h = 320, round(320 * int(probe[1]) / int(probe[0]) / 2) * 2
+    f = np.frombuffer(raw, dtype=np.uint8).reshape(-1, h, w, 3).astype(int)
+    blanco = (f.min(axis=3) > 215) & ((f.max(axis=3) - f.min(axis=3)) < 25)
+    cols = blanco.sum(axis=(0, 1))
+    if cols.sum() == 0:
+        return 0.5
+    return float((cols * np.arange(w)).sum() / cols.sum() / w)
+
+
 def escena(base, s, d, out, tmp):
     clip = base / s["clip"] if s.get("clip") else None
     vf_fit = f"scale={W}:{MEDIA_H}:force_original_aspect_ratio=increase,crop={W}:{MEDIA_H}"
     if clip and clip.exists():
         wh = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
                              "-of", "csv=p=0", str(clip)], check=True, capture_output=True, text=True).stdout.strip().split(",")
-        if int(wh[0]) > int(wh[1]):
-            # clip horizontal: se muestra completo (sin recortar al personaje), centrado sobre el color de marca
-            vf_fit = f"scale={W}:-2,pad={W}:{MEDIA_H}:0:(oh-ih)/2:color={BG}"
+        iw, ih = int(wh[0]), int(wh[1])
+        if iw * MEDIA_H > ih * W:
+            # clip más ancho que 9:16: recorte inteligente centrado en el personaje (o en "foco_x" si se fija a mano)
+            cw = round(ih * W / MEDIA_H) // 2 * 2
+            fx = s.get("foco_x", foco_personaje(clip))
+            x = int(min(max(fx * iw - cw / 2, 0), iw - cw))
+            print(f"  {s['id']}: recorte {cw}x{ih} en x={x} (foco {fx:.2f})")
+            vf_fit = f"crop={cw}:{ih}:{x}:0,scale={W}:{MEDIA_H}:flags=lanczos"
         # leve corrección de color: quita el tinte sepia típico de los generadores
         vf = f"{vf_fit},colorbalance=rm=-0.06:bm=0.06:rh=-0.04:bh=0.04,eq=saturation=0.9,fps=30,setpts=PTS-STARTPTS"
         run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", str(clip), "-t", f"{d:.3f}", "-an",
