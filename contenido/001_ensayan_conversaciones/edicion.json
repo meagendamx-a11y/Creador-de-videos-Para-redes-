@@ -7,7 +7,7 @@
   "firma": "Guion revisado por [Psicólogo/a] · Cédula [XXXX]",
   "secciones": [
     {"id": "E1", "inicio": 0.0,   "clip": "assets/E1.mp4", "titulo": ""},
-    {"id": "E2", "inicio": 3.9,   "clip": "assets/E2.mp4", "titulo": "Ensayar conversaciones"},
+    {"id": "E2", "inicio": 3.9,   "clip": "assets/E2.mp4", "foco_x": 0.46, "titulo": "Ensayar conversaciones"},
     {"id": "E3", "inicio": 13.4,  "clip": "assets/E3.mp4", "titulo": "1. Te prepara"},
     {"id": "E4", "inicio": 24.7,  "clip": "assets/E4.mp4", "titulo": "2. Ordena lo que sentiste"},
     {"id": "E5", "inicio": 32.5,  "clip": "assets/E5.mp4", "titulo": "3. Cuida tus vínculos"},

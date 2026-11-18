@@ -61,7 +61,7 @@ WrapStyle: 0
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Titulo,Nunito,62,&H002E2E2E,&H00000000,{yellow},&H00000000,-1,0,0,0,100,100,0,0,3,14,0,8,80,80,120,1
-Style: Sub,Nunito,78,&H00FFFFFF,&H00000000,&H00202028,&H64000000,-1,0,0,0,100,100,0,0,1,7,2,2,70,70,250,1
+Style: Sub,Nunito,78,&H00FFFFFF,&H00000000,&H00202028,&H64000000,-1,0,0,0,100,100,0,0,1,7,2,2,70,70,170,1
 Style: Firma,Nunito,30,&H00808080,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,40,40,70,1
 
 [Events]
@@ -99,7 +99,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 
 def foco_personaje(clip):
-    """Centro horizontal (0–1) de los píxeles casi blancos (personaje y burbujas) en varios fotogramas."""
+    """Centro horizontal (0–1) del personaje: píxeles casi blancos de la mitad inferior, en varios fotogramas."""
     import numpy as np
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(clip), "-vf", "fps=1,scale=320:-2", "-f", "rawvideo",
                           "-pix_fmt", "rgb24", "-"], check=True, capture_output=True).stdout
@@ -108,6 +108,8 @@ def foco_personaje(clip):
     w, h = 320, round(320 * int(probe[1]) / int(probe[0]) / 2) * 2
     f = np.frombuffer(raw, dtype=np.uint8).reshape(-1, h, w, 3).astype(int)
     blanco = (f.min(axis=3) > 215) & ((f.max(axis=3) - f.min(axis=3)) < 25)
+    # solo la mitad inferior: ahí está el cuerpo; arriba suelen ir burbujas/objetos que desvían el encuadre
+    blanco[:, : int(h * 0.45), :] = False
     cols = blanco.sum(axis=(0, 1))
     if cols.sum() == 0:
         return 0.5
@@ -170,8 +172,12 @@ def main(cfg_path):
         construir_ass(cfg, words, dur, ass)
         final = out_dir / f"{base.name}_vertical.mp4"
         mv = cfg.get("volumen_musica_db", -20)
-        fc = (f"color=c={BG}:s={W}x{H}:r=30:d={dur:.3f}[bg];"
-              f"[0:v]setpts=PTS-STARTPTS[m];[bg][m]overlay=0:{MEDIA_Y}:shortest=1,"
+        # El personaje suele quedar muy abajo en los clips: se sube la imagen nítida "subir_px"
+        # (se recorta el cielo/pared vacíos de arriba) y abajo queda una copia desenfocada donde van los subtítulos.
+        up = cfg.get("subir_px", 340)
+        fc = (f"[0:v]setpts=PTS-STARTPTS,split=2[m][b];"
+              f"[b]boxblur=40:2,eq=brightness=-0.08[bg];"
+              f"[bg][m]overlay=0:{-up}:shortest=1,"
               f"subtitles={ass}:fontsdir={FONT_DIR}[v];"
               f"[2:a]volume={mv}dB,afade=t=out:st={dur - 2:.2f}:d=2[mus];"
               f"[1:a]asplit=2[voz][sc];"
