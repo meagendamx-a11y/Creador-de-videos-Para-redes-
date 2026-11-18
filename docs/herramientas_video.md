@@ -16,6 +16,9 @@
 
 Ninguna fuente compara la consistencia en animación **2D simple** como la nuestra. Hay que probarla con una prueba propia.
 
+## Decisión (18-nov-2026)
+Empezamos con **Gemini** (suscripción barata). Las demás quedan como alternativas por si Gemini no mantiene bien al personaje o sale caro.
+
 ## Recomendación
 1. **Gemini/Flow es una opción sólida para empezar.** Tiene créditos gratis diarios, la herramienta "Ingredients" sirve justo para mantener el personaje, y el personaje ya nació en Gemini.
 2. **No conviene casarse con un solo proveedor:** los rankings cambian cada mes. Lo que no cambia es nuestra **referencia canónica** (imagen + ficha), y esa funciona con cualquier herramienta.

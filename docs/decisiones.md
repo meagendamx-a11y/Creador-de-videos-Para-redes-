@@ -16,11 +16,13 @@ Formato: fecha · decisión · por qué · estado.
 
 | 2026-11-18 | **Personaje oficial: "El Observador" (The Observer · Simple, generado con Gemini).** Ficha en `personaje/observer/README.md` | Lo eligió el fundador. Es abrazable y calmado (la lógica de Baymax), es "alguien" universal y cuenta historias con el cuerpo y objetos | ✅ Decidido |
 | 2026-11-18 | Reparto: Claude hace diseño, guiones y revisión; **Gemini genera el video** a partir de la referencia canónica | Indicación del fundador | ✅ Decidido |
+| 2026-11-18 | **Video: empezar con Gemini** (suscripción barata) y guardar las alternativas: Kling, Seedance, Runway, Higgsfield | El personaje nació en Gemini, tiene créditos diarios y la función "Ingredients" para la consistencia. Ver `docs/herramientas_video.md` | ✅ Decidido |
+| 2026-11-18 | Flujo de video: imagen fija por escena → imagen a video (Gemini) → Claude arma voz, subtítulos, música y miniatura | Controlar la consistencia antes de gastar en video | ✅ Decidido |
 
 ## Pendientes de decisión del fundador
 - Si El Observador lleva un acento distintivo (bufanda, color) para diferenciarse de Baymax y del muñeco de stock. Ver `personaje/observer/variantes.png`.
 - Nombre en español del personaje.
-- Voz humana: quién la pone.
+- Voz: grabar directamente o clonar con ElevenLabs (ver `docs/herramientas_audio.md`).
 - Psicólogo responsable de firmar y revisar los guiones.
 - Si se limpia el historial de git de imágenes de terceros.
 - Consultar a un abogado si el aviso de publicidad de COFEPRIS aplica cuando se promocionen citas.

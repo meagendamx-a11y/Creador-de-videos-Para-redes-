@@ -26,6 +26,8 @@ README.md                  ← este archivo
 CLAUDE.md                  ← memoria y reglas para las sesiones con Claude
 docs/
   plan_de_trabajo.md       ← etapas, entregables y pendientes
+  herramientas_video.md    ← proveedores de video IA (Gemini elegido, alternativas)
+  herramientas_audio.md    ← voz (clonación) y música libre de uso
   decisiones.md            ← registro de decisiones (qué, cuándo, por qué)
   reglas_contenido.md      ← reglas obligatorias: políticas, crisis, IA, firma clínica
 investigacion/
