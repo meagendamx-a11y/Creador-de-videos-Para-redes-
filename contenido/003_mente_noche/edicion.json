@@ -3,10 +3,43 @@
   "musica": "../../audio/musica/calm_piano_drift.mp3",
   "volumen_musica_db": -18,
   "correcciones": {},
-  "resaltar": ["noche", "inhala", "cuatro", "exhala", "seis", "relajarse", "tres", "guárdalo"],
+  "resaltar": [
+    "dormir",
+    "nariz",
+    "boca",
+    "inhala",
+    "exhala",
+    "profundo",
+    "pulmones",
+    "vaciarte",
+    "guárdalo"
+  ],
   "firma": "",
   "secciones": [
-    {"id": "E1", "inicio": 0.0, "clip": "assets/E1.mp4", "titulo": "¿No puedes dejar de pensar? 🌙"},
-    {"id": "E2", "inicio": 5.0, "clip": "assets/E2.mp4", "titulo": "Inhala 4 · Exhala 6"}
+    {
+      "id": "E1",
+      "inicio": 0.0,
+      "clip": "assets/E1.mp4",
+      "titulo": "¿No puedes dormir? 🌙"
+    },
+    {
+      "id": "E2",
+      "inicio": 0.0,
+      "clip": "assets/E2.mp4",
+      "titulo": "1 · Por la nariz · 3 s y 3 s",
+      "_nota": "inicio se ajusta con los tiempos reales de la voz"
+    },
+    {
+      "id": "E3",
+      "inicio": 0.0,
+      "clip": "assets/E3.mp4",
+      "titulo": "2 · Por la boca · 3 s y 3 s"
+    },
+    {
+      "id": "E4",
+      "inicio": 0.0,
+      "clip": "assets/E4.mp4",
+      "titulo": "3 · Profunda: llena y vacía"
+    }
   ]
 }
