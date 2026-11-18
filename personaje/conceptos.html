@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Conceptos de personaje</title>
+<style>
+  body { margin:0; background:#F6F1E9; font-family: system-ui, sans-serif; color:#2B2B33; }
+  .sheet { width:1200px; padding:32px; box-sizing:border-box; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  p.sub { margin:0 0 24px; color:#6b6670; }
+  .row { display:flex; align-items:center; gap:8px; margin-bottom:18px; background:#fff; border-radius:18px; padding:12px 16px; }
+  .label { width:230px; }
+  .label b { font-size:22px; display:block; }
+  .label span { font-size:14px; color:#6b6670; }
+  .cell { text-align:center; font-size:13px; color:#6b6670; }
+  svg { display:block; }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <h1>Conceptos de personaje</h1>
+  <p class="sub">Neutral · triste · feliz · pensativo · ansioso. Cada uno es vector puro: se anima por código sin costo.</p>
+  <div id="rows"></div>
+</div>
+<script>
+// Generador paramétrico: el mismo código produce todas las expresiones,
+// así el personaje queda 100% consistente entre escenas y videos.
+const INK = '#2B2B33', SW = 4.5;
+
+function eyes(cx, cy, gap, mood) {
+  const l = cx - gap, r = cx + gap;
+  let s = '';
+  if (mood === 'feliz') {
+    // ojos cerrados en arco = sonrisa con los ojos
+    s += `<path d="M${l-9},${cy+2} Q${l},${cy-9} ${l+9},${cy+2}" fill="none" stroke="${INK}" stroke-width="${SW}" stroke-linecap="round"/>`;
+    s += `<path d="M${r-9},${cy+2} Q${r},${cy-9} ${r+9},${cy+2}" fill="none" stroke="${INK}" stroke-width="${SW}" stroke-linecap="round"/>`;
+    s += `<ellipse cx="${l-6}" cy="${cy+16}" rx="9" ry="5" fill="#F29C9C" opacity=".55"/>`;
+    s += `<ellipse cx="${r+6}" cy="${cy+16}" rx="9" ry="5" fill="#F29C9C" opacity=".55"/>`;
+    return s;
+  }
+  const dy = mood === 'triste' ? 4 : 0;          // mirada hacia abajo
+  const dx = mood === 'pensativo' ? 4 : 0;        // mirada de lado
+  const ry = mood === 'ansioso' ? 8.5 : 7;        // ojos más abiertos
+  s += `<ellipse cx="${l+dx}" cy="${cy+dy}" rx="5.5" ry="${ry}" fill="${INK}"/>`;
+  s += `<ellipse cx="${r+dx}" cy="${cy+dy}" rx="5.5" ry="${ry}" fill="${INK}"/>`;
+  s += `<circle cx="${l+dx+1.8}" cy="${cy+dy-2.5}" r="1.8" fill="#fff"/>`;
+  s += `<circle cx="${r+dx+1.8}" cy="${cy+dy-2.5}" r="1.8" fill="#fff"/>`;
+  // cejas: son las que más comunican emoción en un personaje sin boca grande
+  const by = cy - 17;
+  const brow = {
+    neutral:   [[l-8,by,l+8,by],[r-8,by,r+8,by]],
+    triste:    [[l-8,by+4,l+8,by-4],[r-8,by-4,r+8,by+4]],
+    pensativo: [[l-8,by,l+8,by-3],[r-8,by-6,r+8,by-2]],
+    ansioso:   [[l-8,by+2,l+8,by-5],[r-8,by-5,r+8,by+2]],
+  }[mood];
+  brow.forEach(([x1,y1,x2,y2]) => s += `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${INK}" stroke-width="${SW-0.5}" stroke-linecap="round"/>`);
+  if (mood === 'ansioso') s += `<path d="M${r+22},${cy-20} q4,8 0,12 q-4,-4 0,-12z" fill="#8EC5E8" stroke="${INK}" stroke-width="2"/>`;
+  return s;
+}
+
+function mouth(cx, cy, mood) {
+  const d = {
+    neutral:   `M${cx-6},${cy} Q${cx},${cy+3} ${cx+6},${cy}`,
+    triste:    `M${cx-7},${cy+3} Q${cx},${cy-4} ${cx+7},${cy+3}`,
+    feliz:     `M${cx-9},${cy-1} Q${cx},${cy+9} ${cx+9},${cy-1}`,
+    pensativo: `M${cx-4},${cy+1} L${cx+6},${cy-1}`,
+    ansioso:   `M${cx-8},${cy+1} q4,-4 8,0 q4,4 8,0`,
+  }[mood];
+  return `<path d="${d}" fill="none" stroke="${INK}" stroke-width="${SW-1}" stroke-linecap="round"/>`;
+}
+
+// brazos según emoción (hombro izq/der dados)
+function arms(lx, ly, rx, ry, mood, color) {
+  const A = {
+    neutral:   [`M${lx},${ly} q-22,18 -18,46`, `M${rx},${ry} q22,18 18,46`],
+    triste:    [`M${lx},${ly} q-10,26 -6,58`, `M${rx},${ry} q10,26 6,58`],
+    feliz:     [`M${lx},${ly} q-30,-10 -34,-44`, `M${rx},${ry} q30,-10 34,-44`],
+    pensativo: [`M${lx},${ly} q-22,18 -18,46`, `M${rx},${ry} q20,10 -4,-26`],
+    ansioso:   [`M${lx},${ly} q-14,10 6,24`, `M${rx},${ry} q14,10 -6,24`],
+  }[mood];
+  return A.map(d => `<path d="${d}" fill="none" stroke="${INK}" stroke-width="13" stroke-linecap="round"/>
+                     <path d="${d}" fill="none" stroke="${color}" stroke-width="6.5" stroke-linecap="round"/>`).join('');
+}
+
+function legs(cx, y, color, spread=18) {
+  return [-spread, spread].map(o =>
+    `<path d="M${cx+o},${y} l${o>0?3:-3},26" stroke="${INK}" stroke-width="13" stroke-linecap="round"/>
+     <path d="M${cx+o},${y} l${o>0?3:-3},26" stroke="${color}" stroke-width="6.5" stroke-linecap="round"/>`).join('');
+}
+
+const FRONT = m => m==='pensativo'||m==='ansioso';
+const shadow = (cx,y,w) => `<ellipse cx="${cx}" cy="${y}" rx="${w}" ry="8" fill="#000" opacity=".08"/>`;
+
+// --- Concepto A: "Gota" ---
+function gota(mood) {
+  const c = '#8FC4BC', cx = 110;
+  const squash = mood === 'triste' ? 'translate(0,6) scale(1,.97)' : '';
+  return shadow(cx,262,52) + legs(cx,228,c) +
+    `<g transform="${squash}" transform-origin="${cx} 240">` +
+    (FRONT(mood)?'':arms(cx-52,170,cx+52,170,mood,c)) +
+    `<path d="M${cx},38 C${cx},38 ${cx-64},132 ${cx-64},178 a64,64 0 0 0 128,0 C${cx+64},132 ${cx},38 ${cx},38Z" fill="${c}" stroke="${INK}" stroke-width="${SW}" stroke-linejoin="round"/>
+     <path d="M${cx-40},150 q-6,22 2,44" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".5"/>` +
+    eyes(cx,165,20,mood) + mouth(cx,192,mood) + (FRONT(mood)?arms(cx-40,175,cx+40,175,mood,c):'') + `</g>`;
+}
+
+// --- Concepto B: "Piedrita" (blob tipo frijol) ---
+function piedra(mood) {
+  const c = '#B9AEDC', cx = 110;
+  return shadow(cx,262,54) + legs(cx,232,c,20) +
+    (FRONT(mood)?'':arms(cx-50,165,cx+50,165,mood,c)) +
+    `<path d="M${cx-52},150 C${cx-58},88 ${cx-30},60 ${cx+2},60 C${cx+40},60 ${cx+58},92 ${cx+54},150 C${cx+52},205 ${cx+34},240 ${cx},240 C${cx-36},240 ${cx-50},205 ${cx-52},150Z" fill="${c}" stroke="${INK}" stroke-width="${SW}"/>
+     <path d="M${cx+30},88 q12,10 14,28" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".5"/>` +
+    eyes(cx,135,20,mood) + mouth(cx,162,mood) + (FRONT(mood)?arms(cx-40,175,cx+40,175,mood,c):'');
+}
+
+// --- Concepto C: "Brote" (semilla con brote que reacciona a la emoción) ---
+function brote(mood) {
+  const c = '#EBCB9E', g = '#7DB46C', cx = 110;
+  // el brote es un indicador emocional: caído = triste, erguido/flor = feliz
+  const sprout = {
+    neutral:   `M${cx},78 q-2,-22 0,-34 M${cx},50 q-26,-8 -30,-26 q22,2 30,22 M${cx},46 q22,-10 30,-26 q-24,0 -30,20`,
+    triste:    `M${cx},78 q2,-18 10,-26 M${cx+10},52 q-6,24 -30,26 q10,-20 30,-26 M${cx+10},52 q24,6 32,26 q-24,-2 -32,-26`,
+    feliz:     `M${cx},78 q-2,-26 0,-40 M${cx},48 q-28,-14 -30,-34 q22,4 30,30 M${cx},44 q26,-16 30,-34 q-24,2 -30,30`,
+    pensativo: `M${cx},78 q-2,-22 6,-32 M${cx+6},48 q-24,-6 -30,-24 q22,0 30,22 M${cx+6},46 q20,-8 28,-26 q-22,2 -28,22`,
+    ansioso:   `M${cx},78 q-6,-12 2,-20 q8,-8 0,-18 M${cx+2},44 q-22,-10 -26,-24 q20,2 26,20 M${cx+2},42 q20,-10 24,-24 q-20,0 -24,20`,
+  }[mood];
+  let s = shadow(cx,262,54) + legs(cx,234,c,20) + (FRONT(mood)?'':arms(cx-56,170,cx+56,170,mood,c)) +
+    `<path d="${sprout}" fill="${g}" stroke="${INK}" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>` +
+    `<ellipse cx="${cx}" cy="160" rx="62" ry="82" fill="${c}" stroke="${INK}" stroke-width="${SW}"/>
+     <path d="M${cx-40},120 q-10,30 -2,62" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".5"/>`;
+  if (mood === 'feliz') s += `<circle cx="${cx}" cy="18" r="9" fill="#F7B6C2" stroke="${INK}" stroke-width="3"/><circle cx="${cx}" cy="18" r="3.5" fill="#F7D774"/>`;
+  return s + eyes(cx,150,22,mood) + mouth(cx,180,mood) + (FRONT(mood)?arms(cx-44,185,cx+44,185,mood,c):'');
+}
+
+const MOODS = ['neutral','triste','feliz','pensativo','ansioso'];
+const CONCEPTS = [
+  ['A · Gota', 'Fluye, cambia de forma. Metáfora: emociones que se mueven.', gota],
+  ['B · Piedrita', 'Blob neutro tipo frijol. El más cercano al estilo de la referencia.', piedra],
+  ['C · Brote', 'Semilla con brote que reacciona: se cae si está triste, florece si está bien. Metáfora: crecer en terapia.', brote],
+];
+document.getElementById('rows').innerHTML = CONCEPTS.map(([name, desc, fn]) =>
+  `<div class="row"><div class="label"><b>${name}</b><span>${desc}</span></div>` +
+  MOODS.map(m => `<div class="cell"><svg width="180" height="230" viewBox="0 0 220 280">${fn(m)}</svg>${m}</div>`).join('') +
+  `</div>`).join('');
+</script>
+</body>
+</html>
