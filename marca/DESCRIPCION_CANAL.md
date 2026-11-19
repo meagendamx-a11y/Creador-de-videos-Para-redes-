@@ -19,10 +19,12 @@ Este canal es de divulgación y no sustituye una consulta profesional. Si estás
 ¿Quieres hablar con un psicólogo? Encuentra profesionales verificados en agendapsi.mx
 ```
 
-## TikTok (máx. 80 caracteres)
+## TikTok (máx. 80 caracteres) · cuenta @psicologiacotidiana0, nombre "Psicologia Cotidiana"
 ```
-Psicología para la vida de todos los días 🧠 Revisado por psicólogos
+Psicología para la vida de todos los días 🧠 Lo que vives, explicado simple.
 ```
+(Cuando el psicólogo responsable esté definido, se puede usar: "Psicología para la vida de todos los días 🧠 Revisado por psicólogos".)
+Pendiente: agregar el acento en el nombre ("Psicología Cotidiana"); TikTok lo permite después del 25-nov-2026.
 
 ## Instagram (máx. 150 caracteres)
 ```
