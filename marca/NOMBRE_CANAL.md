@@ -25,3 +25,22 @@ Disponibilidad comprobada en **YouTube** el 19-nov-2026 (404 = libre). **TikTok 
 **Antes de decidir:**
 1. Revisar el usuario en TikTok e Instagram.
 2. Buscar el nombre en el IMPI (marcas en México) si se quiere registrar.
+
+---
+
+## Ronda 2 · "Psicología para todos / del día a día" (pedido del fundador)
+Disponibilidad comprobada en YouTube el 19-nov-2026.
+
+| Nombre | Usuario | YouTube | Comentario |
+|---|---|---|---|
+| **Psicología Cotidiana** | @psicologiacotidiana | ✅ Libre | ⭐ Dice exactamente "del día a día", claro y profesional. Algo genérico para registrar como marca |
+| **La Psicotidiana** | @lapsicotidiana | ✅ Libre | ⭐ Juego de palabras (psico + cotidiana): memorable y propio, más fácil de registrar |
+| **Psicología para Todos** | @psicoparatodos | ✅ Libre (el usuario largo @psicologiaparatodos está ocupado) | Mensaje "para todos" muy directo |
+| **La Psicología de Todos** | @lapsicologiadetodos | ✅ Libre | Inclusivo, cálido |
+| **Psico del Día a Día** | @psicodeldiaadia | ✅ Libre | Literal y cercano; largo |
+| **Día a Día Psi** | @diaadiapsi | ✅ Libre | Corto, con guiño a Agenda PSI |
+| **Psicología en tu Vida** | @psicologiaentuvida | ✅ Libre | Cercano, "tú" |
+| **La Vida Psi** | @lavidapsi | ✅ Libre | Muy corto |
+| ~~Psicología del Día a Día~~, ~~Psicología Diaria~~, ~~Psicología para Todos (@psicologiaparatodos)~~, ~~Psicología Simple~~, ~~Psicotidiana (sin "La")~~ | — | ❌ Ocupados | — |
+
+Frase sugerida para cualquiera: **"Psicología para la vida de todos los días."**
