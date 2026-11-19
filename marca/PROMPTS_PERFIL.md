@@ -44,3 +44,14 @@ LAYOUT: the character is SMALL (about 25% of the image height), FULL BODY visibl
 BACKGROUND: one continuous soft flat sky blue (#CFE6F5) with a few very subtle light-blue doodles (thought bubbles, heart, question mark, swirls), sparse and calm, across the whole image.
 STYLE: flat 2D hand-drawn illustration, NOT 3D, no sepia. NO text, NO letters, NO logos, NO frames.
 ```
+
+## Archivos de marca
+| Archivo | Qué es | Estado |
+|---|---|---|
+| `perfil_gemini_original.jpg` | Foto de perfil generada por Gemini | Referencia |
+| `perfil_1080_cerrado.png` | **Foto de perfil final**, 1080×1080, encuadre cerrado | ✅ Usar en YouTube, TikTok, IG y FB |
+| `perfil_1080_original.png` | Foto de perfil 1080×1080, encuadre original | Alternativa |
+| `prueba_tamanos_perfil.png` | Simulación en círculo a 110/56/40 px | Referencia |
+| `banner_gemini_original.jpg` | Banner v1 de Gemini (con recuadro dibujado por error) | Referencia |
+| `banner_youtube_sin_texto_2560x1440.png` | Banner v1 limpio, sin recuadro; sirve para celular | ✅ Provisional (falta el nombre) |
+| `banner_gemini_v2_intento.jpg` | Banner v2 de Gemini: copió los recuadros y etiquetas de la hoja de referencia y los personajes salen desvanecidos | ❌ No usar; solo referencia |
