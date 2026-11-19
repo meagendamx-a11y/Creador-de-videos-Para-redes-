@@ -70,3 +70,30 @@ Si estás en crisis, llama al 911 o a la Línea de la Vida: 800 911 2000 (gratis
 #psicologo #psiquiatra #terapia #saludmental #psicologiamexico
 ```
 **Comentario fijado:** ¿Qué otra duda tienes antes de ir a terapia? 👇
+
+---
+
+# TikTok · semana 1 (@psicologiacotidiana0)
+En TikTok la gente **busca** dentro de la app: la primera línea lleva palabras clave. Los links no son clickeables en la descripción ("link en el perfil"). Usar 3–5 hashtags.
+Ajustes: portada con el fotograma más expresivo · ubicación: Mexico City (opcional, ayuda a llegar a público local) · "Contenido generado por IA": activarlo por transparencia (recomendación de la investigación, aunque es animación).
+
+## 002
+```
+Para quien siempre dice "estoy bien" aunque esté cansado 🤍 No tienes que poder con todo tú solo. Pedir ayuda también es ser fuerte. Etiqueta a esa persona 👇
+#saludmental #psicologia #ansiedad #estoybien #psicologiamexico
+```
+## 003
+```
+¿No puedes dormir porque tu mente no se apaga? 🌙 Prueba esta respiración: nariz 3 y 3, boca 3 y 3, y una profunda al final. Guárdalo para esta noche. Si te mareas, detente.
+#insomnio #ansiedad #respiracion #saludmental #psicologiamexico
+```
+## 004
+```
+La psicología de las personas que prefieren estar solas 🏠 Estar solo no es lo mismo que sentirse solo. Mándaselo a tu amigo que siempre cancela 😅
+#psicologia #introvertidos #soledad #saludmental #psicologiamexico
+```
+## 005
+```
+¿Psicólogo o psiquiatra? 🤔 El psicólogo te acompaña con terapia; el psiquiatra es médico y puede recetar. Si no sabes por dónde empezar, empieza por un psicólogo. Psicólogos verificados: link en el perfil.
+#psicologo #psiquiatra #terapia #saludmental #psicologiamexico
+```
