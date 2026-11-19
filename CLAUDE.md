@@ -17,7 +17,7 @@
 4. `docs/reglas_contenido.md`: reglas obligatorias para todo guion o video.
 
 ## Canal
-**La Psicotidiana** (@lapsicotidiana) · "Psicología para la vida de todos los días." Archivos de marca en `marca/`.
+**Psicología Cotidiana** (identificador por confirmar: @psicologiacotidiana parece reservado; alternativa @psicologiacotidianamx) · "Psicología para la vida de todos los días." Archivos de marca en `marca/`.
 
 ## Personaje oficial
 **El Observador**: personaje por defecto en todos los videos (neutro, o hombre cuando haga falta). **La Observadora**: solo cuando el fundador pida un personaje mujer. Ficha y rasgos canónicos en `personaje/observer/README.md`. Nunca unir los ojos con una línea (evita el parecido con Baymax). El video lo genera Gemini (`personaje/observer/PROMPTS_GEMINI.md`).

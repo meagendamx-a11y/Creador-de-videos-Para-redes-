@@ -1,4 +1,5 @@
-# ✅ Nombre elegido: **La Psicotidiana** (@lapsicotidiana) · 19-nov-2026
+# ✅ Nombre elegido: **Psicología Cotidiana** · 19-nov-2026
+Identificador: @psicologiacotidiana aparece reservado en YouTube (al crear el canal sugiere "-m9f"). Libre como alternativa: @psicologiacotidianamx.
 
 # Opciones de nombre del canal
 
