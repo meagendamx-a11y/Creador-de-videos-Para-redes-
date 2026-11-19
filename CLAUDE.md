@@ -17,6 +17,7 @@
 4. `docs/reglas_contenido.md`: reglas obligatorias para todo guion o video.
 
 ## Canal
+Canal de YouTube: **Psicología del día a día** (@psicologiacotidianamx-t7z). Marca/banner: **Psicología Cotidiana**. Descripciones: `marca/DESCRIPCION_CANAL.md`.
 **Psicología Cotidiana** (identificador por confirmar: @psicologiacotidiana parece reservado; alternativa @psicologiacotidianamx) · "Psicología para la vida de todos los días." Archivos de marca en `marca/`.
 
 ## Personaje oficial
