@@ -34,3 +34,13 @@ NO text, NO letters, NO logos.
 ## Pendiente
 - **Nombre del canal** (y frase corta, p. ej. "Psicología cotidiana, explicada simple").
 - Claude compone el texto sobre el banner y genera las versiones finales.
+
+## Banner · versión 2 del prompt (corrige la v1)
+En la v1, Gemini dibujó la "franja central" como un recuadro negro y cortó el cuerpo del personaje en el borde. Este prompt lo evita:
+```
+Create a WIDE banner image, 2560x1440 px (16:9), for a YouTube psychology channel. Do NOT draw any frame, box, border or guide lines.
+CHARACTER: "The Observer" exactly as in the attached reference (warm white soft body, thin charcoal outline, two small SEPARATE dot eyes, never connected).
+LAYOUT: the character is SMALL (about 25% of the image height), FULL BODY visible from head to feet, standing on nothing (floating on the plain background), placed slightly right of the center, at the vertical middle of the image. It looks curiously through a small magnifying glass. The left-center area stays empty for the channel name.
+BACKGROUND: one continuous soft flat sky blue (#CFE6F5) with a few very subtle light-blue doodles (thought bubbles, heart, question mark, swirls), sparse and calm, across the whole image.
+STYLE: flat 2D hand-drawn illustration, NOT 3D, no sepia. NO text, NO letters, NO logos, NO frames.
+```
