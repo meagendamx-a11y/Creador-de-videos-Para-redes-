@@ -15,7 +15,7 @@ Canal de redes (YouTube, TikTok, Instagram) con un **personaje animado propio** 
 | 5. Guiones y temas (con retroalimentación del fundador) | ⏳ Pendiente |
 | 6. Producción: pipeline de animación y render | 🧪 Prueba técnica hecha |
 | 7. Piloto, ~1 video al día | ⏳ Pendiente |
-| 8. Publicación conectada a YouTube, Instagram y TikTok | ⏳ Pendiente |
+| 8. Publicación conectada a YouTube, Instagram y TikTok | 🟡 Canal de YouTube creado y configurado ("Psicología del día a día"); faltan TikTok e IG |
 
 Detalle de cada etapa en `docs/plan_de_trabajo.md`.
 
