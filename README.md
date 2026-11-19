@@ -1,4 +1,4 @@
-# Canal de divulgación psicológica · Agenda PSI
+# La Psicotidiana · canal de divulgación psicológica (Agenda PSI)
 
 Canal de redes (YouTube, TikTok, Instagram) con un **personaje animado propio** que divulga psicología cotidiana para público mexicano. El objetivo de negocio es atraer, de forma indirecta y sin publicidad, a personas que luego buscan terapia en [agendapsi.mx](https://agendapsi.mx).
 

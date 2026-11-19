@@ -1,3 +1,5 @@
+# ✅ Nombre elegido: **La Psicotidiana** (@lapsicotidiana) · 19-nov-2026
+
 # Opciones de nombre del canal
 
 **Criterios:**
