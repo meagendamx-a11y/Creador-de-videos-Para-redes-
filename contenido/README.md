@@ -5,7 +5,7 @@ Para editar: `python3 produccion/editar.py contenido/<carpeta>/edicion.json`
 
 | # | Tema | Duración | Audio | Clips | Video final |
 |---|---|---|---|---|---|
-| 001 | Ensayan conversaciones en su cabeza | ~57 s | ✅ | E1, E2 (faltan E3–E7) | 🟡 Parcial |
+| 001 | Ensayan conversaciones en su cabeza | ~57 s | ✅ | E1 (v2, vertical 2D), E2 · faltan E3–E7 | 🟡 Parcial |
 | 002 | Para quien siempre dice "estoy bien" | 15 s | ✅ | ✅ | ✅ |
 | 003 | ¿No puedes dormir? Respiración práctica | 26 s | ✅ | ✅ | ✅ |
 | 004 | Las personas que prefieren estar solas | 17 s | ✅ | ✅ | ✅ |
