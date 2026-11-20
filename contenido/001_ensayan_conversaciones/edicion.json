@@ -2,7 +2,9 @@
   "voz": "assets/voz.mp3",
   "musica": "../../audio/musica/calma_suave.mp3",
   "volumen_musica_db": -20,
-  "correcciones": {},
+  "correcciones": {
+    "43": "dé"
+  },
   "resaltar": [
     "discusión",
     "regadera",
@@ -25,22 +27,39 @@
       "titulo": ""
     },
     {
-      "id": "E2",
-      "inicio": 4.0,
-      "clip": "assets/E2.mp4",
-      "foco_x": 0.46,
-      "titulo": "Ensayar conversaciones"
-    },
-    {
-      "id": "E3",
-      "inicio": 12.0,
+      "id": "E3a",
+      "inicio": 3.5,
       "clip": "assets/E3.mp4",
-      "titulo": "Te prepara"
+      "desde": 0.0,
+      "titulo": "Ensayar conversaciones",
+      "cortar_abajo": 0.24,
+      "ajustar": 1.0,
+      "subir_fondo": 0
     },
     {
-      "id": "E4",
-      "inicio": 18.0,
-      "clip": "assets/E4.mp4",
+      "id": "E3b",
+      "inicio": 11.6,
+      "clip": "assets/E3.mp4",
+      "desde": 8.1,
+      "titulo": "Te prepara",
+      "cortar_abajo": 0.24,
+      "ajustar": 1.0,
+      "subir_fondo": 0
+    },
+    {
+      "id": "E2a",
+      "inicio": 16.3,
+      "clip": "assets/E2.mp4",
+      "desde": 0.0,
+      "foco_x": 0.46,
+      "titulo": "Cuando no te deja dormir"
+    },
+    {
+      "id": "E2b",
+      "inicio": 19.4,
+      "clip": "assets/E2.mp4",
+      "desde": 3.1,
+      "foco_x": 0.46,
       "titulo": "Escríbelo una vez"
     }
   ]

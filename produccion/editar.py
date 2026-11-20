@@ -123,6 +123,12 @@ def escena(base, s, d, out, tmp):
         wh = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
                              "-of", "csv=p=0", str(clip)], check=True, capture_output=True, text=True).stdout.strip().split(",")
         iw, ih = int(wh[0]), int(wh[1])
+        pre = ""
+        if s.get("cortar_abajo"):
+            # algunos clips de IA traen una franja inferior copiada de la referencia (p. ej. subtítulos): se recorta
+            nh = int(ih * (1 - s["cortar_abajo"])) // 2 * 2
+            pre = f"crop={iw}:{nh}:0:0,"
+            ih = nh
         if s.get("ajustar"):
             # personaje grande sobre fondo liso: se aleja el encuadre (ancho = fracción "ajustar" del original)
             # y se rellena arriba/abajo con el color del fondo del propio clip, sin costura visible
@@ -142,7 +148,7 @@ def escena(base, s, d, out, tmp):
             vf_fit = f"crop={cw}:{ih}:{x}:0,scale={W}:{MEDIA_H}:flags=lanczos"
         # leve corrección de color: quita el tinte sepia típico de los generadores
         tp = ",tpad=stop_mode=clone:stop_duration=30" if s.get("desde") is not None else ""  # si el tramo excede el video, congela el último cuadro
-        vf = f"{vf_fit}{tp},colorbalance=rm=-0.06:bm=0.06:rh=-0.04:bh=0.04,eq=saturation=0.9,fps=30,setpts=PTS-STARTPTS"
+        vf = f"{pre}{vf_fit}{tp},colorbalance=rm=-0.06:bm=0.06:rh=-0.04:bh=0.04,eq=saturation=0.9,fps=30,setpts=PTS-STARTPTS"
         desde = ["-ss", str(s["desde"])] if s.get("desde") is not None else ["-stream_loop", "-1"]  # usar un tramo de un video largo
         run(["ffmpeg", "-v", "error", "-y", *desde, "-i", str(clip), "-t", f"{d:.3f}", "-an",
              "-vf", vf, "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "30", str(out)])
