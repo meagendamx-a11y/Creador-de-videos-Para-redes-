@@ -147,4 +147,4 @@ Contenido de divulgación. No sustituye una consulta profesional.
 ```
 
 ## Portadas para Instagram y TikTok
-Archivos `contenido/miniaturas/NNN_portada_ig_tiktok_1080x1920.png` (001, 004, 005). Son verticales 9:16, con el texto y el personaje dentro de la **zona central 3:4** (y 240–1680 px), que es lo que muestra la cuadrícula del perfil en ambas redes.
+Archivos en `contenido/NNN_tema/publicacion/portada_vertical_1080x1920.png` (001, 004, 005); miniaturas de YouTube en la misma carpeta. Guía: `docs/guia_miniaturas.md`. Son verticales 9:16, con el texto y el personaje dentro de la **zona central 3:4** (y 240–1680 px), que es lo que muestra la cuadrícula del perfil en ambas redes.

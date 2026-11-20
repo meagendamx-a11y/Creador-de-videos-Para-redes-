@@ -29,6 +29,7 @@ docs/
   herramientas_video.md    ← proveedores de video IA (Gemini elegido, alternativas)
   herramientas_audio.md    ← voz (clonación) y música libre de uso
   decisiones.md            ← registro de decisiones (qué, cuándo, por qué)
+  guia_miniaturas.md       ← medidas y estilo de miniaturas y portadas
   reglas_contenido.md      ← reglas obligatorias: políticas, crisis, IA, firma clínica
 investigacion/
   00_SINTESIS.md           ← ★ conclusiones de toda la investigación

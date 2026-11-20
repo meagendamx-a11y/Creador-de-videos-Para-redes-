@@ -1,6 +1,6 @@
 # Estado de los videos
 
-Cada carpeta contiene `guion.md` (texto para ElevenLabs y publicación), `prompts_gemini.md` (cómo pedir el video a la IA), `edicion.json` (configuración del editor), `assets/` (voz y clips) y `render/` (video final).
+Cada carpeta contiene `guion.md` (texto para ElevenLabs y publicación), `prompts_gemini.md` (cómo pedir el video a la IA), `edicion.json` (configuración del editor), `assets/` (voz y clips), `render/` (video final) y `publicacion/` (miniatura de YouTube y portada vertical para IG/TikTok; guía en `docs/guia_miniaturas.md`). Textos de publicación y calendario: `PUBLICACION_semana1.md`.
 Para editar: `python3 produccion/editar.py contenido/<carpeta>/edicion.json`
 
 | # | Tema | Duración | Audio | Clips | Video final |
