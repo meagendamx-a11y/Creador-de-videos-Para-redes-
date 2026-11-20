@@ -2,7 +2,10 @@
   "voz": "assets/voz.mp3",
   "musica": "../../audio/musica/calma_suave.mp3",
   "volumen_musica_db": -18,
-  "correcciones": {},
+  "correcciones": {
+    "12": "falta",
+    "84": "pasa"
+  },
   "resaltar": [
     "nervioso",
     "aire",
@@ -24,6 +27,7 @@
       "inicio": 0.0,
       "clip": "assets/A.mp4",
       "desde": 0.0,
+      "titulo": "¿Te falta el aire?",
       "recorte": [
         250,
         136,
@@ -31,14 +35,14 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": 60,
-      "titulo": "¿Te falta el aire?"
+      "subir_fondo": 60
     },
     {
       "id": "A2",
-      "inicio": 5.0,
+      "inicio": 4.1,
       "clip": "assets/A.mp4",
-      "desde": 5.0,
+      "desde": 4.1,
+      "titulo": "Tu cerebro activa una alarma",
       "recorte": [
         250,
         136,
@@ -46,14 +50,29 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": 60,
-      "titulo": "Tu cerebro activa una alarma"
+      "subir_fondo": 60
+    },
+    {
+      "id": "A3",
+      "inicio": 10.2,
+      "clip": "assets/A.mp4",
+      "desde": 4.0,
+      "titulo": "Respiras corto y rápido",
+      "recorte": [
+        250,
+        136,
+        778,
+        488
+      ],
+      "ajustar": 1.0,
+      "subir_fondo": 60
     },
     {
       "id": "B",
-      "inicio": 10.0,
+      "inicio": 16.5,
       "clip": "assets/B.mp4",
       "desde": 0.0,
+      "titulo": "Exhala más largo",
       "recorte": [
         250,
         136,
@@ -61,12 +80,11 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": 60,
-      "titulo": "Exhala más largo"
+      "subir_fondo": 60
     },
     {
       "id": "C",
-      "inicio": 20.0,
+      "inicio": 24.7,
       "clip": "assets/C.mp4",
       "titulo": "Tu cuerpo intenta protegerte"
     }
