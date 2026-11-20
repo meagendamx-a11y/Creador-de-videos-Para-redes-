@@ -97,3 +97,51 @@ La psicología de las personas que prefieren estar solas 🏠 Estar solo no es l
 ¿Psicólogo o psiquiatra? 🤔 El psicólogo te acompaña con terapia; el psiquiatra es médico y puede recetar. Si no sabes por dónde empezar, empieza por un psicólogo. Psicólogos verificados: link en el perfil.
 #psicologo #psiquiatra #terapia #saludmental #psicologiamexico
 ```
+
+---
+
+# 001 · Ensayan conversaciones (v2, 27 s)
+
+## YouTube
+**Título:** La psicología de las personas que ensayan conversaciones en su cabeza 🚿 #Shorts
+**Descripción:**
+```
+¿Alguna vez ganaste una discusión… en la regadera? 🚿
+
+Ensayar conversaciones en tu cabeza es muy común: tu mente practica para que la conversación real dé menos miedo. Pero si se vuelve un círculo que no te deja dormir, escríbelo una vez y dile a tu mente: "ya quedó guardado".
+
+Si te pasa seguido, hablarlo con alguien ayuda.
+
+Contenido de divulgación. No sustituye una consulta profesional.
+
+¿Quieres hablar con un psicólogo? Encuentra profesionales verificados en agendapsi.mx
+
+#psicologia #sobrepensar #ansiedad #saludmental #psicologiamexico
+```
+**Comentario fijado:** ¿Con quién fue tu última discusión imaginaria? 👀
+
+## TikTok
+```
+La psicología de las personas que ensayan conversaciones en su cabeza 🚿🧠 ¿Tú también ganas discusiones en la regadera? Si no te deja dormir: escríbelo una vez. Etiqueta a quien hace esto 👇
+#psicologia #sobrepensar #ansiedad #saludmental #psicologiamexico
+```
+
+## Instagram (Reel)
+```
+¿Alguna vez ganaste una discusión… en la regadera? 🚿🧠
+
+Ensayar conversaciones en tu cabeza es muy común: tu mente practica para que la conversación real dé menos miedo.
+
+Pero si se vuelve un círculo que no te deja dormir:
+✍️ escríbelo una vez
+💭 dile a tu mente "ya quedó guardado"
+
+Si te pasa seguido, hablarlo con alguien ayuda.
+
+📌 Guárdalo y mándaselo a quien siempre tiene la respuesta perfecta… tres días después.
+
+Contenido de divulgación. No sustituye una consulta profesional.
+👉 Psicólogos verificados: link en la bio
+
+#psicologia #sobrepensar #ansiedad #saludmental #psicologiamexico #overthinking #salud
+```
