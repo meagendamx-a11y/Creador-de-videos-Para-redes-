@@ -124,10 +124,15 @@ def escena(base, s, d, out, tmp):
                              "-of", "csv=p=0", str(clip)], check=True, capture_output=True, text=True).stdout.strip().split(",")
         iw, ih = int(wh[0]), int(wh[1])
         pre = ""
+        if s.get("recorte"):
+            # usar solo una zona del clip (p. ej. la escena nítida cuando la IA la entrega dentro de un relleno desenfocado)
+            rx, ry, rw, rh = s["recorte"]
+            pre = f"crop={rw}:{rh}:{rx}:{ry},"
+            iw, ih = rw, rh
         if s.get("cortar_abajo"):
             # algunos clips de IA traen una franja inferior copiada de la referencia (p. ej. subtítulos): se recorta
             nh = int(ih * (1 - s["cortar_abajo"])) // 2 * 2
-            pre = f"crop={iw}:{nh}:0:0,"
+            pre += f"crop={iw}:{nh}:0:0,"
             ih = nh
         if s.get("ajustar"):
             # personaje grande sobre fondo liso: se aleja el encuadre (ancho = fracción "ajustar" del original)
