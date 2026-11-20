@@ -1,5 +1,32 @@
 # 001 · La psicología de las personas que ensayan conversaciones en su cabeza
 
+## ⭐ VERSIÓN 2 · ~30 s (vigente, 20-nov-2026)
+Usa las escenas ya aprobadas **E1 (regadera), E2 (cama), E3 (espejo)** y **una escena nueva, E4**.
+
+### Texto para ElevenLabs (copiar y pegar)
+```
+[curious] ¿Alguna vez ganaste una discusión… en la regadera?
+
+[calm] Ensayar conversaciones en tu cabeza es muy común: lo que le dirías a tu jefe, a tu ex… o lo que debiste contestar hace años.
+
+[thoughtful] Y sirve: tu mente practica… para que la conversación real dé menos miedo.
+
+[gently] Pero si se vuelve un círculo que no te deja dormir… escríbelo una vez, y dile a tu mente: "ya quedó guardado".
+
+[warmly] Y si te pasa seguido, hablarlo con alguien ayuda.
+```
+
+| Escena | Voz | Título en pantalla | Clip |
+|---|---|---|---|
+| E1 · regadera | "¿Alguna vez ganaste una discusión… en la regadera?" | — | ✅ |
+| E2 · cama | "Ensayar conversaciones… hace años." | Ensayar conversaciones | ✅ |
+| E3 · espejo | "Y sirve: tu mente practica…" | Te prepara | ✅ |
+| E4 · nota en la noche | "Pero si se vuelve un círculo… hablarlo con alguien ayuda." | Escríbelo una vez | ⏳ Pedir a Gemini |
+
+---
+
+## VERSIÓN 1 · ~57 s (archivada; audio en `assets/voz_v1_57s.mp3`)
+
 | Campo | Valor |
 |---|---|
 | Formato | Short vertical 9:16 · **~60 s** · TikTok, Reels y YouTube Shorts |

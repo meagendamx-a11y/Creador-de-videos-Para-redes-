@@ -108,3 +108,17 @@ Plain light wall. The Observer writes on a small yellow sticky note with a penci
 | E5 | 32.5–38.0 s | ~6 s |
 | E6 | 38.0–47.9 s | ~10 s |
 | E7 | 47.9–57.8 s | ~10 s |
+
+---
+
+## ⭐ VERSIÓN 2 (30 s) · solo falta la E4
+Adjunta `referencia/E1_fotograma.png` (o `referencia/E1_recorte_3s.mp4`) como referencia de estilo.
+```
+Create a VERTICAL 9:16 video, 10 seconds, 24 fps.
+STYLE REFERENCE: match the attached clip/image EXACTLY — same character, same flat 2D hand-drawn style, same soft pale blue / off-white palette, same thin soft charcoal outline. This is the final scene of the same short video.
+CHARACTER: "The Observer" — warm white soft body, round head separate from a pear-shaped body, two small SEPARATE dot eyes, short eyebrows, tiny mouth, long soft arms. Never connect the eyes with a line.
+SCENE: night bedroom in flat 2D (pale blue bed and blanket, small nightstand with a lamp, a window with the moon), same style as the reference. The Observer sits up in bed, a simple charcoal circular arrow looping above its head, tired expression.
+ACTION: 0–3 s the looping arrow spins above its head; it looks tired. 3–6 s it takes a small yellow sticky note and a pencil from the nightstand and writes on it. 6–8 s it sticks the note on the lamp and the looping arrow fades away. 8–10 s it exhales, lies down calmly and smiles softly, eyes closing.
+CAMERA: static, no zoom, no cuts. Full body visible, character medium-small and centered; leave the TOP THIRD of the frame empty.
+NO text, NO letters, NO subtitles, NO audio. No sepia, no 3D, no photographic background.
+```
