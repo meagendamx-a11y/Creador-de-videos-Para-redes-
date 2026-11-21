@@ -10,7 +10,7 @@ Para editar: `python3 produccion/editar.py contenido/<carpeta>/edicion.json`
 | 003 | ¿No puedes dormir? Respiración práctica | 26 s | ✅ | ✅ | ✅ |
 | 004 | Las personas que prefieren estar solas | 17 s | ✅ | ✅ | ✅ |
 | 005 | ¿Psicólogo o psiquiatra? (sin recorte) | 19 s | ✅ | ✅ | ✅ |
-| 006 | ¿Por qué te falta el aire cuando estás nervioso? | ~30 s | ✅ El fundador lo tiene | ⏳ (prompts listos) | ⏳ |
+| 006 | ¿Por qué te falta el aire cuando estás nervioso? | 33 s | ✅ | ✅ (A, B, C) | ✅ |
 | 007 | TDAH en adultos: lo que se confunde con flojera | ~30 s | ✅ El fundador lo tiene | ⏳ (prompts listos) | ⏳ |
 | 008 | La ley del hielo: pausa o castigo (con La Observadora) | ~30 s | ✅ El fundador lo tiene | ⏳ (prompts listos) | ⏳ |
 | 009 | Ir a terapia es más que hablar | ~30 s | ⏳ | ⏳ | ⏳ |

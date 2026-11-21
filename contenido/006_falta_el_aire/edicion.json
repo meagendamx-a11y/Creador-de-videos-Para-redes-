@@ -86,6 +86,15 @@
       "id": "C",
       "inicio": 24.7,
       "clip": "assets/C.mp4",
+      "desde": 4.5,
+      "recorte": [
+        250,
+        136,
+        778,
+        488
+      ],
+      "ajustar": 1.0,
+      "subir_fondo": 60,
       "titulo": "Tu cuerpo intenta protegerte"
     }
   ]
