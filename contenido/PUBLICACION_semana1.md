@@ -148,3 +148,28 @@ Contenido de divulgación. No sustituye una consulta profesional.
 
 ## Portadas para Instagram y TikTok
 Archivos en `contenido/NNN_tema/publicacion/portada_vertical_1080x1920.png` (001, 004, 005); miniaturas de YouTube en la misma carpeta. Guía: `docs/guia_miniaturas.md`. Son verticales 9:16, con el texto y el personaje dentro de la **zona central 3:4** (y 240–1680 px), que es lo que muestra la cuadrícula del perfil en ambas redes.
+
+---
+
+# 006 · ¿Por qué te falta el aire cuando estás nervioso? (33 s)
+
+## YouTube
+**Título:** ¿Por qué sientes que te falta el aire cuando estás nervioso? 😮‍💨 #Shorts
+**Descripción:**
+```
+¿Te ha pasado que estás nervioso y de pronto sientes que te falta el aire? 😮‍💨
+
+Cuando tu cerebro detecta peligro, activa una alarma: el corazón se acelera y respiras más rápido y con el pecho. Esa respiración corta hace que sientas que no entra suficiente aire, aunque sí está entrando.
+
+Lo que ayuda: exhala lento, más largo de lo que inhalas, y deja que se mueva tu abdomen. Es tu cuerpo intentando protegerte.
+
+⚠️ Si te pasa seguido o sientes dolor en el pecho, busca atención médica y psicológica.
+
+Contenido de divulgación. No sustituye una consulta profesional.
+Si estás en crisis, llama al 911 o a la Línea de la Vida: 800 911 2000 (gratis, 24 horas).
+
+¿Quieres hablar con un psicólogo? Encuentra profesionales verificados en agendapsi.mx
+
+#ansiedad #respiracion #nervios #saludmental #psicologiamexico
+```
+**Comentario fijado:** ¿A ti también te pasa antes de una presentación o una entrevista? 👇
