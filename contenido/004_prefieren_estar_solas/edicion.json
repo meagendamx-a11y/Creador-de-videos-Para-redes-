@@ -29,5 +29,6 @@
       "desde": 10.7
     }
   ],
-  "subir_px": 150
+  "subir_px": 150,
+  "pausa_inicial": 0
 }

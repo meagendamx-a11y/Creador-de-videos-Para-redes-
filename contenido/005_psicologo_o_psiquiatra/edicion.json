@@ -34,5 +34,6 @@
       "ajustar": 1.0,
       "subir_fondo": 60
     }
-  ]
+  ],
+  "pausa_inicial": 0
 }

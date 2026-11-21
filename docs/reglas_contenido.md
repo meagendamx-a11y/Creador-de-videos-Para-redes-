@@ -34,6 +34,7 @@ Todo guion o video se revisa con esta lista antes de publicarse. Las fuentes de 
 - [ ] Promoción de citas: verificar con un abogado si aplica el aviso de publicidad de COFEPRIS.
 
 ## 5. Formato
+- [ ] **Medio segundo de pausa al inicio** (0.6 s) antes de que entre la voz, para quien llega haciendo scroll. El editor lo aplica por defecto (`pausa_inicial`); los videos 001–005 quedaron sin pausa (`pausa_inicial: 0`).
 - [ ] Subtítulos siempre, con la palabra clave resaltada.
 - [ ] La idea principal en pantalla desde el primer cuadro. No empezar con "Hola, soy…".
 - [ ] En TikTok no hacer "Parte 2". Hacer episodios que se entiendan solos. En los carruseles de Instagram las series sí funcionan.

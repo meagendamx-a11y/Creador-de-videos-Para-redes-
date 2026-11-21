@@ -62,5 +62,6 @@
       "foco_x": 0.46,
       "titulo": "Escríbelo una vez"
     }
-  ]
+  ],
+  "pausa_inicial": 0
 }

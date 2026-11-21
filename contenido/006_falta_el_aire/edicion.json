@@ -97,5 +97,6 @@
       "subir_fondo": 60,
       "titulo": "Tu cuerpo intenta protegerte"
     }
-  ]
+  ],
+  "pausa_inicial": 0.6
 }

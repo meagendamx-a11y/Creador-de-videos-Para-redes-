@@ -176,6 +176,13 @@ def main(cfg_path):
         words[int(idx)]["w"] = rep
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(voz)],
                                check=True, capture_output=True, text=True).stdout) + 0.8
+    # Pausa inicial: quien llega haciendo scroll ve primero la imagen y el título; la voz entra después.
+    # Se desplazan la voz, los subtítulos y los cortes de escena (la primera escena se alarga).
+    pausa = float(cfg.get("pausa_inicial", 0.6))  # regla del canal desde el 006
+    if pausa > 0:
+        words = [dict(w, s=w["s"] + pausa, e=w["e"] + pausa) for w in words]
+        cfg["secciones"] = [dict(s, inicio=s["inicio"] + pausa) if i else s for i, s in enumerate(cfg["secciones"])]
+        dur += pausa
     out_dir = base / "render"
     out_dir.mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
@@ -203,7 +210,7 @@ def main(cfg_path):
               f"[bg][m]overlay=0:{-up}:shortest=1,"
               f"subtitles={ass}:fontsdir={FONT_DIR}[v];"
               f"[2:a]volume={mv}dB,afade=t=out:st={dur - 2:.2f}:d=2[mus];"
-              f"[1:a]asplit=2[voz][sc];"
+              f"[1:a]adelay={int(pausa * 1000)}:all=1,asplit=2[voz][sc];"
               f"[mus][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400[duck];"
               f"[voz][duck]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
         run(["ffmpeg", "-v", "error", "-y", "-i", str(media), "-i", str(voz), "-stream_loop", "-1", "-i", str(musica),
