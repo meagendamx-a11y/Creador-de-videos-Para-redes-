@@ -143,7 +143,14 @@ def escena(base, s, d, out, tmp):
             px = subprocess.run(["ffmpeg", "-v", "error", "-i", str(clip), "-vf", "crop=4:4:2:2,scale=1:1", "-frames:v", "1",
                                  "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], check=True, capture_output=True).stdout
             col = "0x%02X%02X%02X" % tuple(px[:3])
-            vf_fit = f"crop={cw}:{ih}:{x}:0,scale={W}:-2,pad={W}:{MEDIA_H}:0:(oh-ih)/2-{s.get('subir_fondo', 120)}:color={col}"
+            if s.get("fondo_desenfocado"):
+                # rellena arriba/abajo con la misma escena ampliada y desenfocada (sin bandas planas)
+                off = s.get('subir_fondo', 0)
+                vf_fit = (f"crop={cw}:{ih}:{x}:0,split=2[fg][bgx];[bgx]scale={W}:{MEDIA_H}:force_original_aspect_ratio=increase,"
+                          f"crop={W}:{MEDIA_H},boxblur=30:3,eq=brightness=0.03[bgb];[fg]scale={W}:-2[fgs];"
+                          f"[bgb][fgs]overlay=0:(H-h)/2-{off}")
+            else:
+                vf_fit = f"crop={cw}:{ih}:{x}:0,scale={W}:-2,pad={W}:{MEDIA_H}:0:(oh-ih)/2-{s.get('subir_fondo', 120)}:color={col}"
         elif iw * MEDIA_H > ih * W:
             # clip más ancho que 9:16: recorte inteligente centrado en el personaje (o en "foco_x" si se fija a mano)
             cw = round(ih * W / MEDIA_H) // 2 * 2

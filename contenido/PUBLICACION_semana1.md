@@ -173,3 +173,31 @@ Si estás en crisis, llama al 911 o a la Línea de la Vida: 800 911 2000 (gratis
 #ansiedad #respiracion #nervios #saludmental #psicologiamexico
 ```
 **Comentario fijado:** ¿A ti también te pasa antes de una presentación o una entrevista? 👇
+
+---
+
+# 011 · Técnica 5-4-3-2-1 (18 s)
+
+## YouTube
+**Título:** Técnica 5-4-3-2-1 para calmar la ansiedad en segundos 🌿 #Shorts
+**Descripción:**
+```
+¿La ansiedad o el enojo te ganan? Prueba la técnica 5-4-3-2-1 🌿
+
+Nombra:
+👀 5 cosas que ves
+👂 4 que escuchas
+✋ 3 que puedes tocar
+👃 2 que hueles
+👅 1 que saboreas
+
+Te ayuda a regresar al presente. Practícala en calma para que te salga cuando la necesites. Guárdalo.
+
+Es una técnica de autocuidado y no sustituye una consulta profesional. Si la ansiedad es frecuente, hablarlo con un psicólogo ayuda.
+Si estás en crisis, llama al 911 o a la Línea de la Vida: 800 911 2000 (gratis, 24 horas).
+
+¿Quieres hablar con un psicólogo? Encuentra profesionales verificados en agendapsi.mx
+
+#ansiedad #tecnicas #mindfulness #saludmental #psicologiamexico
+```
+**Comentario fijado:** ¿Lo probaste? ¿Qué fue lo primero que viste? 👇

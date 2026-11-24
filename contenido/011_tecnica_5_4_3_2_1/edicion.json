@@ -33,7 +33,8 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": -150
+      "subir_fondo": 60,
+      "fondo_desenfocado": true
     },
     {
       "id": "ves",
@@ -49,7 +50,8 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": -150
+      "subir_fondo": 60,
+      "fondo_desenfocado": true
     },
     {
       "id": "escuchas",
@@ -65,7 +67,8 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": -150
+      "subir_fondo": 60,
+      "fondo_desenfocado": true
     },
     {
       "id": "tocar",
@@ -81,7 +84,8 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": -150
+      "subir_fondo": 60,
+      "fondo_desenfocado": true
     },
     {
       "id": "hueles",
@@ -97,7 +101,8 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": -150
+      "subir_fondo": 60,
+      "fondo_desenfocado": true
     },
     {
       "id": "saboreas",
@@ -113,7 +118,8 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": -150
+      "subir_fondo": 60,
+      "fondo_desenfocado": true
     },
     {
       "id": "presente",
@@ -129,7 +135,9 @@
         488
       ],
       "ajustar": 1.0,
-      "subir_fondo": -150
+      "subir_fondo": 60,
+      "fondo_desenfocado": true
     }
-  ]
+  ],
+  "subir_px": 0
 }
