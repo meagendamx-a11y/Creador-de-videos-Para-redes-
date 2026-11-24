@@ -15,7 +15,7 @@ Para editar: `python3 produccion/editar.py contenido/<carpeta>/edicion.json`
 | 008 | La ley del hielo: pausa o castigo (con La Observadora) | ~30 s | ✅ El fundador lo tiene | ⏳ (prompts listos) | ⏳ |
 | 009 | Ir a terapia es más que hablar | ~30 s | ⏳ | ⏳ | ⏳ |
 | 010 | ¿Qué es un enfoque terapéutico? | ~45 s | ⏳ | ⏳ | ⏳ |
-| 011 | Ansiedad: técnica 5-4-3-2-1 | 10–15 s | ✅ Audio · prompts listos | ⏳ | ⏳ |
+| 011 | Ansiedad: técnica 5-4-3-2-1 | 18 s | ✅ | ✅ (1 clip, sincronizado por acción) | ✅ |
 | 012 | Para quien se exige demasiado | 10–15 s | ✅ Audio · prompts listos | ⏳ | ⏳ |
 | 013 | Las personas que necesitan ruido para dormir | 10–15 s | ✅ Audio · prompts listos | ⏳ | ⏳ |
 
