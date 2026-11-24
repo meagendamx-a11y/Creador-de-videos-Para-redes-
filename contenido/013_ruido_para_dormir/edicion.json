@@ -1,0 +1,39 @@
+{
+  "voz": "assets/voz.mp3",
+  "musica": "../../audio/musica/calma_suave.mp3",
+  "volumen_musica_db": -18,
+  "correcciones": {},
+  "resaltar": [
+    "ventilador",
+    "ruidito",
+    "constante",
+    "repentinos",
+    "despiertan",
+    "predecible",
+    "seguro"
+  ],
+  "firma": "",
+  "secciones": [
+    {
+      "id": "A1",
+      "inicio": 0.0,
+      "clip": "assets/A.mp4",
+      "desde": 0.0,
+      "titulo": "¿Necesitas ruido para dormir?"
+    },
+    {
+      "id": "A2",
+      "inicio": 3.7,
+      "clip": "assets/A.mp4",
+      "desde": 3.7,
+      "titulo": "Tapa los ruidos repentinos"
+    },
+    {
+      "id": "A3",
+      "inicio": 9.7,
+      "clip": "assets/A.mp4",
+      "desde": 9.7,
+      "titulo": "Tu forma de sentirte seguro"
+    }
+  ]
+}

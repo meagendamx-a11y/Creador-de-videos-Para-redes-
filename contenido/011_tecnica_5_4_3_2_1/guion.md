@@ -12,7 +12,7 @@
 ```
 [calm] Si la ansiedad o el enojo te ganan, prueba esto. Nombra cinco cosas que ves… cuatro que escuchas… tres que puedes tocar… dos que hueles… y una que saboreas.
 
-[warmly] Vuelves al presente. Practícalo en calma, para que te salga cuando lo necesites. Guárdalo.
+[warmly] Vuelves al presente. Practícalo en calma, para cuando lo necesites. Guárdalo.
 ```
 
 ## Escena (1 clip de Gemini, 15 s)

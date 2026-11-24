@@ -1,0 +1,42 @@
+{
+  "voz": "assets/voz.mp3",
+  "musica": "../../audio/musica/calma_suave.mp3",
+  "volumen_musica_db": -18,
+  "correcciones": {
+    "21": "compárteselo",
+    "22": ""
+  },
+  "resaltar": [
+    "suficiente",
+    "descansar",
+    "tiempo",
+    "nada",
+    "algo",
+    "exige",
+    "demasiado"
+  ],
+  "firma": "",
+  "secciones": [
+    {
+      "id": "A1",
+      "inicio": 0.0,
+      "clip": "assets/A.mp4",
+      "desde": 0.0,
+      "titulo": "¿Sientes que no haces suficiente?"
+    },
+    {
+      "id": "A2",
+      "inicio": 3.1,
+      "clip": "assets/A.mp4",
+      "desde": 3.1,
+      "titulo": "Descansar no es perder el tiempo"
+    },
+    {
+      "id": "A3",
+      "inicio": 8.6,
+      "clip": "assets/A.mp4",
+      "desde": 8.6,
+      "titulo": "Compárteselo"
+    }
+  ]
+}

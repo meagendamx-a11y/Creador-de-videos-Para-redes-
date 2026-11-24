@@ -1,0 +1,51 @@
+{
+  "voz": "assets/voz.mp3",
+  "musica": "../../audio/musica/calma_suave.mp3",
+  "volumen_musica_db": -18,
+  "correcciones": {
+    "32": "Practícalo"
+  },
+  "resaltar": [
+    "ansiedad",
+    "enojo",
+    "ves",
+    "escuchas",
+    "tocar",
+    "hueles",
+    "saboreas",
+    "presente",
+    "calma",
+    "guárdalo"
+  ],
+  "firma": "",
+  "secciones": [
+    {
+      "id": "A1",
+      "inicio": 0.0,
+      "clip": "assets/A.mp4",
+      "desde": 0.0,
+      "titulo": "¿Te gana la ansiedad?"
+    },
+    {
+      "id": "A2",
+      "inicio": 3.7,
+      "clip": "assets/A.mp4",
+      "desde": 3.7,
+      "titulo": "Técnica 5-4-3-2-1"
+    },
+    {
+      "id": "B1",
+      "inicio": 9.0,
+      "clip": "assets/B.mp4",
+      "desde": 0.0,
+      "titulo": "Técnica 5-4-3-2-1"
+    },
+    {
+      "id": "B2",
+      "inicio": 12.1,
+      "clip": "assets/B.mp4",
+      "desde": 3.1,
+      "titulo": "Vuelves al presente"
+    }
+  ]
+}
