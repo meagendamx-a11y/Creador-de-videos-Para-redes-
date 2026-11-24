@@ -6,15 +6,15 @@
 | Por qué | Para compartir (mensaje cálido). Autoexigencia y cansancio: tema frecuente en mujeres de 18 a 34 y en trabajadores (informe 04); las piezas cálidas se comparten mucho (informe 05) |
 | Base | Autocompasión y descanso como parte del rendimiento sostenible; sin patologizar la autoexigencia. |
 | Revisión clínica | ⏳ Pendiente (crédito solo en la descripción) |
-| Estado | 📝 Borrador: esperando retroalimentación del fundador |
+| Estado | ✅ Guion aprobado por el fundador (v2) |
 
 ## Texto para ElevenLabs (copiar y pegar)
 ```
 [softly] Para quien siempre siente que no hace suficiente…
 
-[warmly] Descansar no es perder el tiempo. También es parte de avanzar.
+[warmly] Descansar no es perder el tiempo. No hacer nada… también es hacer algo.
 
-[gently] Mándaselo a quien se exige demasiado.
+[gently] Compárteselo a quien se exige demasiado.
 ```
 
 ## Escena (1 clip de Gemini, 15 s)

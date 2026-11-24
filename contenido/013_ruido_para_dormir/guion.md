@@ -6,7 +6,7 @@
 | Por qué | “La psicología de las personas que…” en formato corto (hueco en Shorts en español, informe 02). Rasgo cotidiano, no patologizante |
 | Base | El ruido de fondo constante (ruido blanco/rosa, ventilador) enmascara sonidos repentinos que interrumpen el sueño. Evidencia mixta sobre beneficios; se presenta como explicación, no como recomendación médica. |
 | Revisión clínica | ⏳ Pendiente (crédito solo en la descripción) |
-| Estado | 📝 Borrador: esperando retroalimentación del fundador |
+| Estado | ✅ Guion aprobado por el fundador |
 
 ## Texto para ElevenLabs (copiar y pegar)
 ```
