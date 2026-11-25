@@ -17,7 +17,7 @@ Para editar: `python3 produccion/editar.py contenido/<carpeta>/edicion.json`
 | 010 | ¿Qué es un enfoque terapéutico? | ~45 s | ⏳ | ⏳ | ⏳ |
 | 011 | Ansiedad: técnica 5-4-3-2-1 | 18 s | ✅ | ✅ (1 clip, sincronizado por acción) | ✅ |
 | 012 | Para quien se exige demasiado | 12 s | ✅ | ✅ | ✅ |
-| 013 | Las personas que necesitan ruido para dormir | 10–15 s | ✅ Audio · prompts listos | ⏳ | ⏳ |
+| 013 | Las personas que necesitan ruido para dormir | 14 s | ✅ | ✅ | ✅ |
 
 Pendiente general: el nombre y la cédula del psicólogo para las descripciones.
 

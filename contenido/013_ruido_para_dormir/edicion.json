@@ -15,25 +15,35 @@
   "firma": "",
   "secciones": [
     {
-      "id": "A1",
+      "id": "A",
       "inicio": 0.0,
-      "clip": "assets/A.mp4",
       "desde": 0.0,
-      "titulo": "¿Necesitas ruido para dormir?"
-    },
-    {
-      "id": "A2",
-      "inicio": 3.7,
+      "velocidad": 1.3,
+      "titulo": "¿Necesitas ruido para dormir?",
       "clip": "assets/A.mp4",
-      "desde": 3.7,
+      "recorte": [
+        330,
+        136,
+        760,
+        488
+      ],
+      "ajustar": 1.0,
+      "subir_fondo": 40,
+      "fondo_desenfocado": true
+    }
+  ],
+  "subir_px": 0,
+  "titulos_extra": [
+    {
+      "inicio": 3.7,
       "titulo": "Tapa los ruidos repentinos"
     },
     {
-      "id": "A3",
       "inicio": 9.7,
-      "clip": "assets/A.mp4",
-      "desde": 9.7,
       "titulo": "Tu forma de sentirte seguro"
     }
-  ]
+  ],
+  "titulo_estilo": "limpio",
+  "titulo_margen": 330,
+  "subs_margen": 470
 }

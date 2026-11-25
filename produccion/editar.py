@@ -52,6 +52,11 @@ def ass_color(hexrgb):  # "#RRGGBB" -> &H00BBGGRR
 def construir_ass(cfg, words, dur, out):
     hl = {k.lower() for k in cfg.get("resaltar", [])}
     yellow = ass_color("#FFD84A")
+    # "limpio": texto blanco con contorno oscuro suave, sin caja amarilla (desde el 013)
+    if cfg.get("titulo_estilo") == "limpio":
+        estilo_titulo = f"Style: Titulo,Nunito,70,&H00FFFFFF,&H00000000,&H00202028,&H78000000,-1,0,0,0,100,100,0,0,1,6,3,8,80,80,{cfg.get('titulo_margen', 190)},1"
+    else:
+        estilo_titulo = f"Style: Titulo,Nunito,62,&H002E2E2E,&H00000000,{yellow},&H00000000,-1,0,0,0,100,100,0,0,3,14,0,8,80,80,120,1"
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -60,8 +65,8 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Titulo,Nunito,62,&H002E2E2E,&H00000000,{yellow},&H00000000,-1,0,0,0,100,100,0,0,3,14,0,8,80,80,120,1
-Style: Sub,Nunito,78,&H00FFFFFF,&H00000000,&H00202028,&H64000000,-1,0,0,0,100,100,0,0,1,7,2,2,70,70,170,1
+{estilo_titulo}
+Style: Sub,Nunito,78,&H00FFFFFF,&H00000000,&H00202028,&H64000000,-1,0,0,0,100,100,0,0,1,7,2,2,70,70,{cfg.get("subs_margen", 170)},1
 Style: Firma,Nunito,30,&H00808080,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,40,40,70,1
 
 [Events]
