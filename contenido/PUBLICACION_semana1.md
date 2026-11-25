@@ -242,3 +242,47 @@ Contenido de divulgación. No sustituye una consulta profesional.
 
 #autoexigencia #descanso #saludmental #psicologia #psicologiamexico
 ```
+
+---
+
+# 013 · Las personas que necesitan ruido para dormir (14 s)
+
+## YouTube
+**Título:** La psicología de las personas que necesitan ruido para dormir 🌀 #Shorts
+**Descripción:**
+```
+¿No puedes dormir sin un ventilador o un ruidito de fondo? 🌀
+
+Un sonido constante tapa los ruidos repentinos que te despiertan y le da a tu cerebro algo predecible. No es manía: es tu forma de sentirte seguro. 🤍
+
+Si dormir te cuesta seguido, hablarlo con un profesional ayuda.
+
+Contenido de divulgación. No sustituye una consulta profesional.
+
+¿Quieres hablar con un psicólogo? Encuentra profesionales verificados en agendapsi.mx
+
+#dormir #insomnio #psicologia #saludmental #psicologiamexico
+```
+**Comentario fijado:** ¿Ventilador, lluvia o ruido blanco? ¿Qué usas tú? 👇
+
+## TikTok
+```
+La psicología de las personas que necesitan ruido para dormir 🌀 Un sonido constante tapa los ruidos que te despiertan y le da a tu cerebro algo predecible. ¿Ventilador, lluvia o ruido blanco? 👇
+#dormir #insomnio #psicologia #saludmental #psicologiamexico
+```
+
+## Instagram
+```
+¿No puedes dormir sin un ventilador o un ruidito de fondo? 🌀
+
+Un sonido constante tapa los ruidos repentinos que te despiertan… y le da a tu cerebro algo predecible.
+
+No es manía: es tu forma de sentirte seguro. 🤍
+
+📌 Mándaselo a quien no duerme sin su ventilador.
+
+Contenido de divulgación. No sustituye una consulta profesional.
+👉 Psicólogos verificados: link en la bio
+
+#dormir #insomnio #psicologia #saludmental #psicologiamexico
+```
