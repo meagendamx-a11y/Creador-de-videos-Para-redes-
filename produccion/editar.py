@@ -70,6 +70,10 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     ev = []
     # títulos por sección (zona superior libre)
     secs = cfg["secciones"]
+    # títulos que cambian sin cortar el clip (una sola toma continua)
+    tl = [(s["inicio"], s.get("titulo", "")) for s in secs] + [(t["inicio"], t["titulo"]) for t in cfg.get("titulos_extra", [])]
+    tl.sort()
+    secs = [dict(inicio=a, titulo=b) for a, b in tl]
     for i, s in enumerate(secs):
         end = secs[i + 1]["inicio"] if i + 1 < len(secs) else dur
         if s.get("titulo"):
@@ -190,6 +194,7 @@ def main(cfg_path):
     if pausa > 0:
         words = [dict(w, s=w["s"] + pausa, e=w["e"] + pausa) for w in words]
         cfg["secciones"] = [dict(s, inicio=s["inicio"] + pausa) if i else s for i, s in enumerate(cfg["secciones"])]
+        cfg["titulos_extra"] = [dict(t, inicio=t["inicio"] + pausa) for t in cfg.get("titulos_extra", [])]
         dur += pausa
     out_dir = base / "render"
     out_dir.mkdir(exist_ok=True)

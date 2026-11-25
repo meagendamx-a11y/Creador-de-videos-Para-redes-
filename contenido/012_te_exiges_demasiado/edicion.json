@@ -18,45 +18,11 @@
   "firma": "",
   "secciones": [
     {
-      "id": "A1",
+      "id": "A",
       "inicio": 0.0,
       "desde": 0.0,
-      "velocidad": 1.0,
+      "velocidad": 1.18,
       "titulo": "¿Sientes que no haces suficiente?",
-      "clip": "assets/A.mp4",
-      "recorte": [
-        250,
-        136,
-        778,
-        488
-      ],
-      "ajustar": 1.0,
-      "subir_fondo": 60,
-      "fondo_desenfocado": true
-    },
-    {
-      "id": "A2",
-      "inicio": 3.1,
-      "desde": 3.0,
-      "velocidad": 1.0,
-      "titulo": "Descansar no es perder el tiempo",
-      "clip": "assets/A.mp4",
-      "recorte": [
-        250,
-        136,
-        778,
-        488
-      ],
-      "ajustar": 1.0,
-      "subir_fondo": 60,
-      "fondo_desenfocado": true
-    },
-    {
-      "id": "A3",
-      "inicio": 8.6,
-      "desde": 7.8,
-      "velocidad": 1.3,
-      "titulo": "Compárteselo",
       "clip": "assets/A.mp4",
       "recorte": [
         250,
@@ -69,5 +35,15 @@
       "fondo_desenfocado": true
     }
   ],
-  "subir_px": 0
+  "subir_px": 0,
+  "titulos_extra": [
+    {
+      "inicio": 3.1,
+      "titulo": "Descansar no es perder el tiempo"
+    },
+    {
+      "inicio": 8.6,
+      "titulo": "Compárteselo"
+    }
+  ]
 }
