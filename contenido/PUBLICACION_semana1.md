@@ -201,3 +201,44 @@ Si estás en crisis, llama al 911 o a la Línea de la Vida: 800 911 2000 (gratis
 #ansiedad #tecnicas #mindfulness #saludmental #psicologiamexico
 ```
 **Comentario fijado:** ¿Lo probaste? ¿Qué fue lo primero que viste? 👇
+
+---
+
+# 012 · Para quien se exige demasiado (12 s)
+
+## YouTube
+**Título:** Para quien siempre siente que no hace suficiente 🤍 #Shorts
+**Descripción:**
+```
+Para quien siempre siente que no hace suficiente… 🤍
+
+Descansar no es perder el tiempo. No hacer nada también es hacer algo.
+
+Compárteselo a quien se exige demasiado.
+
+Contenido de divulgación. No sustituye una consulta profesional.
+
+#autoexigencia #descanso #saludmental #psicologia #psicologiamexico
+```
+**Comentario fijado:** Etiqueta a quien necesita descansar hoy 👇
+
+## TikTok
+```
+Para quien siempre siente que no hace suficiente 🤍 Descansar no es perder el tiempo. Compárteselo a quien se exige demasiado 👇
+#autoexigencia #descanso #saludmental #psicologia #psicologiamexico
+```
+
+## Instagram
+```
+Para quien siempre siente que no hace suficiente… 🤍
+
+Descansar no es perder el tiempo.
+No hacer nada también es hacer algo.
+
+📌 Compárteselo a quien se exige demasiado.
+
+Contenido de divulgación. No sustituye una consulta profesional.
+👉 Psicólogos verificados: link en la bio
+
+#autoexigencia #descanso #saludmental #psicologia #psicologiamexico
+```
