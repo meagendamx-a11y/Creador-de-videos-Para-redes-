@@ -28,3 +28,4 @@ Cada video guarda sus imágenes en `contenido/NNN_tema/publicacion/`:
 | 005 | ✅ | ✅ |
 | 006 | ✅ | ✅ |
 | 011 | ✅ | ✅ |
+| 012 | — | ✅ |
